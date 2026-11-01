@@ -1,0 +1,8 @@
+monitor_patient_a01
+instrument_artery_forceps_b01
+instrument_bone_forceps_b01
+instrument_bone_rongeurs_b01
+instrument_bone_mallet_b01
+instrument_hand_drill_b01
+needle_surgical_a01
+stapler_surgical_a01

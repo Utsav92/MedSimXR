@@ -1,0 +1,61 @@
+
+[Xray_machine_buckyTable_a01] start 08:03:53 D:\MedSimXR\Tools\AssetDownloader\raw\Xray_machine_buckyTable_a01\simready_usd\sm_Xray_machine_buckyTable_a01_01.usd
+INFO tris 85712 -> 24990 size [0.872212290763855, 2.3500001430511475, 0.9438302516937256]
+08:04:33 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:04:33 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+08:04:34 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:04:37 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:04:39 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:04:39 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+08:04:41 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:04:41 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+08:04:42 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:04:42 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+08:04:45 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:04:46 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:04:46 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+08:04:49 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:04:50 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:04:50 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+08:04:53 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:04:54 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:04:54 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+08:04:57 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:04:59 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:04:59 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+08:05:02 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:05:02 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+08:05:08 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:05:08 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+EXPORTED D:\MedSimXR\Assets\SimReady\Xray_machine_buckyTable_a01.glb
+[Xray_machine_buckyTable_a01] exit=0 glb=True 08:05:09
+[fireProtection_extinguisher_portable_a01] start 08:08:24 D:\MedSimXR\Tools\AssetDownloader\raw\fireProtection_extinguisher_portable_a01\simready_usd\sm_fireProtection_extinguisher_portable_a01_01.usd
+INFO tris 107250 -> 9998 size [0.10868804156780243, 0.1840265989303589, 0.41729632019996643]
+08:08:55 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:08:57 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+EXPORTED D:\MedSimXR\Assets\SimReady\fireProtection_extinguisher_portable_a01.glb
+[fireProtection_extinguisher_portable_a01] exit=0 glb=True 08:08:58
+[tool_pen_surgical_marking_a01] start 08:16:13 D:\MedSimXR\Tools\AssetDownloader\raw\tool_pen_surgical_marking_a01\simready_usd\sm_tool_pen_surgical_marking_a01_01.usd
+INFO tris 54870 -> 2999 size [0.13569942116737366, 0.01906980387866497, 0.026656320318579674]
+08:16:43 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:16:43 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+08:16:45 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:16:47 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+EXPORTED D:\MedSimXR\Assets\SimReady\tool_pen_surgical_marking_a01.glb
+[tool_pen_surgical_marking_a01] exit=0 glb=True 08:16:48
+[disinfectant_a01] start 08:19:48 D:\MedSimXR\Tools\AssetDownloader\raw\disinfectant_a01\simready_usd\sm_disinfectant_a01_01.usd
+INFO tris 52892 -> 5999 size [0.044716887176036835, 0.06745749711990356, 0.19101113080978394]
+08:20:10 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:20:11 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:20:13 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+EXPORTED D:\MedSimXR\Assets\SimReady\disinfectant_a01.glb
+[disinfectant_a01] exit=0 glb=True 08:20:13
+[digitalSystem_infoKiosk_vertical_a01] start 08:22:58 D:\MedSimXR\Tools\AssetDownloader\raw\digitalSystem_infoKiosk_vertical_a01\simready_usd\sm_digitalSystem_infoKiosk_vertical_a01_01.usd
+INFO tris 28932 -> 14997 size [0.4066888093948364, 0.7868706583976746, 1.607200026512146]
+08:23:18 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:23:21 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:23:24 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:23:28 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+EXPORTED D:\MedSimXR\Assets\SimReady\digitalSystem_infoKiosk_vertical_a01.glb
+[digitalSystem_infoKiosk_vertical_a01] exit=0 glb=True 08:23:28
+ALL DONE

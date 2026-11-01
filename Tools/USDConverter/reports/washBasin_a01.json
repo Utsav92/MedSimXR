@@ -1,0 +1,66 @@
+{
+ "meshes": 1,
+ "triangles_original": 22602,
+ "triangles_exported": 20000,
+ "decimate_ratio": 0.8848774444739403,
+ "bbox_min": [
+  -0.20884349942207336,
+  -0.2880772352218628,
+  1.907348590179936e-08
+ ],
+ "bbox_max": [
+  0.14068040251731873,
+  0.2880772352218628,
+  0.4608546197414398
+ ],
+ "size_m": [
+  0.3495239019393921,
+  0.5761544704437256,
+  0.46085458993911743
+ ],
+ "materials": [
+  "m_opaque__ceramic__smoothGlossy_a01",
+  "m_opaque__metal__chromeClean_a01",
+  "m_opaque__metal__chrome_a01",
+  "m_trans__glass__blackClean_a01"
+ ],
+ "textures_original_px": {
+  "t_ceramic_smoothGlossy_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_ceramic_smoothGlossy_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_ceramic_smoothGlossy_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_metal_chromeClean_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_metal_chromeClean_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_metal_chromeClean_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_metal_chrome_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_metal_chrome_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_metal_chrome_a01_tile_nor.png": [
+   4096,
+   4096
+  ]
+ },
+ "texture_cap_px": 1024
+}

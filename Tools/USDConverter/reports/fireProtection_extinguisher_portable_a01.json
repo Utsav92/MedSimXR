@@ -1,0 +1,53 @@
+{
+ "meshes": 2,
+ "triangles_original": 107250,
+ "triangles_exported": 9998,
+ "decimate_ratio": 0.09324009324009325,
+ "bbox_min": [
+  -3.5762786865234375e-06,
+  -0.09402044862508774,
+  9.796721860766411e-05
+ ],
+ "bbox_max": [
+  0.1086844652891159,
+  0.09000615775585175,
+  0.4173942804336548
+ ],
+ "size_m": [
+  0.10868804156780243,
+  0.1840265989303589,
+  0.41729632019996643
+ ],
+ "materials": [
+  "m_opaque__metal__fireProtection_extinguisher_a01",
+  "m_opaque__paper__fireProtection_extinguisher_decal_a01",
+  "m_trans__glass__fireProtection_extinguisher_glass_a01"
+ ],
+ "textures_original_px": {
+  "t_fireProtection_extinguisher_portable_a01_alb.png": [
+   4096,
+   4096
+  ],
+  "t_fireProtection_extinguisher_portable_a01_orm.png": [
+   4096,
+   4096
+  ],
+  "t_fireProtection_extinguisher_portable_a01_nor.png": [
+   4096,
+   4096
+  ],
+  "t_fireProtection_extinguisher_portable_decal_a01_alb.png": [
+   4096,
+   4096
+  ],
+  "t_fireProtection_extinguisher_portable_decal_a01_orm.png": [
+   4096,
+   4096
+  ],
+  "t_fireProtection_extinguisher_portable_decal_a01_nor.png": [
+   4096,
+   4096
+  ]
+ },
+ "texture_cap_px": 512
+}

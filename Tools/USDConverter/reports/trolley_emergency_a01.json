@@ -1,0 +1,150 @@
+{
+ "meshes": 17,
+ "triangles_original": 453028,
+ "triangles_exported": 29985,
+ "decimate_ratio": 0.06622107242819428,
+ "bbox_min": [
+  -0.505128026008606,
+  -0.3910553753376007,
+  -0.6908152103424072
+ ],
+ "bbox_max": [
+  0.32626402378082275,
+  0.5270388126373291,
+  1.478212594985962
+ ],
+ "size_m": [
+  0.8313920497894287,
+  0.9180941581726074,
+  2.169027805328369
+ ],
+ "materials": [
+  "m_opaque__fabric__cotton_redblack_a01",
+  "m_opaque__metal__chrome_a01",
+  "m_opaque__metal__chrome_a01.001",
+  "m_opaque__metal__chrome_a01.002",
+  "m_opaque__metal__painted_black_a01",
+  "m_opaque__metal__painted_red_a01",
+  "m_opaque__metal__painted_white_a01",
+  "m_opaque__metal__stainlesssteel_a01",
+  "m_opaque__metal__stainlesssteel_a01.001",
+  "m_opaque__metal__stainlesssteel_a01.002",
+  "m_opaque__metal__stainlesssteel_a01.003",
+  "m_opaque__plastic__black_a01",
+  "m_opaque__plastic__black_a01.001",
+  "m_opaque__plastic__black_a01.002",
+  "m_opaque__plastic__black_a01.003",
+  "m_opaque__plastic__black_a01.004",
+  "m_opaque__plastic__black_a01.005",
+  "m_opaque__plastic__black_a01.006",
+  "m_opaque__plastic__black_gray_a01",
+  "m_opaque__plastic__black_gray_a01.001",
+  "m_opaque__plastic__black_gray_a01.002",
+  "m_opaque__plastic__black_gray_a01.003",
+  "m_opaque__plastic__black_gray_a01.004",
+  "m_opaque__plastic__black_gray_a01.005",
+  "m_opaque__plastic__black_gray_a01.006",
+  "m_opaque__plastic__gray_a01",
+  "m_opaque__plastic__white_a01",
+  "m_opaque__plastic__white_a01.001",
+  "m_opaque__plastic__white_gray_a01",
+  "m_opaque__plastic__white_gray_a01.001",
+  "m_opaque__plastic__white_gray_a01.002",
+  "m_opaque__plastic__white_gray_a01.003",
+  "m_opaque__rubber__black_a01",
+  "m_opaque__rubber__black_a01.001",
+  "m_opaque__rubber__black_a01.002",
+  "m_opaque__rubber__black_a01.003"
+ ],
+ "textures_original_px": {
+  "t_metal_stainlessSteel_clean_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_metal_stainlessSteel_clean_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_metal_stainlessSteel_clean_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_rubber_lined_black_a01_tile_alb.png": [
+   4096,
+   2048
+  ],
+  "t_rubber_lined_black_a01_tile_orm.png": [
+   4096,
+   2048
+  ],
+  "t_rubber_lined_black_a01_tile_nor.png": [
+   4096,
+   2048
+  ],
+  "t_plastic_gray_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_gray_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_black_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_black_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_black_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_metal_paintedGlossy_white_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_metal_paintedGlossy_white_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_metal_paintedGlossy_white_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_metal_painted_a03_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_metal_painted_a03_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_metal_painted_a03_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_metal_chrome_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_metal_chrome_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_metal_chrome_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_fabric_d01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_fabric_d01_tile_nor.png": [
+   4096,
+   4096
+  ]
+ },
+ "texture_cap_px": 1024
+}

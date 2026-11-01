@@ -1,0 +1,151 @@
+{
+ "meshes": 19,
+ "triangles_original": 197208,
+ "triangles_exported": 19977,
+ "decimate_ratio": 0.10141576406636647,
+ "bbox_min": [
+  -0.2208864688873291,
+  -0.294572114944458,
+  -0.20889198780059814
+ ],
+ "bbox_max": [
+  0.4442268908023834,
+  0.3888316750526428,
+  1.0735572576522827
+ ],
+ "size_m": [
+  0.6651133298873901,
+  0.6834037899971008,
+  1.2824492454528809
+ ],
+ "materials": [
+  "opaque__fabric__unique_trolley_cleaning_a",
+  "opaque__fabric__unique_trolley_cleaning_b",
+  "opaque__metal__black_glossy_a",
+  "opaque__metal__glossy_a",
+  "opaque__metal__glossy_a.001",
+  "opaque__metal__glossy_a.002",
+  "opaque__metal__glossy_a.003",
+  "opaque__metal__glossy_a.004",
+  "opaque__metal__glossy_a.005",
+  "opaque__metal__glossy_a.006",
+  "opaque__metal__glossy_a.007",
+  "opaque__metal__glossy_a.008",
+  "opaque__metal__rough_a",
+  "opaque__metal__rough_a.001",
+  "opaque__metal__rough_a.002",
+  "opaque__metal__rough_a.003",
+  "opaque__plastic__black_a",
+  "opaque__plastic__black_a.001",
+  "opaque__plastic__black_a.002",
+  "opaque__plastic__black_a.003",
+  "opaque__plastic__blue_a",
+  "opaque__plastic__blue_a.001",
+  "opaque__plastic__gray_a",
+  "opaque__plastic__gray_a.001",
+  "opaque__plastic__lightblue_a",
+  "opaque__plastic__lightblue_a.001",
+  "opaque__plastic__lightblue_a.002",
+  "opaque__plastic__red_a",
+  "opaque__plastic__red_a.001",
+  "opaque__plastic__white_a",
+  "opaque__plastic__white_a.001",
+  "opaque__plastic__white_a.002",
+  "opaque__plastic__white_a.003"
+ ],
+ "textures_original_px": {
+  "T_CleaningTrolley_A01_Cloth_Albedo.png": [
+   1024,
+   1024
+  ],
+  "T_CleaningTrolley_A01_Cloth_ORM.png": [
+   1024,
+   1024
+  ],
+  "T_CleaningTrolley_A01_Cloth_Normal.png": [
+   1024,
+   1024
+  ],
+  "T_CleaningTrolley_A01_Mop_Albedo.png": [
+   1024,
+   1024
+  ],
+  "T_CleaningTrolley_A01_Mop_ORM.png": [
+   1024,
+   1024
+  ],
+  "T_CleaningTrolley_A01_Mop_Normal.png": [
+   1024,
+   1024
+  ],
+  "T_Metal_Glossy_A_Albedo_1.png": [
+   1024,
+   1024
+  ],
+  "T_Metal_Glossy_A_ORM_1.png": [
+   1024,
+   1024
+  ],
+  "T_Metal_Glossy_A_Normal_1.png": [
+   1024,
+   1024
+  ],
+  "T_Metal_Rough_A_Albedo.png": [
+   1024,
+   1024
+  ],
+  "T_Metal_Rough_A_ORM.png": [
+   1024,
+   1024
+  ],
+  "T_Metal_Rough_A_Normal.png": [
+   1024,
+   1024
+  ],
+  "T_Plastic_Red_A_ORM.png": [
+   1024,
+   1024
+  ],
+  "T_Plastic_Red_A_Normal.png": [
+   1024,
+   1024
+  ],
+  "T_Plastic_Blue_A_ORM.png": [
+   1024,
+   1024
+  ],
+  "T_Plastic_Blue_A_Normal.png": [
+   1024,
+   1024
+  ],
+  "T_Plastic_Red_A_Albedo.png": [
+   1024,
+   1024
+  ],
+  "T_Plastic_Black_A_Albedo.png": [
+   1024,
+   1024
+  ],
+  "T_Plastic_Black_A_ORM.png": [
+   1024,
+   1024
+  ],
+  "T_Plastic_Black_A_Normal.png": [
+   1024,
+   1024
+  ],
+  "T_Plastic_Gray_A_ORM.png": [
+   1024,
+   1024
+  ],
+  "T_Plastic_Gray_A_Normal.png": [
+   1024,
+   1024
+  ],
+  "T_Plastic_Blue_A_Albedo.png": [
+   1024,
+   1024
+  ]
+ },
+ "texture_cap_px": 1024
+}

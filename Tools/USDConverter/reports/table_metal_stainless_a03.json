@@ -1,0 +1,52 @@
+{
+ "meshes": 1,
+ "triangles_original": 13912,
+ "triangles_exported": 7999,
+ "decimate_ratio": 0.5750431282346176,
+ "bbox_min": [
+  -0.8999741077423096,
+  -0.3494381904602051,
+  0.0
+ ],
+ "bbox_max": [
+  0.8999741673469543,
+  0.34943830966949463,
+  0.8500053286552429
+ ],
+ "size_m": [
+  1.7999482154846191,
+  0.6988765001296997,
+  0.8500053286552429
+ ],
+ "materials": [
+  "opaque__metal__steel_a",
+  "opaque__plastic__black_a"
+ ],
+ "textures_original_px": {
+  "T_Plastic_Black_A_Albedo.png": [
+   1024,
+   1024
+  ],
+  "T_Plastic_Black_A_ORM.png": [
+   1024,
+   1024
+  ],
+  "T_Plastic_Black_A_Normal.png": [
+   1024,
+   1024
+  ],
+  "T_Steel_A1_Albedo.png": [
+   1024,
+   1024
+  ],
+  "T_Steel_A1_ORM.png": [
+   1024,
+   1024
+  ],
+  "T_Steel_A1_Normal.png": [
+   1024,
+   1024
+  ]
+ },
+ "texture_cap_px": 1024
+}

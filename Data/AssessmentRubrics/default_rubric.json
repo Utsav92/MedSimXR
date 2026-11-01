@@ -1,0 +1,9 @@
+{
+  "rubricId": "default_prototype_v1",
+  "reviewStatus": "PROVISIONAL - educational design choice, not a clinically validated standard",
+  "passThreshold": 70,
+  "wrongAttemptPenalty": 0.25,
+  "hintPenalty": 0.1,
+  "monitoringReportPenalty": 10,
+  "weights": { "identification": 25, "handling": 25, "sequence": 30, "efficiency": 10, "knowledge": 10 }
+}

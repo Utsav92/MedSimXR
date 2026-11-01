@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2951312760386326764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1941374273315142042}
+  - component: {fileID: 2317631184825906513}
+  - component: {fileID: 1199212578621986267}
+  m_Layer: 0
+  m_Name: Xray_machine_buckyTable_a01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1941374273315142042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2951312760386326764}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5525658175188262457}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2317631184825906513
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2951312760386326764}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.8743485, y: 0.9439224, z: 2.3499985}
+  m_Center: {x: 0, y: 0.4719612, z: 0}
+--- !u!114 &1199212578621986267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2951312760386326764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 679d4d16f7023644386d406922735cec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MedSimXR.Runtime::MedSimXR.Interaction.InteractableObject
+  objectId: Xray_machine_buckyTable_a01
+  displayName: X-ray Table (Bucky Table)
+  category: Imaging
+  description: A table with a built-in detector tray (Bucky) on which a patient lies for X-ray images.
+  trainingUse: Identification and orientation. X-ray equipment is operated only by trained, authorised staff.
+  labelText: 'X-RAY TABLE (BUCKY TABLE)
+
+    Training model - not a medical device specification.'
+  isPlaceholder: 0
+  sourceNote: NVIDIA SimReady Assets, CC-BY-4.0. Converted USD to GLB, decimated, textures capped.
+  canGrab: 0
+  canInspect: 1
+  isFixed: 1
+--- !u!1001 &366562284177348221
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1941374273315142042}
+    m_Modifications:
+    - target: {fileID: -3910990755373119420, guid: 82b60f85ad3384e419d8acd36ecc40ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.014031142
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 82b60f85ad3384e419d8acd36ecc40ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.040708244
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 82b60f85ad3384e419d8acd36ecc40ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00000035762787
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 82b60f85ad3384e419d8acd36ecc40ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 82b60f85ad3384e419d8acd36ecc40ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 82b60f85ad3384e419d8acd36ecc40ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 82b60f85ad3384e419d8acd36ecc40ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 82b60f85ad3384e419d8acd36ecc40ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 82b60f85ad3384e419d8acd36ecc40ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 82b60f85ad3384e419d8acd36ecc40ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771091787928289351, guid: 82b60f85ad3384e419d8acd36ecc40ac, type: 3}
+      propertyPath: m_Name
+      value: Model
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -4161369568681901532, guid: 82b60f85ad3384e419d8acd36ecc40ac, type: 3}
+--- !u!4 &5525658175188262457 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3910990755373119420, guid: 82b60f85ad3384e419d8acd36ecc40ac, type: 3}
+  m_PrefabInstance: {fileID: 366562284177348221}
+  m_PrefabAsset: {fileID: 0}

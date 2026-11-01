@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2618917387309265819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2028495096075189678}
+  - component: {fileID: 4038328861090729797}
+  - component: {fileID: 3082393190396630845}
+  m_Layer: 0
+  m_Name: washBasin_a01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2028495096075189678
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2618917387309265819}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3729726651515395730}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &4038328861090729797
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2618917387309265819}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.34952402, y: 0.46085483, z: 0.5761545}
+  m_Center: {x: 0, y: 0.23042741, z: 0}
+--- !u!114 &3082393190396630845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2618917387309265819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 679d4d16f7023644386d406922735cec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MedSimXR.Runtime::MedSimXR.Interaction.InteractableObject
+  objectId: washBasin_a01
+  displayName: Hand Wash Basin
+  category: Infection prevention
+  description: A basin where hands are washed with soap and water.
+  trainingUse: 'Identification and the infection-prevention sequence: hand hygiene happens here before and after patient contact.'
+  labelText: 'HAND WASH BASIN
+
+    Training model - not a medical device specification.'
+  isPlaceholder: 0
+  sourceNote: NVIDIA SimReady Assets, CC-BY-4.0. Converted USD to GLB, decimated, textures capped.
+  canGrab: 0
+  canInspect: 1
+  isFixed: 1
+--- !u!1001 &8825920582081566422
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2028495096075189678}
+    m_Modifications:
+    - target: {fileID: -3910990755373119420, guid: ecd55dc5467b10b49a533f5165a86290, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.034081608
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: ecd55dc5467b10b49a533f5165a86290, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0000001937151
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: ecd55dc5467b10b49a533f5165a86290, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: ecd55dc5467b10b49a533f5165a86290, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: ecd55dc5467b10b49a533f5165a86290, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: ecd55dc5467b10b49a533f5165a86290, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: ecd55dc5467b10b49a533f5165a86290, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: ecd55dc5467b10b49a533f5165a86290, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: ecd55dc5467b10b49a533f5165a86290, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: ecd55dc5467b10b49a533f5165a86290, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771091787928289351, guid: ecd55dc5467b10b49a533f5165a86290, type: 3}
+      propertyPath: m_Name
+      value: Model
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -4161369568681901532, guid: ecd55dc5467b10b49a533f5165a86290, type: 3}
+--- !u!4 &3729726651515395730 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3910990755373119420, guid: ecd55dc5467b10b49a533f5165a86290, type: 3}
+  m_PrefabInstance: {fileID: 8825920582081566422}
+  m_PrefabAsset: {fileID: 0}

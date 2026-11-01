@@ -1,0 +1,43 @@
+{
+ "meshes": 3,
+ "triangles_original": 82342,
+ "triangles_exported": 5998,
+ "decimate_ratio": 0.07286682373515338,
+ "bbox_min": [
+  -0.03476515784859657,
+  -0.03476310521364212,
+  -0.027083203196525574
+ ],
+ "bbox_max": [
+  0.04038478806614876,
+  0.03476310521364212,
+  0.15170425176620483
+ ],
+ "size_m": [
+  0.07514994591474533,
+  0.06952621042728424,
+  0.1787874549627304
+ ],
+ "materials": [
+  "m_opaque__plastic__cleaning_soapDispenser_a01",
+  "m_opaque__plastic__cleaning_soapDispenser_a01.001",
+  "m_trans__glass__clean_a01",
+  "m_trans__glass__cleaning_soapDispenser_a01",
+  "m_trans__plastic__cleaning_soapDispenser_a01"
+ ],
+ "textures_original_px": {
+  "t_cleaning_soapDispenser_a01_alb.png": [
+   4096,
+   4096
+  ],
+  "t_cleaning_soapDispenser_a01_orm.png": [
+   4096,
+   4096
+  ],
+  "t_cleaning_soapDispenser_a01_nor.png": [
+   4096,
+   4096
+  ]
+ },
+ "texture_cap_px": 512
+}

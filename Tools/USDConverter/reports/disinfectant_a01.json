@@ -1,0 +1,57 @@
+{
+ "meshes": 1,
+ "triangles_original": 52892,
+ "triangles_exported": 5999,
+ "decimate_ratio": 0.11343870528624367,
+ "bbox_min": [
+  -0.02233162708580494,
+  -0.044572390615940094,
+  2.599852450657636e-05
+ ],
+ "bbox_max": [
+  0.022385258227586746,
+  0.02288510650396347,
+  0.1910371333360672
+ ],
+ "size_m": [
+  0.044716887176036835,
+  0.06745749711990356,
+  0.19101113080978394
+ ],
+ "materials": [
+  "m_opaque__paper__white_rough_a01",
+  "m_opaque__plastic__white_a01",
+  "m_opaque__plastic__white_rough_a01"
+ ],
+ "textures_original_px": {
+  "t_plastic_scratched_white_a01_tile_alb.png": [
+   2048,
+   2048
+  ],
+  "t_plastic_scratched_white_a01_tile_orm.png": [
+   2048,
+   2048
+  ],
+  "t_plastic_scratched_white_a01_tile_nor.png": [
+   2048,
+   2048
+  ],
+  "t_plastic_glossy_white_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_glossy_white_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_desinfectant_a01_alb.png": [
+   4096,
+   4096
+  ],
+  "t_desinfectant_a01_orm.png": [
+   4096,
+   4096
+  ]
+ },
+ "texture_cap_px": 512
+}

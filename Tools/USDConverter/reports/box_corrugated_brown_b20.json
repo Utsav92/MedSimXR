@@ -1,0 +1,61 @@
+{
+ "meshes": 1,
+ "triangles_original": 15992,
+ "triangles_exported": 5999,
+ "decimate_ratio": 0.3751875937968984,
+ "bbox_min": [
+  -0.14949046075344086,
+  -0.3107908070087433,
+  0.0
+ ],
+ "bbox_max": [
+  0.1495170295238495,
+  0.3107908070087433,
+  0.3020442724227905
+ ],
+ "size_m": [
+  0.29900747537612915,
+  0.6215816140174866,
+  0.3020442724227905
+ ],
+ "materials": [
+  "opaque__cardboard__brown_a",
+  "opaque__cardboard__trim_a",
+  "opaque__nylon__tape_a",
+  "opaque__paper__decals_black_a",
+  "opaque__paper__decals_blue_a",
+  "opaque__paper__decals_green_a",
+  "opaque__paper__decals_grey_a"
+ ],
+ "textures_original_px": {
+  "t_corrugatedboxes_b01_tile01_albedo.png": [
+   2048,
+   2048
+  ],
+  "t_corrugatedboxes_b01_tile01_orm.png": [
+   2048,
+   2048
+  ],
+  "t_corrugatedboxes_b01_tile01_normal.png": [
+   2048,
+   2048
+  ],
+  "t_corrugatedboxes_b01_trim_Albedo.png": [
+   2048,
+   2048
+  ],
+  "t_corrugatedboxes_b01_trim_orm.png": [
+   2048,
+   2048
+  ],
+  "t_corrugatedboxes_b01_trim_normal.png": [
+   2048,
+   2048
+  ],
+  "T_Plastic_Black_A_ORM.png": [
+   1024,
+   1024
+  ]
+ },
+ "texture_cap_px": 1024
+}

@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="46" result="Skipped:Ignored" total="46" passed="43" failed="0" inconclusive="1" skipped="2" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-01 14:11:13Z" end-time="2026-11-01 14:16:27Z" duration="313.4502792">
+  <test-suite type="TestSuite" id="1058" name="MedSim XR" fullname="MedSim XR" runstate="Runnable" testcasecount="46" result="Skipped" label="Ignored" start-time="2026-11-01 14:11:13Z" end-time="2026-11-01 14:16:27Z" duration="313.450279" total="46" passed="43" failed="0" inconclusive="1" skipped="2" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <reason>
+      <message><![CDATA[One or more child tests were ignored]]></message>
+    </reason>
+    <test-suite type="Assembly" id="1052" name="MedSimXR.Tests.PlayMode.dll" fullname="D:/MedSimXR/Library/ScriptAssemblies/MedSimXR.Tests.PlayMode.dll" runstate="Runnable" testcasecount="46" result="Skipped" label="Ignored" start-time="2026-11-01 14:11:13Z" end-time="2026-11-01 14:16:27Z" duration="313.415356" total="46" passed="43" failed="0" inconclusive="1" skipped="2" asserts="0">
+      <properties>
+        <property name="_PID" value="12812" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <reason>
+        <message><![CDATA[One or more child tests were ignored]]></message>
+      </reason>
+      <test-suite type="TestSuite" id="1053" name="MedSimXR" fullname="MedSimXR" runstate="Runnable" testcasecount="46" result="Skipped" label="Ignored" start-time="2026-11-01 14:11:13Z" end-time="2026-11-01 14:16:27Z" duration="313.412158" total="46" passed="43" failed="0" inconclusive="1" skipped="2" asserts="0">
+        <properties />
+        <reason>
+          <message><![CDATA[One or more child tests were ignored]]></message>
+        </reason>
+        <test-suite type="TestSuite" id="1054" name="Tests" fullname="MedSimXR.Tests" runstate="Runnable" testcasecount="46" result="Skipped" label="Ignored" start-time="2026-11-01 14:11:13Z" end-time="2026-11-01 14:16:27Z" duration="313.409378" total="46" passed="43" failed="0" inconclusive="1" skipped="2" asserts="0">
+          <properties />
+          <reason>
+            <message><![CDATA[One or more child tests were ignored]]></message>
+          </reason>
+          <test-suite type="TestFixture" id="1001" name="DemoCapture" fullname="MedSimXR.Tests.DemoCapture" classname="MedSimXR.Tests.DemoCapture" runstate="Runnable" testcasecount="1" result="Skipped" label="Ignored" start-time="2026-11-01 14:11:13Z" end-time="2026-11-01 14:11:13Z" duration="0.108902" total="1" passed="0" failed="0" inconclusive="0" skipped="1" asserts="0">
+            <properties />
+            <reason>
+              <message><![CDATA[One or more child tests were ignored]]></message>
+            </reason>
+            <test-case id="1002" name="RenderWalkthrough" fullname="MedSimXR.Tests.DemoCapture.RenderWalkthrough" methodname="RenderWalkthrough" classname="MedSimXR.Tests.DemoCapture" runstate="Runnable" seed="1355816910" result="Skipped" label="Ignored" start-time="2026-11-01 14:11:13Z" end-time="2026-11-01 14:11:13Z" duration="0.060258" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="6000000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <reason>
+                <message><![CDATA[Set MEDSIM_DEMO=1 to render the walkthrough.]]></message>
+              </reason>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1003" name="Phase1PlayTests" fullname="MedSimXR.Tests.Phase1PlayTests" classname="MedSimXR.Tests.Phase1PlayTests" runstate="Runnable" testcasecount="12" result="Skipped" label="Ignored" start-time="2026-11-01 14:11:13Z" end-time="2026-11-01 14:12:59Z" duration="105.311213" total="12" passed="11" failed="0" inconclusive="0" skipped="1" asserts="0">
+            <properties />
+            <reason>
+              <message><![CDATA[One or more child tests were ignored]]></message>
+            </reason>
+            <test-case id="1008" name="Drop_OnFloor_IsLogged" fullname="MedSimXR.Tests.Phase1PlayTests.Drop_OnFloor_IsLogged" methodname="Drop_OnFloor_IsLogged" classname="MedSimXR.Tests.Phase1PlayTests" runstate="Runnable" seed="1634407317" result="Passed" start-time="2026-11-01 14:11:13Z" end-time="2026-11-01 14:11:32Z" duration="19.116754" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Loading OpenXR loader library at path: D:\MedSimXR\Library\PackageCache\com.unity.xr.openxr@55edf9b26dd2\RuntimeLoaders\windows\x64\openxr_loader.dll
+]]></output>
+            </test-case>
+            <test-case id="1006" name="FixedEquipment_CannotBeGrabbed" fullname="MedSimXR.Tests.Phase1PlayTests.FixedEquipment_CannotBeGrabbed" methodname="FixedEquipment_CannotBeGrabbed" classname="MedSimXR.Tests.Phase1PlayTests" runstate="Runnable" seed="1911759812" result="Passed" start-time="2026-11-01 14:11:32Z" end-time="2026-11-01 14:11:43Z" duration="10.764319" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Loading OpenXR loader library at path: D:\MedSimXR\Library\PackageCache\com.unity.xr.openxr@55edf9b26dd2\RuntimeLoaders\windows\x64\openxr_loader.dll
+]]></output>
+            </test-case>
+            <test-case id="1007" name="Grab_Place_OnWorkSurface_ThenReset" fullname="MedSimXR.Tests.Phase1PlayTests.Grab_Place_OnWorkSurface_ThenReset" methodname="Grab_Place_OnWorkSurface_ThenReset" classname="MedSimXR.Tests.Phase1PlayTests" runstate="Runnable" seed="443435261" result="Passed" start-time="2026-11-01 14:11:43Z" end-time="2026-11-01 14:11:57Z" duration="13.700002" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Loading OpenXR loader library at path: D:\MedSimXR\Library\PackageCache\com.unity.xr.openxr@55edf9b26dd2\RuntimeLoaders\windows\x64\openxr_loader.dll
+]]></output>
+            </test-case>
+            <test-case id="1005" name="Hover_RealRaycastFindsChair" fullname="MedSimXR.Tests.Phase1PlayTests.Hover_RealRaycastFindsChair" methodname="Hover_RealRaycastFindsChair" classname="MedSimXR.Tests.Phase1PlayTests" runstate="Runnable" seed="237733840" result="Passed" start-time="2026-11-01 14:11:57Z" end-time="2026-11-01 14:12:04Z" duration="7.246967" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Loading OpenXR loader library at path: D:\MedSimXR\Library\PackageCache\com.unity.xr.openxr@55edf9b26dd2\RuntimeLoaders\windows\x64\openxr_loader.dll
+]]></output>
+            </test-case>
+            <test-case id="1014" name="Pause_FreezesTimeAndResumes" fullname="MedSimXR.Tests.Phase1PlayTests.Pause_FreezesTimeAndResumes" methodname="Pause_FreezesTimeAndResumes" classname="MedSimXR.Tests.Phase1PlayTests" runstate="Runnable" seed="394290178" result="Passed" start-time="2026-11-01 14:12:04Z" end-time="2026-11-01 14:12:11Z" duration="6.964459" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Loading OpenXR loader library at path: D:\MedSimXR\Library\PackageCache\com.unity.xr.openxr@55edf9b26dd2\RuntimeLoaders\windows\x64\openxr_loader.dll
+]]></output>
+            </test-case>
+            <test-case id="1013" name="Quiz_DoesNotRevealObjectNames" fullname="MedSimXR.Tests.Phase1PlayTests.Quiz_DoesNotRevealObjectNames" methodname="Quiz_DoesNotRevealObjectNames" classname="MedSimXR.Tests.Phase1PlayTests" runstate="Runnable" seed="2114046632" result="Passed" start-time="2026-11-01 14:12:11Z" end-time="2026-11-01 14:12:18Z" duration="6.851605" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Loading OpenXR loader library at path: D:\MedSimXR\Library\PackageCache\com.unity.xr.openxr@55edf9b26dd2\RuntimeLoaders\windows\x64\openxr_loader.dll
+]]></output>
+            </test-case>
+            <test-case id="1009" name="Quiz_FullRun_AllCorrect_PassesAndSavesReport" fullname="MedSimXR.Tests.Phase1PlayTests.Quiz_FullRun_AllCorrect_PassesAndSavesReport" methodname="Quiz_FullRun_AllCorrect_PassesAndSavesReport" classname="MedSimXR.Tests.Phase1PlayTests" runstate="Runnable" seed="603187959" result="Passed" start-time="2026-11-01 14:12:18Z" end-time="2026-11-01 14:12:25Z" duration="6.679361" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Loading OpenXR loader library at path: D:\MedSimXR\Library\PackageCache\com.unity.xr.openxr@55edf9b26dd2\RuntimeLoaders\windows\x64\openxr_loader.dll
+]]></output>
+            </test-case>
+            <test-case id="1011" name="Quiz_SelectViaRealHoverPipeline" fullname="MedSimXR.Tests.Phase1PlayTests.Quiz_SelectViaRealHoverPipeline" methodname="Quiz_SelectViaRealHoverPipeline" classname="MedSimXR.Tests.Phase1PlayTests" runstate="Runnable" seed="370354991" result="Passed" start-time="2026-11-01 14:12:25Z" end-time="2026-11-01 14:12:31Z" duration="6.312651" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Loading OpenXR loader library at path: D:\MedSimXR\Library\PackageCache\com.unity.xr.openxr@55edf9b26dd2\RuntimeLoaders\windows\x64\openxr_loader.dll
+]]></output>
+            </test-case>
+            <test-case id="1010" name="Quiz_WrongAnswerHintAndRecovery_LowersScore" fullname="MedSimXR.Tests.Phase1PlayTests.Quiz_WrongAnswerHintAndRecovery_LowersScore" methodname="Quiz_WrongAnswerHintAndRecovery_LowersScore" classname="MedSimXR.Tests.Phase1PlayTests" runstate="Runnable" seed="2065510433" result="Passed" start-time="2026-11-01 14:12:31Z" end-time="2026-11-01 14:12:38Z" duration="7.017649" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Loading OpenXR loader library at path: D:\MedSimXR\Library\PackageCache\com.unity.xr.openxr@55edf9b26dd2\RuntimeLoaders\windows\x64\openxr_loader.dll
+]]></output>
+            </test-case>
+            <test-case id="1004" name="Scene_BootsAndAppliesEquipmentData" fullname="MedSimXR.Tests.Phase1PlayTests.Scene_BootsAndAppliesEquipmentData" methodname="Scene_BootsAndAppliesEquipmentData" classname="MedSimXR.Tests.Phase1PlayTests" runstate="Runnable" seed="551310357" result="Passed" start-time="2026-11-01 14:12:38Z" end-time="2026-11-01 14:12:45Z" duration="6.773767" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Loading OpenXR loader library at path: D:\MedSimXR\Library\PackageCache\com.unity.xr.openxr@55edf9b26dd2\RuntimeLoaders\windows\x64\openxr_loader.dll
+]]></output>
+            </test-case>
+            <test-case id="1012" name="Screenshots_HudInExploreAndQuiz" fullname="MedSimXR.Tests.Phase1PlayTests.Screenshots_HudInExploreAndQuiz" methodname="Screenshots_HudInExploreAndQuiz" classname="MedSimXR.Tests.Phase1PlayTests" runstate="Runnable" seed="506408091" result="Skipped" label="Ignored" start-time="2026-11-01 14:12:45Z" end-time="2026-11-01 14:12:52Z" duration="7.198123" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <reason>
+                <message><![CDATA[Screenshot capture needs a GPU; run without -nographics to produce Documentation/screens/1*.png]]></message>
+              </reason>
+              <output><![CDATA[Loading OpenXR loader library at path: D:\MedSimXR\Library\PackageCache\com.unity.xr.openxr@55edf9b26dd2\RuntimeLoaders\windows\x64\openxr_loader.dll
+]]></output>
+            </test-case>
+            <test-case id="1015" name="WorldInfoPanel_ShowsChairData" fullname="MedSimXR.Tests.Phase1PlayTests.WorldInfoPanel_ShowsChairData" methodname="WorldInfoPanel_ShowsChairData" classname="MedSimXR.Tests.Phase1PlayTests" runstate="Runnable" seed="1144276056" result="Passed" start-time="2026-11-01 14:12:52Z" end-time="2026-11-01 14:12:59Z" duration="6.675175" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Loading OpenXR loader library at path: D:\MedSimXR\Library\PackageCache\com.unity.xr.openxr@55edf9b26dd2\RuntimeLoaders\windows\x64\openxr_loader.dll
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1016" name="Phase2PlayTests" fullname="MedSimXR.Tests.Phase2PlayTests" classname="MedSimXR.Tests.Phase2PlayTests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-11-01 14:12:59Z" end-time="2026-11-01 14:14:14Z" duration="75.602957" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1026" name="CancelModule_ReturnsToRoom_AndRecordsNothing" fullname="MedSimXR.Tests.Phase2PlayTests.CancelModule_ReturnsToRoom_AndRecordsNothing" methodname="CancelModule_ReturnsToRoom_AndRecordsNothing" classname="MedSimXR.Tests.Phase2PlayTests" runstate="Runnable" seed="385237474" result="Passed" start-time="2026-11-01 14:12:59Z" end-time="2026-11-01 14:13:06Z" duration="7.039821" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Loading OpenXR loader library at path: D:\MedSimXR\Library\PackageCache\com.unity.xr.openxr@55edf9b26dd2\RuntimeLoaders\windows\x64\openxr_loader.dll
+]]></output>
+            </test-case>
+            <test-case id="1027" name="Dashboard_ShowsCombinedProgress" fullname="MedSimXR.Tests.Phase2PlayTests.Dashboard_ShowsCombinedProgress" methodname="Dashboard_ShowsCombinedProgress" classname="MedSimXR.Tests.Phase2PlayTests" runstate="Runnable" seed="1688125610" result="Passed" start-time="2026-11-01 14:13:06Z" end-time="2026-11-01 14:13:13Z" duration="6.902731" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Loading OpenXR loader library at path: D:\MedSimXR\Library\PackageCache\com.unity.xr.openxr@55edf9b26dd2\RuntimeLoaders\windows\x64\openxr_loader.dll
+]]></output>
+            </test-case>
+            <test-case id="1017" name="MenuAndModuleData_AreLoaded" fullname="MedSimXR.Tests.Phase2PlayTests.MenuAndModuleData_AreLoaded" methodname="MenuAndModuleData_AreLoaded" classname="MedSimXR.Tests.Phase2PlayTests" runstate="Runnable" seed="1542072190" result="Passed" start-time="2026-11-01 14:13:13Z" end-time="2026-11-01 14:13:19Z" duration="6.422210" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Loading OpenXR loader library at path: D:\MedSimXR\Library\PackageCache\com.unity.xr.openxr@55edf9b26dd2\RuntimeLoaders\windows\x64\openxr_loader.dll
+]]></output>
+            </test-case>
+            <test-case id="1021" name="ModuleB_DroppingTheBox_IsAnUnsafeAction" fullname="MedSimXR.Tests.Phase2PlayTests.ModuleB_DroppingTheBox_IsAnUnsafeAction" methodname="ModuleB_DroppingTheBox_IsAnUnsafeAction" classname="MedSimXR.Tests.Phase2PlayTests" runstate="Runnable" seed="1681145820" result="Passed" start-time="2026-11-01 14:13:19Z" end-time="2026-11-01 14:13:28Z" duration="8.726080" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Loading OpenXR loader library at path: D:\MedSimXR\Library\PackageCache\com.unity.xr.openxr@55edf9b26dd2\RuntimeLoaders\windows\x64\openxr_loader.dll
+]]></output>
+            </test-case>
+            <test-case id="1019" name="ModuleB_RealPhysics_InspectGrabPlaceReturn" fullname="MedSimXR.Tests.Phase2PlayTests.ModuleB_RealPhysics_InspectGrabPlaceReturn" methodname="ModuleB_RealPhysics_InspectGrabPlaceReturn" classname="MedSimXR.Tests.Phase2PlayTests" runstate="Runnable" seed="1306628696" result="Passed" start-time="2026-11-01 14:13:28Z" end-time="2026-11-01 14:13:38Z" duration="10.366036" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Loading OpenXR loader library at path: D:\MedSimXR\Library\PackageCache\com.unity.xr.openxr@55edf9b26dd2\RuntimeLoaders\windows\x64\openxr_loader.dll
+]]></output>
+            </test-case>
+            <test-case id="1020" name="ModuleB_TryingToMoveFixedEquipment_IsAnUnsafeAction" fullname="MedSimXR.Tests.Phase2PlayTests.ModuleB_TryingToMoveFixedEquipment_IsAnUnsafeAction" methodname="ModuleB_TryingToMoveFixedEquipment_IsAnUnsafeAction" classname="MedSimXR.Tests.Phase2PlayTests" runstate="Runnable" seed="110429253" result="Passed" start-time="2026-11-01 14:13:38Z" end-time="2026-11-01 14:13:44Z" duration="6.090742" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Loading OpenXR loader library at path: D:\MedSimXR\Library\PackageCache\com.unity.xr.openxr@55edf9b26dd2\RuntimeLoaders\windows\x64\openxr_loader.dll
+]]></output>
+            </test-case>
+            <test-case id="1023" name="ModuleC_ClickingTheMonitor_OpensTheReportPrompt" fullname="MedSimXR.Tests.Phase2PlayTests.ModuleC_ClickingTheMonitor_OpensTheReportPrompt" methodname="ModuleC_ClickingTheMonitor_OpensTheReportPrompt" classname="MedSimXR.Tests.Phase2PlayTests" runstate="Runnable" seed="587914708" result="Passed" start-time="2026-11-01 14:13:44Z" end-time="2026-11-01 14:13:51Z" duration="6.684939" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Loading OpenXR loader library at path: D:\MedSimXR\Library\PackageCache\com.unity.xr.openxr@55edf9b26dd2\RuntimeLoaders\windows\x64\openxr_loader.dll
+]]></output>
+            </test-case>
+            <test-case id="1022" name="ModuleC_Monitoring_ReportsScoresAndRecords" fullname="MedSimXR.Tests.Phase2PlayTests.ModuleC_Monitoring_ReportsScoresAndRecords" methodname="ModuleC_Monitoring_ReportsScoresAndRecords" classname="MedSimXR.Tests.Phase2PlayTests" runstate="Runnable" seed="1786901484" result="Passed" start-time="2026-11-01 14:13:51Z" end-time="2026-11-01 14:13:57Z" duration="5.885226" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Loading OpenXR loader library at path: D:\MedSimXR\Library\PackageCache\com.unity.xr.openxr@55edf9b26dd2\RuntimeLoaders\windows\x64\openxr_loader.dll
+]]></output>
+            </test-case>
+            <test-case id="1018" name="ModuleD_RealSelectionPipeline_CompletesAndIsRecorded" fullname="MedSimXR.Tests.Phase2PlayTests.ModuleD_RealSelectionPipeline_CompletesAndIsRecorded" methodname="ModuleD_RealSelectionPipeline_CompletesAndIsRecorded" classname="MedSimXR.Tests.Phase2PlayTests" runstate="Runnable" seed="401555171" result="Passed" start-time="2026-11-01 14:13:57Z" end-time="2026-11-01 14:14:03Z" duration="5.887262" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Loading OpenXR loader library at path: D:\MedSimXR\Library\PackageCache\com.unity.xr.openxr@55edf9b26dd2\RuntimeLoaders\windows\x64\openxr_loader.dll
+]]></output>
+            </test-case>
+            <test-case id="1024" name="ModuleE_Knowledge_FullRunWithHintAndWrongAnswer" fullname="MedSimXR.Tests.Phase2PlayTests.ModuleE_Knowledge_FullRunWithHintAndWrongAnswer" methodname="ModuleE_Knowledge_FullRunWithHintAndWrongAnswer" classname="MedSimXR.Tests.Phase2PlayTests" runstate="Runnable" seed="44091498" result="Passed" start-time="2026-11-01 14:14:03Z" end-time="2026-11-01 14:14:08Z" duration="5.782477" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Loading OpenXR loader library at path: D:\MedSimXR\Library\PackageCache\com.unity.xr.openxr@55edf9b26dd2\RuntimeLoaders\windows\x64\openxr_loader.dll
+]]></output>
+            </test-case>
+            <test-case id="1025" name="Pause_InKnowledgeModule_RestoresTheQuestion" fullname="MedSimXR.Tests.Phase2PlayTests.Pause_InKnowledgeModule_RestoresTheQuestion" methodname="Pause_InKnowledgeModule_RestoresTheQuestion" classname="MedSimXR.Tests.Phase2PlayTests" runstate="Runnable" seed="1769930589" result="Passed" start-time="2026-11-01 14:14:08Z" end-time="2026-11-01 14:14:14Z" duration="5.807648" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Loading OpenXR loader library at path: D:\MedSimXR\Library\PackageCache\com.unity.xr.openxr@55edf9b26dd2\RuntimeLoaders\windows\x64\openxr_loader.dll
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1028" name="Phase3PlayTests" fullname="MedSimXR.Tests.Phase3PlayTests" classname="MedSimXR.Tests.Phase3PlayTests" runstate="Runnable" testcasecount="18" result="Passed" start-time="2026-11-01 14:14:14Z" end-time="2026-11-01 14:16:03Z" duration="108.341465" total="18" passed="17" failed="0" inconclusive="1" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1035" name="A_Button_InspectsTheHoveredObject" fullname="MedSimXR.Tests.Phase3PlayTests.A_Button_InspectsTheHoveredObject" methodname="A_Button_InspectsTheHoveredObject" classname="MedSimXR.Tests.Phase3PlayTests" runstate="Runnable" seed="1995687153" result="Passed" start-time="2026-11-01 14:14:14Z" end-time="2026-11-01 14:14:20Z" duration="6.102512" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1034" name="Aiming_At_EmptyAir_HoversNothing" fullname="MedSimXR.Tests.Phase3PlayTests.Aiming_At_EmptyAir_HoversNothing" methodname="Aiming_At_EmptyAir_HoversNothing" classname="MedSimXR.Tests.Phase3PlayTests" runstate="Runnable" seed="1786667672" result="Passed" start-time="2026-11-01 14:14:20Z" end-time="2026-11-01 14:14:26Z" duration="5.564808" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1029" name="Desktop_IsTheDefault_AndNeedsNoHeadset" fullname="MedSimXR.Tests.Phase3PlayTests.Desktop_IsTheDefault_AndNeedsNoHeadset" methodname="Desktop_IsTheDefault_AndNeedsNoHeadset" classname="MedSimXR.Tests.Phase3PlayTests" runstate="Runnable" seed="112014524" result="Passed" start-time="2026-11-01 14:14:26Z" end-time="2026-11-01 14:14:32Z" duration="5.761683" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1030" name="EnterVr_SwapsCameraHudAndInteractionSource" fullname="MedSimXR.Tests.Phase3PlayTests.EnterVr_SwapsCameraHudAndInteractionSource" methodname="EnterVr_SwapsCameraHudAndInteractionSource" classname="MedSimXR.Tests.Phase3PlayTests" runstate="Runnable" seed="772828014" result="Passed" start-time="2026-11-01 14:14:32Z" end-time="2026-11-01 14:14:38Z" duration="6.090936" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1031" name="ExitVr_RestoresDesktop" fullname="MedSimXR.Tests.Phase3PlayTests.ExitVr_RestoresDesktop" methodname="ExitVr_RestoresDesktop" classname="MedSimXR.Tests.Phase3PlayTests" runstate="Runnable" seed="1207685049" result="Passed" start-time="2026-11-01 14:14:38Z" end-time="2026-11-01 14:14:44Z" duration="6.246023" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1038" name="Grip_GrabsTheBoxWithPhysics_AndReleases" fullname="MedSimXR.Tests.Phase3PlayTests.Grip_GrabsTheBoxWithPhysics_AndReleases" methodname="Grip_GrabsTheBoxWithPhysics_AndReleases" classname="MedSimXR.Tests.Phase3PlayTests" runstate="Runnable" seed="1922643206" result="Passed" start-time="2026-11-01 14:14:44Z" end-time="2026-11-01 14:14:51Z" duration="7.178695" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1039" name="Grip_OnFixedEquipment_IsDenied" fullname="MedSimXR.Tests.Phase3PlayTests.Grip_OnFixedEquipment_IsDenied" methodname="Grip_OnFixedEquipment_IsDenied" classname="MedSimXR.Tests.Phase3PlayTests" runstate="Runnable" seed="1799868309" result="Passed" start-time="2026-11-01 14:14:51Z" end-time="2026-11-01 14:14:57Z" duration="6.087541" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1032" name="HeadAndHandPoses_AreAppliedToTheRig" fullname="MedSimXR.Tests.Phase3PlayTests.HeadAndHandPoses_AreAppliedToTheRig" methodname="HeadAndHandPoses_AreAppliedToTheRig" classname="MedSimXR.Tests.Phase3PlayTests" runstate="Runnable" seed="298327261" result="Passed" start-time="2026-11-01 14:14:57Z" end-time="2026-11-01 14:15:04Z" duration="6.665546" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1044" name="Hud_FollowsTheHeadInWorldSpace" fullname="MedSimXR.Tests.Phase3PlayTests.Hud_FollowsTheHeadInWorldSpace" methodname="Hud_FollowsTheHeadInWorldSpace" classname="MedSimXR.Tests.Phase3PlayTests" runstate="Runnable" seed="1214558847" result="Passed" start-time="2026-11-01 14:15:04Z" end-time="2026-11-01 14:15:11Z" duration="6.698011" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1045" name="KeyboardSimulator_MapsKeysToVirtualControllers" fullname="MedSimXR.Tests.Phase3PlayTests.KeyboardSimulator_MapsKeysToVirtualControllers" methodname="KeyboardSimulator_MapsKeysToVirtualControllers" classname="MedSimXR.Tests.Phase3PlayTests" runstate="Runnable" seed="915872940" result="Inconclusive" start-time="2026-11-01 14:15:11Z" end-time="2026-11-01 14:15:17Z" duration="6.786440" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <reason>
+                <message><![CDATA[Keyboard events were not delivered to the test device (editor focus in batch mode).]]></message>
+              </reason>
+            </test-case>
+            <test-case id="1041" name="Knowledge_AnswerWithCursorAndA" fullname="MedSimXR.Tests.Phase3PlayTests.Knowledge_AnswerWithCursorAndA" methodname="Knowledge_AnswerWithCursorAndA" classname="MedSimXR.Tests.Phase3PlayTests" runstate="Runnable" seed="1812898274" result="Passed" start-time="2026-11-01 14:15:17Z" end-time="2026-11-01 14:15:24Z" duration="6.542250" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1036" name="LeftStick_MovesThePlayer_RelativeToHeadYaw" fullname="MedSimXR.Tests.Phase3PlayTests.LeftStick_MovesThePlayer_RelativeToHeadYaw" methodname="LeftStick_MovesThePlayer_RelativeToHeadYaw" classname="MedSimXR.Tests.Phase3PlayTests" runstate="Runnable" seed="451869235" result="Passed" start-time="2026-11-01 14:15:24Z" end-time="2026-11-01 14:15:31Z" duration="7.237625" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1040" name="Menu_ChooseModuleWithStickAndA_ThenFinishProcedureByPointing" fullname="MedSimXR.Tests.Phase3PlayTests.Menu_ChooseModuleWithStickAndA_ThenFinishProcedureByPointing" methodname="Menu_ChooseModuleWithStickAndA_ThenFinishProcedureByPointing" classname="MedSimXR.Tests.Phase3PlayTests" runstate="Runnable" seed="1288665079" result="Passed" start-time="2026-11-01 14:15:31Z" end-time="2026-11-01 14:15:38Z" duration="6.273639" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1042" name="MenuButton_PausesAndResumes" fullname="MedSimXR.Tests.Phase3PlayTests.MenuButton_PausesAndResumes" methodname="MenuButton_PausesAndResumes" classname="MedSimXR.Tests.Phase3PlayTests" runstate="Runnable" seed="615014749" result="Passed" start-time="2026-11-01 14:15:38Z" end-time="2026-11-01 14:15:43Z" duration="5.631386" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1046" name="ModeStatus_ReportsDesktopWhenNoHeadset" fullname="MedSimXR.Tests.Phase3PlayTests.ModeStatus_ReportsDesktopWhenNoHeadset" methodname="ModeStatus_ReportsDesktopWhenNoHeadset" classname="MedSimXR.Tests.Phase3PlayTests" runstate="Runnable" seed="2004754715" result="Passed" start-time="2026-11-01 14:15:43Z" end-time="2026-11-01 14:15:49Z" duration="5.725147" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1043" name="Monitoring_ReportViaRightStickClickAndCursor" fullname="MedSimXR.Tests.Phase3PlayTests.Monitoring_ReportViaRightStickClickAndCursor" methodname="Monitoring_ReportViaRightStickClickAndCursor" classname="MedSimXR.Tests.Phase3PlayTests" runstate="Runnable" seed="127560954" result="Passed" start-time="2026-11-01 14:15:49Z" end-time="2026-11-01 14:15:55Z" duration="6.049336" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1033" name="PointingTheControllerHoversAnObject_AndTriggerSelects" fullname="MedSimXR.Tests.Phase3PlayTests.PointingTheControllerHoversAnObject_AndTriggerSelects" methodname="PointingTheControllerHoversAnObject_AndTriggerSelects" classname="MedSimXR.Tests.Phase3PlayTests" runstate="Runnable" seed="1408755066" result="Passed" start-time="2026-11-01 14:15:55Z" end-time="2026-11-01 14:15:59Z" duration="4.115824" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1037" name="RightStick_SnapTurnsOncePerFlick" fullname="MedSimXR.Tests.Phase3PlayTests.RightStick_SnapTurnsOncePerFlick" methodname="RightStick_SnapTurnsOncePerFlick" classname="MedSimXR.Tests.Phase3PlayTests" runstate="Runnable" seed="1514064618" result="Passed" start-time="2026-11-01 14:15:59Z" end-time="2026-11-01 14:16:03Z" duration="3.570272" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1047" name="Phase4PlayTests" fullname="MedSimXR.Tests.Phase4PlayTests" classname="MedSimXR.Tests.Phase4PlayTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-11-01 14:16:03Z" end-time="2026-11-01 14:16:27Z" duration="24.036668" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1051" name="EveryEquipmentItem_HasAWorkingColliderInTheRealScene" fullname="MedSimXR.Tests.Phase4PlayTests.EveryEquipmentItem_HasAWorkingColliderInTheRealScene" methodname="EveryEquipmentItem_HasAWorkingColliderInTheRealScene" classname="MedSimXR.Tests.Phase4PlayTests" runstate="Runnable" seed="1580068008" result="Passed" start-time="2026-11-01 14:16:03Z" end-time="2026-11-01 14:16:07Z" duration="4.240450" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1048" name="MenuListsModuleF_AndDashboardIsOptionSeven" fullname="MedSimXR.Tests.Phase4PlayTests.MenuListsModuleF_AndDashboardIsOptionSeven" methodname="MenuListsModuleF_AndDashboardIsOptionSeven" classname="MedSimXR.Tests.Phase4PlayTests" runstate="Runnable" seed="1712701389" result="Passed" start-time="2026-11-01 14:16:07Z" end-time="2026-11-01 14:16:14Z" duration="6.757105" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1049" name="ModuleF_FullRun_IsRecordedSeparatelyFromModuleA" fullname="MedSimXR.Tests.Phase4PlayTests.ModuleF_FullRun_IsRecordedSeparatelyFromModuleA" methodname="ModuleF_FullRun_IsRecordedSeparatelyFromModuleA" classname="MedSimXR.Tests.Phase4PlayTests" runstate="Runnable" seed="735076649" result="Passed" start-time="2026-11-01 14:16:14Z" end-time="2026-11-01 14:16:20Z" duration="6.677198" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1050" name="ModuleF_HidesNamesLikeTheCoreQuiz" fullname="MedSimXR.Tests.Phase4PlayTests.ModuleF_HidesNamesLikeTheCoreQuiz" methodname="ModuleF_HidesNamesLikeTheCoreQuiz" classname="MedSimXR.Tests.Phase4PlayTests" runstate="Runnable" seed="541334984" result="Passed" start-time="2026-11-01 14:16:20Z" end-time="2026-11-01 14:16:27Z" duration="6.359679" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/Utsav/AppData/LocalLow/MedSimXR/MedSim XR\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

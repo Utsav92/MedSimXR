@@ -1,0 +1,147 @@
+{
+  "moduleId": "A_equipment_identification",
+  "title": "Medical Equipment Identification",
+  "reviewStatus": "PROTOTYPE - not clinically reviewed",
+  "questions": [
+    {
+      "id": "q01",
+      "objectId": "chair_patient_mobile_a01",
+      "correctObjectId": "chair_patient_mobile_a01",
+      "prompt": "Locate the patient transport chair.",
+      "hints": [
+        "It is a wheeled seat for moving a person.",
+        "Look near the middle of the room, close to the right wall."
+      ],
+      "explanation": "The patient transport chair has a seat, backrest, armrests, footrests and wheels, and is used to move a seated patient between areas.",
+      "assessmentCriteria": "Select the wheeled chair.",
+      "maxAttempts": 3,
+      "targetSeconds": 30
+    },
+    {
+      "id": "q02",
+      "objectId": "CT_injection_system_a01",
+      "correctObjectId": "CT_injection_system_a01",
+      "prompt": "Locate the CT injection system.",
+      "hints": [
+        "It is a tall unit on a pedestal.",
+        "It stands against the right-hand wall."
+      ],
+      "explanation": "The CT injection system is a pedestal-mounted unit used alongside CT scanners. In this module it is a visual teaching model only.",
+      "assessmentCriteria": "Select the pedestal-mounted injector.",
+      "maxAttempts": 3,
+      "targetSeconds": 40
+    },
+    {
+      "id": "q03",
+      "objectId": "box_corrugated_brown_b20",
+      "correctObjectId": "box_corrugated_brown_b20",
+      "prompt": "Locate the corrugated supply box.",
+      "hints": [
+        "It is a small brown cardboard box.",
+        "It is sitting on a table."
+      ],
+      "explanation": "Supply boxes like this are carried to a work surface and returned to storage afterwards.",
+      "assessmentCriteria": "Select the cardboard box.",
+      "maxAttempts": 3,
+      "targetSeconds": 30
+    },
+    {
+      "id": "q04",
+      "objectId": "rack_large_empty_a02",
+      "correctObjectId": "rack_large_empty_a02",
+      "prompt": "Locate the storage rack.",
+      "hints": [
+        "It is the largest object in the room.",
+        "It is shelving along the back wall."
+      ],
+      "explanation": "Storage racks keep boxed supplies off the floor and organised.",
+      "assessmentCriteria": "Select the shelving rack.",
+      "maxAttempts": 3,
+      "targetSeconds": 30
+    },
+    {
+      "id": "q05",
+      "objectId": "monitor_patient_a01",
+      "correctObjectId": "monitor_patient_a01",
+      "prompt": "Locate the bedside vital-sign monitor.",
+      "hints": [
+        "It has a screen showing numbers.",
+        "It is mounted near the patient bed."
+      ],
+      "explanation": "A vital-sign monitor displays measurements such as heart rate and oxygen saturation. Values in this training are synthetic.",
+      "assessmentCriteria": "Select the monitor screen unit.",
+      "maxAttempts": 3,
+      "targetSeconds": 30
+    },
+    {
+      "id": "q06",
+      "objectId": "washBasin_a01",
+      "correctObjectId": "washBasin_a01",
+      "prompt": "Locate the hand wash basin.",
+      "hints": [
+        "It is where hands are washed with soap and water.",
+        "It is near the front wall, on the entrance side of the room."
+      ],
+      "explanation": "Hand hygiene stations are placed where staff can clean their hands on entering and leaving a care area.",
+      "assessmentCriteria": "Select the dispenser unit.",
+      "maxAttempts": 3,
+      "targetSeconds": 30
+    },
+    {
+      "id": "q07",
+      "objectId": "bin_waste_a01",
+      "correctObjectId": "bin_waste_a01",
+      "prompt": "Locate the waste bin.",
+      "hints": [
+        "It is a container for used items.",
+        "It is in the front right corner."
+      ],
+      "explanation": "Waste containers are placed within reach of where used items are produced.",
+      "assessmentCriteria": "Select the bin.",
+      "maxAttempts": 3,
+      "targetSeconds": 30
+    },
+    {
+      "id": "q08",
+      "objectId": "cart_medical_utility_a01",
+      "correctObjectId": "cart_medical_utility_a01",
+      "prompt": "Locate the medical utility cart.",
+      "hints": [
+        "It is a wheeled unit with a flat top.",
+        "It is in the middle of the room's front half."
+      ],
+      "explanation": "A supply cart brings commonly used items to the point of care.",
+      "assessmentCriteria": "Select the cart.",
+      "maxAttempts": 3,
+      "targetSeconds": 30
+    },
+    {
+      "id": "q09",
+      "objectId": "bed_hospital_standard_a01",
+      "correctObjectId": "bed_hospital_standard_a01",
+      "prompt": "Locate the hospital bed.",
+      "hints": [
+        "It is the bed with side rails.",
+        "It is on the left side of the room."
+      ],
+      "explanation": "The patient bed is the central piece of furniture in a patient care room.",
+      "assessmentCriteria": "Select the bed.",
+      "maxAttempts": 3,
+      "targetSeconds": 30
+    },
+    {
+      "id": "q10",
+      "objectId": "cabinet_for_drugs_a01",
+      "correctObjectId": "cabinet_for_drugs_a01",
+      "prompt": "Locate the medication cabinet.",
+      "hints": [
+        "It is a closed unit that locks.",
+        "It stands against the left wall."
+      ],
+      "explanation": "Closed cabinets hold supplies that should be kept clean and out of sight.",
+      "assessmentCriteria": "Select the cabinet.",
+      "maxAttempts": 3,
+      "targetSeconds": 30
+    }
+  ]
+}

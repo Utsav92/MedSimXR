@@ -1,0 +1,95 @@
+{
+ "meshes": 9,
+ "triangles_original": 116792,
+ "triangles_exported": 19996,
+ "decimate_ratio": 0.17124460579491746,
+ "bbox_min": [
+  -0.47976773977279663,
+  -0.2881491482257843,
+  -0.08898509293794632
+ ],
+ "bbox_max": [
+  0.47855010628700256,
+  0.2891368865966797,
+  0.8894646763801575
+ ],
+ "size_m": [
+  0.9583178758621216,
+  0.5772860050201416,
+  0.9784497618675232
+ ],
+ "materials": [
+  "m_opaque__metal__chrome_clean_a01",
+  "m_opaque__metal__glossy_a01",
+  "m_opaque__metal__glossy_a01.001",
+  "m_opaque__metal__glossy_a01.002",
+  "m_opaque__metal__glossy_a01.003",
+  "m_opaque__metal__steel_a01",
+  "m_opaque__metal__steel_a01.001",
+  "m_opaque__metal__steel_a01.002",
+  "m_opaque__metal__steel_a01.003",
+  "m_opaque__plastic__black_a01",
+  "m_opaque__plastic__black_a01.001",
+  "m_opaque__plastic__black_a01.002",
+  "m_opaque__plastic__black_a01.003",
+  "m_opaque__plastic__black_b01",
+  "m_opaque__plastic__black_b01.001",
+  "m_opaque__plastic__black_b01.002",
+  "m_opaque__plastic__black_b01.003",
+  "m_opaque__rubber__clean_black_a01",
+  "m_opaque__rubber__clean_black_a01.001",
+  "m_opaque__rubber__clean_black_a01.002",
+  "m_opaque__rubber__clean_black_a01.003"
+ ],
+ "textures_original_px": {
+  "t_rubber_new_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_rubber_new_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_rubber_new_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_black_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_black_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_metal_steel_a01_tile_orm.png": [
+   2048,
+   2048
+  ],
+  "t_metal_steel_a01_tile_nor.png": [
+   2048,
+   2048
+  ],
+  "t_metal_glossy_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_metal_glossy_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_metal_glossy_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_metal_chromeClean_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_metal_chromeClean_a01_tile_nor.png": [
+   4096,
+   4096
+  ]
+ },
+ "texture_cap_px": 1024
+}

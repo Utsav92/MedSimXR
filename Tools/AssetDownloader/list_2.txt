@@ -1,0 +1,12 @@
+cabinet_for_drugs_a01
+washBasin_a01
+table_metal_stainless_a03
+trolley_instrument_b01
+wheelChair_c01
+safety_firstAidCabinet_wallMounted_a01
+lamp_uvc_a01
+sink_surgical_a01
+screen_hospital_a01
+warmer_infusion_a01
+thermometer_fever_a01
+box_glove_a01

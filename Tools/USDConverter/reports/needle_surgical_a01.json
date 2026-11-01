@@ -1,0 +1,45 @@
+{
+ "meshes": 2,
+ "triangles_original": 23456,
+ "triangles_exported": 3998,
+ "decimate_ratio": 0.17053206002728513,
+ "bbox_min": [
+  -0.06005355343222618,
+  -0.029912244528532028,
+  0.0002116566029144451
+ ],
+ "bbox_max": [
+  0.060460466891527176,
+  0.029890721663832664,
+  0.06063727289438248
+ ],
+ "size_m": [
+  0.12051402032375336,
+  0.05980296432971954,
+  0.060425616800785065
+ ],
+ "materials": [
+  "m_opaque__cardboard__white_clean_a01",
+  "m_opaque__cardboard__white_clean_a01.001",
+  "m_opaque__plastic__white_a01"
+ ],
+ "textures_original_px": {
+  "t_surgicalNeedles_a01_alb.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_glossy_white_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_cardboard_standard_white_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_cardboard_standard_white_a01_tile_nor.png": [
+   4096,
+   4096
+  ]
+ },
+ "texture_cap_px": 512
+}

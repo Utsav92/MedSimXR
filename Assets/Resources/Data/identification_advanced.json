@@ -1,0 +1,287 @@
+{
+  "moduleId": "F_advanced_identification",
+  "title": "Module F - Advanced Equipment Identification",
+  "reviewStatus": "PENDING_CLINICAL_REVIEW - generic descriptions, hints generated from the room layout",
+  "questions": [
+    {
+      "id": "f01",
+      "objectId": "robot_surgical_c01",
+      "correctObjectId": "robot_surgical_c01",
+      "prompt": "Locate the Surgical Robot.",
+      "hints": [
+        "It belongs to the 'surgical' group of equipment.",
+        "It is on the left side of the room, toward the middle."
+      ],
+      "explanation": "A robotic system whose arms hold instruments and are controlled by a surgeon at a console during minimally invasive surgery.",
+      "assessmentCriteria": "Identifies Surgical Robot in the room.",
+      "maxAttempts": 3,
+      "targetSeconds": 40
+    },
+    {
+      "id": "f02",
+      "objectId": "Xray_machine_buckyTable_a01",
+      "correctObjectId": "Xray_machine_buckyTable_a01",
+      "prompt": "Locate the X-ray Table (Bucky Table).",
+      "hints": [
+        "It belongs to the 'imaging' group of equipment.",
+        "It is on the right side of the room, toward the middle."
+      ],
+      "explanation": "A table with a built-in detector tray (Bucky) on which a patient lies for X-ray images.",
+      "assessmentCriteria": "Identifies X-ray Table (Bucky Table) in the room.",
+      "maxAttempts": 3,
+      "targetSeconds": 40
+    },
+    {
+      "id": "f03",
+      "objectId": "Xray_machine_buckyStand_a01",
+      "correctObjectId": "Xray_machine_buckyStand_a01",
+      "prompt": "Locate the X-ray Wall Stand (Bucky Stand).",
+      "hints": [
+        "It belongs to the 'imaging' group of equipment.",
+        "It is on the right side of the room, toward the middle."
+      ],
+      "explanation": "An upright stand that holds the detector for X-ray images taken with the patient standing.",
+      "assessmentCriteria": "Identifies X-ray Wall Stand (Bucky Stand) in the room.",
+      "maxAttempts": 3,
+      "targetSeconds": 40
+    },
+    {
+      "id": "f04",
+      "objectId": "instrument_artery_forceps_b01",
+      "correctObjectId": "instrument_artery_forceps_b01",
+      "prompt": "Locate the Artery Forceps.",
+      "hints": [
+        "It belongs to the 'instruments' group of equipment.",
+        "It is on the instrument trolley. It is in the middle of the room, toward the middle."
+      ],
+      "explanation": "A clamp with locking handles used to grip tissue or clamp small blood vessels during surgery.",
+      "assessmentCriteria": "Identifies Artery Forceps in the room.",
+      "maxAttempts": 3,
+      "targetSeconds": 40
+    },
+    {
+      "id": "f05",
+      "objectId": "instrument_bone_rongeurs_b01",
+      "correctObjectId": "instrument_bone_rongeurs_b01",
+      "prompt": "Locate the Bone Rongeurs.",
+      "hints": [
+        "It belongs to the 'instruments' group of equipment.",
+        "It is on the instrument trolley. It is in the middle of the room, toward the middle."
+      ],
+      "explanation": "A biting instrument used to remove small pieces of bone.",
+      "assessmentCriteria": "Identifies Bone Rongeurs in the room.",
+      "maxAttempts": 3,
+      "targetSeconds": 40
+    },
+    {
+      "id": "f06",
+      "objectId": "instrument_bone_mallet_b01",
+      "correctObjectId": "instrument_bone_mallet_b01",
+      "prompt": "Locate the Bone Mallet.",
+      "hints": [
+        "It belongs to the 'instruments' group of equipment.",
+        "It is on the instrument trolley. It is in the middle of the room, toward the middle."
+      ],
+      "explanation": "A small hammer used with surgical chisels in bone surgery.",
+      "assessmentCriteria": "Identifies Bone Mallet in the room.",
+      "maxAttempts": 3,
+      "targetSeconds": 40
+    },
+    {
+      "id": "f07",
+      "objectId": "instrument_hand_drill_b01",
+      "correctObjectId": "instrument_hand_drill_b01",
+      "prompt": "Locate the Surgical Hand Drill.",
+      "hints": [
+        "It belongs to the 'instruments' group of equipment.",
+        "It is on the instrument trolley. It is in the middle of the room, toward the middle."
+      ],
+      "explanation": "A manual drill used to make holes in bone during surgery.",
+      "assessmentCriteria": "Identifies Surgical Hand Drill in the room.",
+      "maxAttempts": 3,
+      "targetSeconds": 40
+    },
+    {
+      "id": "f08",
+      "objectId": "stapler_surgical_a01",
+      "correctObjectId": "stapler_surgical_a01",
+      "prompt": "Locate the Surgical Stapler.",
+      "hints": [
+        "It belongs to the 'instruments' group of equipment.",
+        "It is on the instrument trolley. It is in the middle of the room, toward the middle."
+      ],
+      "explanation": "A device that places staples to close tissue.",
+      "assessmentCriteria": "Identifies Surgical Stapler in the room.",
+      "maxAttempts": 3,
+      "targetSeconds": 40
+    },
+    {
+      "id": "f09",
+      "objectId": "needle_surgical_a01",
+      "correctObjectId": "needle_surgical_a01",
+      "prompt": "Locate the Surgical Needle.",
+      "hints": [
+        "It belongs to the 'instruments' group of equipment.",
+        "It is on the instrument trolley. It is in the middle of the room, toward the middle."
+      ],
+      "explanation": "A curved needle used with suture thread to stitch tissue.",
+      "assessmentCriteria": "Identifies Surgical Needle in the room.",
+      "maxAttempts": 3,
+      "targetSeconds": 40
+    },
+    {
+      "id": "f10",
+      "objectId": "trolley_emergency_a01",
+      "correctObjectId": "trolley_emergency_a01",
+      "prompt": "Locate the Emergency Trolley.",
+      "hints": [
+        "It belongs to the 'emergency' group of equipment.",
+        "It is on the right side of the room, toward the middle."
+      ],
+      "explanation": "A wheeled trolley that keeps emergency medicines and resuscitation supplies together so they can be reached quickly.",
+      "assessmentCriteria": "Identifies Emergency Trolley in the room.",
+      "maxAttempts": 3,
+      "targetSeconds": 40
+    },
+    {
+      "id": "f11",
+      "objectId": "IV_pole_a01",
+      "correctObjectId": "IV_pole_a01",
+      "prompt": "Locate the IV Pole.",
+      "hints": [
+        "It belongs to the 'patient care' group of equipment.",
+        "It is on the left side of the room, toward the front, near the entrance."
+      ],
+      "explanation": "A height-adjustable stand with hooks that holds bags of intravenous fluid beside a patient.",
+      "assessmentCriteria": "Identifies IV Pole in the room.",
+      "maxAttempts": 3,
+      "targetSeconds": 40
+    },
+    {
+      "id": "f12",
+      "objectId": "wheelChair_c01",
+      "correctObjectId": "wheelChair_c01",
+      "prompt": "Locate the Wheelchair.",
+      "hints": [
+        "It belongs to the 'patient mobility' group of equipment.",
+        "It is on the right side of the room, toward the front, near the entrance."
+      ],
+      "explanation": "A chair with large wheels that lets a patient who cannot walk far move around.",
+      "assessmentCriteria": "Identifies Wheelchair in the room.",
+      "maxAttempts": 3,
+      "targetSeconds": 40
+    },
+    {
+      "id": "f13",
+      "objectId": "fireProtection_extinguisher_portable_a01",
+      "correctObjectId": "fireProtection_extinguisher_portable_a01",
+      "prompt": "Locate the Fire Extinguisher.",
+      "hints": [
+        "It belongs to the 'safety' group of equipment.",
+        "It is on the right side of the room, toward the front, near the entrance."
+      ],
+      "explanation": "A portable canister used to put out a small fire.",
+      "assessmentCriteria": "Identifies Fire Extinguisher in the room.",
+      "maxAttempts": 3,
+      "targetSeconds": 40
+    },
+    {
+      "id": "f14",
+      "objectId": "trolley_instrument_b01",
+      "correctObjectId": "trolley_instrument_b01",
+      "prompt": "Locate the Instrument Trolley.",
+      "hints": [
+        "It belongs to the 'instruments' group of equipment.",
+        "It is in the middle of the room, toward the middle."
+      ],
+      "explanation": "A wheeled trolley that carries instruments and supplies to a procedure.",
+      "assessmentCriteria": "Identifies Instrument Trolley in the room.",
+      "maxAttempts": 3,
+      "targetSeconds": 40
+    },
+    {
+      "id": "f15",
+      "objectId": "trolley_cleaning_a01",
+      "correctObjectId": "trolley_cleaning_a01",
+      "prompt": "Locate the Cleaning Trolley.",
+      "hints": [
+        "It belongs to the 'infection prevention' group of equipment.",
+        "It is on the right side of the room, toward the front, near the entrance."
+      ],
+      "explanation": "A wheeled trolley that carries cleaning materials for cleaning the clinical environment.",
+      "assessmentCriteria": "Identifies Cleaning Trolley in the room.",
+      "maxAttempts": 3,
+      "targetSeconds": 40
+    },
+    {
+      "id": "f16",
+      "objectId": "table_bedside_b01",
+      "correctObjectId": "table_bedside_b01",
+      "prompt": "Locate the Bedside Table.",
+      "hints": [
+        "It belongs to the 'furniture' group of equipment.",
+        "It is on the left side of the room, toward the front, near the entrance."
+      ],
+      "explanation": "A small table next to a bed that holds a patient's personal items and some supplies.",
+      "assessmentCriteria": "Identifies Bedside Table in the room.",
+      "maxAttempts": 3,
+      "targetSeconds": 40
+    },
+    {
+      "id": "f17",
+      "objectId": "thermometer_fever_a01",
+      "correctObjectId": "thermometer_fever_a01",
+      "prompt": "Locate the Thermometer.",
+      "hints": [
+        "It belongs to the 'diagnostic' group of equipment.",
+        "It is on the equipment inspection table. It is in the middle of the room, toward the back."
+      ],
+      "explanation": "A device that measures body temperature.",
+      "assessmentCriteria": "Identifies Thermometer in the room.",
+      "maxAttempts": 3,
+      "targetSeconds": 40
+    },
+    {
+      "id": "f18",
+      "objectId": "syringe_a01",
+      "correctObjectId": "syringe_a01",
+      "prompt": "Locate the Syringe.",
+      "hints": [
+        "It belongs to the 'consumables' group of equipment.",
+        "It is on the equipment inspection table. It is in the middle of the room, toward the back."
+      ],
+      "explanation": "A single-use device for measuring and delivering liquid.",
+      "assessmentCriteria": "Identifies Syringe in the room.",
+      "maxAttempts": 3,
+      "targetSeconds": 40
+    },
+    {
+      "id": "f19",
+      "objectId": "medicine_a03",
+      "correctObjectId": "medicine_a03",
+      "prompt": "Locate the Medicine Package.",
+      "hints": [
+        "It belongs to the 'consumables' group of equipment.",
+        "It is on the equipment inspection table. It is in the middle of the room, toward the back."
+      ],
+      "explanation": "A packaged medicine.",
+      "assessmentCriteria": "Identifies Medicine Package in the room.",
+      "maxAttempts": 3,
+      "targetSeconds": 40
+    },
+    {
+      "id": "f20",
+      "objectId": "box_glove_a01",
+      "correctObjectId": "box_glove_a01",
+      "prompt": "Locate the Glove Box.",
+      "hints": [
+        "It belongs to the 'infection prevention' group of equipment.",
+        "It is on the equipment inspection table. It is in the middle of the room, toward the back."
+      ],
+      "explanation": "A box of disposable gloves worn to protect staff and patients.",
+      "assessmentCriteria": "Identifies Glove Box in the room.",
+      "maxAttempts": 3,
+      "targetSeconds": 40
+    }
+  ]
+}

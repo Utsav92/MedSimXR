@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="75" result="Passed" total="75" passed="75" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-01 14:09:37Z" end-time="2026-11-01 14:09:44Z" duration="6.4941181">
+  <test-suite type="TestSuite" id="1000" name="MedSim XR" fullname="MedSim XR" runstate="Runnable" testcasecount="75" result="Passed" start-time="2026-11-01 14:09:37Z" end-time="2026-11-01 14:09:44Z" duration="6.494118" total="75" passed="75" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1081" name="MedSimXR.Tests.EditMode.dll" fullname="D:/MedSimXR/Library/ScriptAssemblies/MedSimXR.Tests.EditMode.dll" runstate="Runnable" testcasecount="75" result="Passed" start-time="2026-11-01 14:09:37Z" end-time="2026-11-01 14:09:44Z" duration="6.461214" total="75" passed="75" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="13004" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1082" name="MedSimXR" fullname="MedSimXR" runstate="Runnable" testcasecount="75" result="Passed" start-time="2026-11-01 14:09:37Z" end-time="2026-11-01 14:09:44Z" duration="6.456915" total="75" passed="75" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1083" name="Tests" fullname="MedSimXR.Tests" runstate="Runnable" testcasecount="75" result="Passed" start-time="2026-11-01 14:09:37Z" end-time="2026-11-01 14:09:44Z" duration="6.453489" total="75" passed="75" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="CoreLogicTests" fullname="MedSimXR.Tests.CoreLogicTests" classname="MedSimXR.Tests.CoreLogicTests" runstate="Runnable" testcasecount="22" result="Passed" start-time="2026-11-01 14:09:37Z" end-time="2026-11-01 14:09:38Z" duration="0.302253" total="22" passed="22" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1002" name="EquipmentData_LoadsAndIdsAreUnique" fullname="MedSimXR.Tests.CoreLogicTests.EquipmentData_LoadsAndIdsAreUnique" methodname="EquipmentData_LoadsAndIdsAreUnique" classname="MedSimXR.Tests.CoreLogicTests" runstate="Runnable" seed="1925635214" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.087611" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="EquipmentData_PlaceholdersAreLabelledAsSuch" fullname="MedSimXR.Tests.CoreLogicTests.EquipmentData_PlaceholdersAreLabelledAsSuch" methodname="EquipmentData_PlaceholdersAreLabelledAsSuch" classname="MedSimXR.Tests.CoreLogicTests" runstate="Runnable" seed="1330967949" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.003885" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1004" name="IdentificationQuestions_AreCompleteAndReferenceKnownObjects" fullname="MedSimXR.Tests.CoreLogicTests.IdentificationQuestions_AreCompleteAndReferenceKnownObjects" methodname="IdentificationQuestions_AreCompleteAndReferenceKnownObjects" classname="MedSimXR.Tests.CoreLogicTests" runstate="Runnable" seed="1540433709" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.012114" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1021" name="Instructor_SaysSoWhenNoVerifiedInformation" fullname="MedSimXR.Tests.CoreLogicTests.Instructor_SaysSoWhenNoVerifiedInformation" methodname="Instructor_SaysSoWhenNoVerifiedInformation" classname="MedSimXR.Tests.CoreLogicTests" runstate="Runnable" seed="632052254" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.005216" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1022" name="Instructor_WrongAnswerDoesNotRevealCorrectAnswer" fullname="MedSimXR.Tests.CoreLogicTests.Instructor_WrongAnswerDoesNotRevealCorrectAnswer" methodname="Instructor_WrongAnswerDoesNotRevealCorrectAnswer" classname="MedSimXR.Tests.CoreLogicTests" runstate="Runnable" seed="887302247" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.002414" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1006" name="Quiz_CorrectFirstTry" fullname="MedSimXR.Tests.CoreLogicTests.Quiz_CorrectFirstTry" methodname="Quiz_CorrectFirstTry" classname="MedSimXR.Tests.CoreLogicTests" runstate="Runnable" seed="1707173992" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.012252" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1010" name="Quiz_HintsRunOutAndAreCounted" fullname="MedSimXR.Tests.CoreLogicTests.Quiz_HintsRunOutAndAreCounted" methodname="Quiz_HintsRunOutAndAreCounted" classname="MedSimXR.Tests.CoreLogicTests" runstate="Runnable" seed="798191947" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.001224" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1008" name="Quiz_RevealsAnswerAfterMaxAttempts" fullname="MedSimXR.Tests.CoreLogicTests.Quiz_RevealsAnswerAfterMaxAttempts" methodname="Quiz_RevealsAnswerAfterMaxAttempts" classname="MedSimXR.Tests.CoreLogicTests" runstate="Runnable" seed="1257307474" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.000921" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1011" name="Quiz_RunsToCompletion" fullname="MedSimXR.Tests.CoreLogicTests.Quiz_RunsToCompletion" methodname="Quiz_RunsToCompletion" classname="MedSimXR.Tests.CoreLogicTests" runstate="Runnable" seed="428112449" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.001033" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1012" name="Quiz_SkipMarksRevealed" fullname="MedSimXR.Tests.CoreLogicTests.Quiz_SkipMarksRevealed" methodname="Quiz_SkipMarksRevealed" classname="MedSimXR.Tests.CoreLogicTests" runstate="Runnable" seed="277633355" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.000798" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1009" name="Quiz_SubmitIgnoredWhileAwaitingContinue" fullname="MedSimXR.Tests.CoreLogicTests.Quiz_SubmitIgnoredWhileAwaitingContinue" methodname="Quiz_SubmitIgnoredWhileAwaitingContinue" classname="MedSimXR.Tests.CoreLogicTests" runstate="Runnable" seed="1254296726" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.000673" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1007" name="Quiz_WrongThenCorrect_CountsAttempt" fullname="MedSimXR.Tests.CoreLogicTests.Quiz_WrongThenCorrect_CountsAttempt" methodname="Quiz_WrongThenCorrect_CountsAttempt" classname="MedSimXR.Tests.CoreLogicTests" runstate="Runnable" seed="1947525292" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.002607" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1019" name="Report_JsonRoundTripAndCsvShape" fullname="MedSimXR.Tests.CoreLogicTests.Report_JsonRoundTripAndCsvShape" methodname="Report_JsonRoundTripAndCsvShape" classname="MedSimXR.Tests.CoreLogicTests" runstate="Runnable" seed="1582759323" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.014993" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1020" name="Report_SaveWritesJsonAndCsv" fullname="MedSimXR.Tests.CoreLogicTests.Report_SaveWritesJsonAndCsv" methodname="Report_SaveWritesJsonAndCsv" classname="MedSimXR.Tests.CoreLogicTests" runstate="Runnable" seed="1108139784" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.067491" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1005" name="Rubric_WeightsMatchSpecAndThresholdIsConfigurable" fullname="MedSimXR.Tests.CoreLogicTests.Rubric_WeightsMatchSpecAndThresholdIsConfigurable" methodname="Rubric_WeightsMatchSpecAndThresholdIsConfigurable" classname="MedSimXR.Tests.CoreLogicTests" runstate="Runnable" seed="2041876971" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.004100" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1014" name="Scoring_AllRevealedIsZeroAndFails" fullname="MedSimXR.Tests.CoreLogicTests.Scoring_AllRevealedIsZeroAndFails" methodname="Scoring_AllRevealedIsZeroAndFails" classname="MedSimXR.Tests.CoreLogicTests" runstate="Runnable" seed="2043260693" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.001421" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1018" name="Scoring_PassThresholdIsApplied" fullname="MedSimXR.Tests.CoreLogicTests.Scoring_PassThresholdIsApplied" methodname="Scoring_PassThresholdIsApplied" classname="MedSimXR.Tests.CoreLogicTests" runstate="Runnable" seed="2064135008" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.001066" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1015" name="Scoring_PenalisesWrongAttemptsAndHints" fullname="MedSimXR.Tests.CoreLogicTests.Scoring_PenalisesWrongAttemptsAndHints" methodname="Scoring_PenalisesWrongAttemptsAndHints" classname="MedSimXR.Tests.CoreLogicTests" runstate="Runnable" seed="1794849957" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.000719" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1013" name="Scoring_PerfectRunIs100AndPasses" fullname="MedSimXR.Tests.CoreLogicTests.Scoring_PerfectRunIs100AndPasses" methodname="Scoring_PerfectRunIs100AndPasses" classname="MedSimXR.Tests.CoreLogicTests" runstate="Runnable" seed="1682848099" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.000707" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1016" name="Scoring_SlowAnswerLowersEfficiencyOnly" fullname="MedSimXR.Tests.CoreLogicTests.Scoring_SlowAnswerLowersEfficiencyOnly" methodname="Scoring_SlowAnswerLowersEfficiencyOnly" classname="MedSimXR.Tests.CoreLogicTests" runstate="Runnable" seed="730436033" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.002606" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1017" name="Scoring_WeightsRenormaliseOverAssessedCategories" fullname="MedSimXR.Tests.CoreLogicTests.Scoring_WeightsRenormaliseOverAssessedCategories" methodname="Scoring_WeightsRenormaliseOverAssessedCategories" classname="MedSimXR.Tests.CoreLogicTests" runstate="Runnable" seed="508428644" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.000845" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1023" name="SessionLog_RecordsEventsInOrder" fullname="MedSimXR.Tests.CoreLogicTests.SessionLog_RecordsEventsInOrder" methodname="SessionLog_RecordsEventsInOrder" classname="MedSimXR.Tests.CoreLogicTests" runstate="Runnable" seed="1467776426" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.003793" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1024" name="Phase2LogicTests" fullname="MedSimXR.Tests.Phase2LogicTests" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" testcasecount="36" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.197960" total="36" passed="36" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1059" name="Dashboard_EmptyAndPopulated" fullname="MedSimXR.Tests.Phase2LogicTests.Dashboard_EmptyAndPopulated" methodname="Dashboard_EmptyAndPopulated" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="1402393356" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.012570" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1052" name="Knowledge_AllCorrect_ScoresFullMarks" fullname="MedSimXR.Tests.Phase2LogicTests.Knowledge_AllCorrect_ScoresFullMarks" methodname="Knowledge_AllCorrect_ScoresFullMarks" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="320596977" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.006391" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1053" name="Knowledge_OneWrong_HintCost_AndGuards" fullname="MedSimXR.Tests.Phase2LogicTests.Knowledge_OneWrong_HintCost_AndGuards" methodname="Knowledge_OneWrong_HintCost_AndGuards" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="293908829" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.002647" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1054" name="Knowledge_Report_ListsMissedQuestionsForReview" fullname="MedSimXR.Tests.Phase2LogicTests.Knowledge_Report_ListsMissedQuestionsForReview" methodname="Knowledge_Report_ListsMissedQuestionsForReview" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="272125442" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.004095" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1030" name="KnowledgeData_AnswersAreNotAlwaysTheSamePosition" fullname="MedSimXR.Tests.Phase2LogicTests.KnowledgeData_AnswersAreNotAlwaysTheSamePosition" methodname="KnowledgeData_AnswersAreNotAlwaysTheSamePosition" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="349215243" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.002227" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1029" name="KnowledgeData_QuestionsAreWellFormed" fullname="MedSimXR.Tests.Phase2LogicTests.KnowledgeData_QuestionsAreWellFormed" methodname="KnowledgeData_QuestionsAreWellFormed" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="888553286" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.002395" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1025" name="ModuleIds_MatchProgressConstants" fullname="MedSimXR.Tests.Phase2LogicTests.ModuleIds_MatchProgressConstants" methodname="ModuleIds_MatchProgressConstants" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="295590079" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.005664" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1060" name="ModuleReport_Save_WritesJsonAndCsv" fullname="MedSimXR.Tests.Phase2LogicTests.ModuleReport_Save_WritesJsonAndCsv" methodname="ModuleReport_Save_WritesJsonAndCsv" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="655774991" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.027509" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1050" name="Monitoring_Display_IsDeterministicAndCloseToTruth" fullname="MedSimXR.Tests.Phase2LogicTests.Monitoring_Display_IsDeterministicAndCloseToTruth" methodname="Monitoring_Display_IsDeterministicAndCloseToTruth" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="752694306" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.002764" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1046" name="Monitoring_FalseAlarm_InStableScenario_IsPenalised" fullname="MedSimXR.Tests.Phase2LogicTests.Monitoring_FalseAlarm_InStableScenario_IsPenalised" methodname="Monitoring_FalseAlarm_InStableScenario_IsPenalised" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="1574468399" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.014793" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1048" name="Monitoring_NothingReported_ScoresLowAndListsMisses" fullname="MedSimXR.Tests.Phase2LogicTests.Monitoring_NothingReported_ScoresLowAndListsMisses" methodname="Monitoring_NothingReported_ScoresLowAndListsMisses" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="1823261539" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.003440" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1044" name="Monitoring_PerfectRun_ScoresFullMarks" fullname="MedSimXR.Tests.Phase2LogicTests.Monitoring_PerfectRun_ScoresFullMarks" methodname="Monitoring_PerfectRun_ScoresFullMarks" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="715811396" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.004902" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1042" name="Monitoring_ReportBeforeBeginOrAfterEnd_IsIgnored" fullname="MedSimXR.Tests.Phase2LogicTests.Monitoring_ReportBeforeBeginOrAfterEnd_IsIgnored" methodname="Monitoring_ReportBeforeBeginOrAfterEnd_IsIgnored" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="1766202565" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.002748" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1047" name="Monitoring_ReportingTooEarly_IsAFalseAlarm" fullname="MedSimXR.Tests.Phase2LogicTests.Monitoring_ReportingTooEarly_IsAFalseAlarm" methodname="Monitoring_ReportingTooEarly_IsAFalseAlarm" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="759088966" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.002704" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1051" name="Monitoring_ReportSerialises" fullname="MedSimXR.Tests.Phase2LogicTests.Monitoring_ReportSerialises" methodname="Monitoring_ReportSerialises" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="1377460046" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.007199" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1043" name="Monitoring_ScenariosAdvanceByTime" fullname="MedSimXR.Tests.Phase2LogicTests.Monitoring_ScenariosAdvanceByTime" methodname="Monitoring_ScenariosAdvanceByTime" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="836863431" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.002095" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1049" name="Monitoring_SlowDetection_LowersEfficiency" fullname="MedSimXR.Tests.Phase2LogicTests.Monitoring_SlowDetection_LowersEfficiency" methodname="Monitoring_SlowDetection_LowersEfficiency" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="663604388" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.002204" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1045" name="Monitoring_WrongParameter_ThenCorrect_ThenDuplicate" fullname="MedSimXR.Tests.Phase2LogicTests.Monitoring_WrongParameter_ThenCorrect_ThenDuplicate" methodname="Monitoring_WrongParameter_ThenCorrect_ThenDuplicate" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="737382109" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.003040" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1028" name="MonitoringData_DerivedOnsetsMatchTheDesign" fullname="MedSimXR.Tests.Phase2LogicTests.MonitoringData_DerivedOnsetsMatchTheDesign" methodname="MonitoringData_DerivedOnsetsMatchTheDesign" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="1601682150" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.005920" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1027" name="MonitoringData_RangesAndKeyframesAreSane" fullname="MedSimXR.Tests.Phase2LogicTests.MonitoringData_RangesAndKeyframesAreSane" methodname="MonitoringData_RangesAndKeyframesAreSane" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="1989244993" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.002231" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1031" name="Procedure_CorrectOrder_CompletesWithFullMarks" fullname="MedSimXR.Tests.Phase2LogicTests.Procedure_CorrectOrder_CompletesWithFullMarks" methodname="Procedure_CorrectOrder_CompletesWithFullMarks" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="1139667943" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.006808" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1038" name="Procedure_Hints_AreCountedAndCostPoints" fullname="MedSimXR.Tests.Phase2LogicTests.Procedure_Hints_AreCountedAndCostPoints" methodname="Procedure_Hints_AreCountedAndCostPoints" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="1751029255" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.001498" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1039" name="Procedure_Incomplete_IsScoredHonestly" fullname="MedSimXR.Tests.Phase2LogicTests.Procedure_Incomplete_IsScoredHonestly" methodname="Procedure_Incomplete_IsScoredHonestly" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="404063843" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.001361" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1032" name="Procedure_OutOfOrderStep_IsFlaggedAndCostsPoints" fullname="MedSimXR.Tests.Phase2LogicTests.Procedure_OutOfOrderStep_IsFlaggedAndCostsPoints" methodname="Procedure_OutOfOrderStep_IsFlaggedAndCostsPoints" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="1338386969" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.002383" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1034" name="Procedure_RepeatingACompletedStep_IsHarmless" fullname="MedSimXR.Tests.Phase2LogicTests.Procedure_RepeatingACompletedStep_IsHarmless" methodname="Procedure_RepeatingACompletedStep_IsHarmless" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="2114211067" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.000815" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1041" name="Procedure_ReportContainsEveryStep_AndSerialises" fullname="MedSimXR.Tests.Phase2LogicTests.Procedure_ReportContainsEveryStep_AndSerialises" methodname="Procedure_ReportContainsEveryStep_AndSerialises" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="438960414" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.003020" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1037" name="Procedure_SafeHandling_GrabBeforeInspectIsOutOfOrder" fullname="MedSimXR.Tests.Phase2LogicTests.Procedure_SafeHandling_GrabBeforeInspectIsOutOfOrder" methodname="Procedure_SafeHandling_GrabBeforeInspectIsOutOfOrder" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="1444598894" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.000862" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1036" name="Procedure_SafeHandling_UnsafeEventsAreRecorded" fullname="MedSimXR.Tests.Phase2LogicTests.Procedure_SafeHandling_UnsafeEventsAreRecorded" methodname="Procedure_SafeHandling_UnsafeEventsAreRecorded" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="1982399518" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.000949" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1040" name="Procedure_SlowRun_LowersEfficiencyOnly" fullname="MedSimXR.Tests.Phase2LogicTests.Procedure_SlowRun_LowersEfficiencyOnly" methodname="Procedure_SlowRun_LowersEfficiencyOnly" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="1268106426" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.000802" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1035" name="Procedure_UnrelatedEventTypes_AreIgnored" fullname="MedSimXR.Tests.Phase2LogicTests.Procedure_UnrelatedEventTypes_AreIgnored" methodname="Procedure_UnrelatedEventTypes_AreIgnored" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="1345311875" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.001009" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1033" name="Procedure_WrongItem_IsAWrongAction" fullname="MedSimXR.Tests.Phase2LogicTests.Procedure_WrongItem_IsAWrongAction" methodname="Procedure_WrongItem_IsAWrongAction" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="1793066403" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.000774" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1026" name="ProcedureData_StepsAreCompleteAndReferenceRealEquipment" fullname="MedSimXR.Tests.Phase2LogicTests.ProcedureData_StepsAreCompleteAndReferenceRealEquipment" methodname="ProcedureData_StepsAreCompleteAndReferenceRealEquipment" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="1366066514" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.002264" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1058" name="Progress_CorruptFile_IsIgnoredNotFatal" fullname="MedSimXR.Tests.Phase2LogicTests.Progress_CorruptFile_IsIgnoredNotFatal" methodname="Progress_CorruptFile_IsIgnoredNotFatal" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="1338873591" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.014871" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Could not read progress file: JSON parse error: Missing a name for object member.
+]]></output>
+            </test-case>
+            <test-case id="1055" name="Progress_Overall_AveragesCategoriesAcrossModules_AndRenormalisesWeights" fullname="MedSimXR.Tests.Phase2LogicTests.Progress_Overall_AveragesCategoriesAcrossModules_AndRenormalisesWeights" methodname="Progress_Overall_AveragesCategoriesAcrossModules_AndRenormalisesWeights" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="585943242" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.001602" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1057" name="Progress_PersistsToDiskAndReloads" fullname="MedSimXR.Tests.Phase2LogicTests.Progress_PersistsToDiskAndReloads" methodname="Progress_PersistsToDiskAndReloads" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="1357571893" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.021184" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1056" name="Progress_RecordsAttemptsAndKeepsBestScore" fullname="MedSimXR.Tests.Phase2LogicTests.Progress_RecordsAttemptsAndKeepsBestScore" methodname="Progress_RecordsAttemptsAndKeepsBestScore" classname="MedSimXR.Tests.Phase2LogicTests" runstate="Runnable" seed="1050868123" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.000775" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1061" name="Phase3XrEditTests" fullname="MedSimXR.Tests.Phase3XrEditTests" classname="MedSimXR.Tests.Phase3XrEditTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:41Z" duration="3.034179" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1062" name="OpenXR_LoaderIsAssignedForStandalone_AndNotAutoStarted" fullname="MedSimXR.Tests.Phase3XrEditTests.OpenXR_LoaderIsAssignedForStandalone_AndNotAutoStarted" methodname="OpenXR_LoaderIsAssignedForStandalone_AndNotAutoStarted" classname="MedSimXR.Tests.Phase3XrEditTests" runstate="Runnable" seed="685713798" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.002926" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1063" name="OpenXR_TouchControllerProfileIsEnabled" fullname="MedSimXR.Tests.Phase3XrEditTests.OpenXR_TouchControllerProfileIsEnabled" methodname="OpenXR_TouchControllerProfileIsEnabled" classname="MedSimXR.Tests.Phase3XrEditTests" runstate="Runnable" seed="794776642" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:38Z" duration="0.001081" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1064" name="Scene_HasVrRig_WiredAndInactiveByDefault" fullname="MedSimXR.Tests.Phase3XrEditTests.Scene_HasVrRig_WiredAndInactiveByDefault" methodname="Scene_HasVrRig_WiredAndInactiveByDefault" classname="MedSimXR.Tests.Phase3XrEditTests" runstate="Runnable" seed="929715470" result="Passed" start-time="2026-11-01 14:09:38Z" end-time="2026-11-01 14:09:41Z" duration="2.542858" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1065" name="Scene_ModeControllerIsWired_AndDesktopCameraStaysMain" fullname="MedSimXR.Tests.Phase3XrEditTests.Scene_ModeControllerIsWired_AndDesktopCameraStaysMain" methodname="Scene_ModeControllerIsWired_AndDesktopCameraStaysMain" classname="MedSimXR.Tests.Phase3XrEditTests" runstate="Runnable" seed="698328201" result="Passed" start-time="2026-11-01 14:09:41Z" end-time="2026-11-01 14:09:41Z" duration="0.259500" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1066" name="Scene_StillHasExactlyOneAudioListenerEnabled" fullname="MedSimXR.Tests.Phase3XrEditTests.Scene_StillHasExactlyOneAudioListenerEnabled" methodname="Scene_StillHasExactlyOneAudioListenerEnabled" classname="MedSimXR.Tests.Phase3XrEditTests" runstate="Runnable" seed="590758061" result="Passed" start-time="2026-11-01 14:09:41Z" end-time="2026-11-01 14:09:41Z" duration="0.224146" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1067" name="Phase4ContentTests" fullname="MedSimXR.Tests.Phase4ContentTests" classname="MedSimXR.Tests.Phase4ContentTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-11-01 14:09:41Z" end-time="2026-11-01 14:09:42Z" duration="0.534012" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1071" name="AdvancedQuiz_DoesNotRepeatTheCoreQuiz" fullname="MedSimXR.Tests.Phase4ContentTests.AdvancedQuiz_DoesNotRepeatTheCoreQuiz" methodname="AdvancedQuiz_DoesNotRepeatTheCoreQuiz" classname="MedSimXR.Tests.Phase4ContentTests" runstate="Runnable" seed="632734851" result="Passed" start-time="2026-11-01 14:09:41Z" end-time="2026-11-01 14:09:41Z" duration="0.003506" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1070" name="AdvancedQuiz_IsWellFormed_AndReferencesPlacedEquipment" fullname="MedSimXR.Tests.Phase4ContentTests.AdvancedQuiz_IsWellFormed_AndReferencesPlacedEquipment" methodname="AdvancedQuiz_IsWellFormed_AndReferencesPlacedEquipment" classname="MedSimXR.Tests.Phase4ContentTests" runstate="Runnable" seed="243581142" result="Passed" start-time="2026-11-01 14:09:41Z" end-time="2026-11-01 14:09:41Z" duration="0.005098" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1069" name="EquipmentSet_IsMuchLargerThanPhase1_AndHasNoPlaceholders" fullname="MedSimXR.Tests.Phase4ContentTests.EquipmentSet_IsMuchLargerThanPhase1_AndHasNoPlaceholders" methodname="EquipmentSet_IsMuchLargerThanPhase1_AndHasNoPlaceholders" classname="MedSimXR.Tests.Phase4ContentTests" runstate="Runnable" seed="260549524" result="Passed" start-time="2026-11-01 14:09:41Z" end-time="2026-11-01 14:09:41Z" duration="0.002652" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1068" name="Layout_EveryEntryIsPlacedOnce_AndEveryPlacementHasAnEntry" fullname="MedSimXR.Tests.Phase4ContentTests.Layout_EveryEntryIsPlacedOnce_AndEveryPlacementHasAnEntry" methodname="Layout_EveryEntryIsPlacedOnce_AndEveryPlacementHasAnEntry" classname="MedSimXR.Tests.Phase4ContentTests" runstate="Runnable" seed="1921455773" result="Passed" start-time="2026-11-01 14:09:41Z" end-time="2026-11-01 14:09:41Z" duration="0.008084" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1073" name="Room_EverythingIsInsideTheWalls" fullname="MedSimXR.Tests.Phase4ContentTests.Room_EverythingIsInsideTheWalls" methodname="Room_EverythingIsInsideTheWalls" classname="MedSimXR.Tests.Phase4ContentTests" runstate="Runnable" seed="192041085" result="Passed" start-time="2026-11-01 14:09:41Z" end-time="2026-11-01 14:09:41Z" duration="0.262001" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1072" name="Room_PlayerStartIsClear_AndFixedFloorItemsDoNotCollide" fullname="MedSimXR.Tests.Phase4ContentTests.Room_PlayerStartIsClear_AndFixedFloorItemsDoNotCollide" methodname="Room_PlayerStartIsClear_AndFixedFloorItemsDoNotCollide" classname="MedSimXR.Tests.Phase4ContentTests" runstate="Runnable" seed="1165588497" result="Passed" start-time="2026-11-01 14:09:41Z" end-time="2026-11-01 14:09:42Z" duration="0.246385" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1074" name="SceneAndAssetTests" fullname="MedSimXR.Tests.SceneAndAssetTests" classname="MedSimXR.Tests.SceneAndAssetTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-11-01 14:09:42Z" end-time="2026-11-01 14:09:44Z" duration="2.376264" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1080" name="AssetManifest_ExistsAndCoversAllSimReadyAssets" fullname="MedSimXR.Tests.SceneAndAssetTests.AssetManifest_ExistsAndCoversAllSimReadyAssets" methodname="AssetManifest_ExistsAndCoversAllSimReadyAssets" classname="MedSimXR.Tests.SceneAndAssetTests" runstate="Runnable" seed="1882200140" result="Passed" start-time="2026-11-01 14:09:42Z" end-time="2026-11-01 14:09:42Z" duration="0.024248" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1078" name="Scene_HasPlayerSystemsAndPlacementZone" fullname="MedSimXR.Tests.SceneAndAssetTests.Scene_HasPlayerSystemsAndPlacementZone" methodname="Scene_HasPlayerSystemsAndPlacementZone" classname="MedSimXR.Tests.SceneAndAssetTests" runstate="Runnable" seed="441626416" result="Passed" start-time="2026-11-01 14:09:42Z" end-time="2026-11-01 14:09:42Z" duration="0.249247" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1079" name="Scene_NoMissingScripts" fullname="MedSimXR.Tests.SceneAndAssetTests.Scene_NoMissingScripts" methodname="Scene_NoMissingScripts" classname="MedSimXR.Tests.SceneAndAssetTests" runstate="Runnable" seed="1753084865" result="Passed" start-time="2026-11-01 14:09:42Z" end-time="2026-11-01 14:09:42Z" duration="0.280969" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1077" name="Scene_ObjectsAreUniqueCompleteAndCollidable" fullname="MedSimXR.Tests.SceneAndAssetTests.Scene_ObjectsAreUniqueCompleteAndCollidable" methodname="Scene_ObjectsAreUniqueCompleteAndCollidable" classname="MedSimXR.Tests.SceneAndAssetTests" runstate="Runnable" seed="1185841986" result="Passed" start-time="2026-11-01 14:09:42Z" end-time="2026-11-01 14:09:42Z" duration="0.220440" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1075" name="SimReadyModels_ImportedWithMeshesAndMaterials" fullname="MedSimXR.Tests.SceneAndAssetTests.SimReadyModels_ImportedWithMeshesAndMaterials" methodname="SimReadyModels_ImportedWithMeshesAndMaterials" classname="MedSimXR.Tests.SceneAndAssetTests" runstate="Runnable" seed="1195449122" result="Passed" start-time="2026-11-01 14:09:42Z" end-time="2026-11-01 14:09:44Z" duration="1.570721" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1076" name="SimReadyPrefabs_HaveColliderIdAndPlausibleScale" fullname="MedSimXR.Tests.SceneAndAssetTests.SimReadyPrefabs_HaveColliderIdAndPlausibleScale" methodname="SimReadyPrefabs_HaveColliderIdAndPlausibleScale" classname="MedSimXR.Tests.SceneAndAssetTests" runstate="Runnable" seed="1106492109" result="Passed" start-time="2026-11-01 14:09:44Z" end-time="2026-11-01 14:09:44Z" duration="0.019405" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/Utsav/AppData/LocalLow/MedSimXR/MedSim XR\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

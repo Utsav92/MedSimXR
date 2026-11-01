@@ -1,0 +1,12 @@
+Xray_machine_buckyStand_a01
+robot_surgical_c01
+robotic_system_console_b01
+equipment_robot_charger_a01
+anesthesia_mask_a01
+device_endoscopy_system_b01
+monitor_patient_a01
+stapler_surgical_a01
+pump_suction_surgical_a01
+panel_control_surgery_room_a01
+tool_pen_surgical_marking_a01
+digitalSystem_infoKiosk_vertical_a01

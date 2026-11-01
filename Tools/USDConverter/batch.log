@@ -1,0 +1,115 @@
+
+[rack_large_empty_a02] start 18:28:14
+INFO tris 53128 -> 15000 size [3.9999775886535645, 2.0665812492370605, 3.010000705718994]
+18:29:11 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:29:11 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:29:11 | ERROR: UDIM packed images are not supported for export. Please unpack them before exporting.
+18:29:11 | WARNING: Image data is empty, not exporting image
+18:29:11 | ERROR: UDIM packed images are not supported for export. Please unpack them before exporting.
+18:29:11 | WARNING: Image data is empty, not exporting image
+18:29:11 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:29:11 | ERROR: UDIM packed images are not supported for export. Please unpack them before exporting.
+18:29:11 | WARNING: Image data is empty, not exporting image
+18:29:12 | ERROR: UDIM packed images are not supported for export. Please unpack them before exporting.
+18:29:12 | WARNING: Image data is empty, not exporting image
+18:29:12 | ERROR: UDIM packed images are not supported for export. Please unpack them before exporting.
+18:29:12 | WARNING: Image data is empty, not exporting image
+18:29:12 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:29:12 | ERROR: UDIM packed images are not supported for export. Please unpack them before exporting.
+18:29:12 | WARNING: Image data is empty, not exporting image
+18:29:12 | ERROR: UDIM packed images are not supported for export. Please unpack them before exporting.
+18:29:12 | WARNING: Image data is empty, not exporting image
+18:29:12 | ERROR: UDIM packed images are not supported for export. Please unpack them before exporting.
+18:29:12 | WARNING: Image data is empty, not exporting image
+18:29:12 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:29:12 | ERROR: UDIM packed images are not supported for export. Please unpack them before exporting.
+18:29:12 | WARNING: Image data is empty, not exporting image
+18:29:12 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:29:13 | ERROR: UDIM packed images are not supported for export. Please unpack them before exporting.
+18:29:13 | WARNING: Image data is empty, not exporting image
+18:29:13 | ERROR: UDIM packed images are not supported for export. Please unpack them before exporting.
+18:29:13 | WARNING: Image data is empty, not exporting image
+18:29:13 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:29:13 | ERROR: UDIM packed images are not supported for export. Please unpack them before exporting.
+18:29:13 | WARNING: Image data is empty, not exporting image
+Traceback (most recent call last):
+AssertionError
+00:58.688  bpy.rna          | ERROR Python script error in EXPORT_SCENE_OT_gltf.execute
+Traceback (most recent call last):
+RuntimeError: Error: Python: Traceback (most recent call last):
+AssertionError
+ERROR An error occurred on line 36 in statement return f(x)
+ERROR An error occurred on line 848 in statement result["normalTexture"] = from_union([lambda x: to_class(MaterialNormalTextureInfoClass, x), from_none],
+ERROR An error occurred on line 56 in statement return x.to_dict()
+ERROR An error occurred on line 711 in statement result["index"] = from_int(self.index)
+ERROR An error occurred on line 23 in statement assert isinstance(x, int) and not isinstance(x, bool)
+ERROR An error occurred on line 36 in statement return f(x)
+ERROR An error occurred on line 28 in statement assert x is None
+ERROR An error occurred on line 36 in statement return f(x)
+ERROR An error occurred on line 1196 in statement result["materials"] = from_union([lambda x: from_list(lambda x: to_class(Material, x), x), from_none],
+ERROR An error occurred on line 61 in statement return [f(y) for y in x]
+ERROR An error occurred on line 1196 in statement result["materials"] = from_union([lambda x: from_list(lambda x: to_class(Material, x), x), from_none],
+ERROR An error occurred on line 56 in statement return x.to_dict()
+ERROR An error occurred on line 848 in statement result["normalTexture"] = from_union([lambda x: to_class(MaterialNormalTextureInfoClass, x), from_none],
+ERROR An error occurred on line 46 in statement assert False
+ERROR An error occurred on line 36 in statement return f(x)
+ERROR An error occurred on line 28 in statement assert x is None
+Error: Python: Traceback (most recent call last):
+[rack_large_empty_a02] exit=0 18:29:13
+[box_corrugated_brown_b20] start 18:29:13
+INFO tris 15992 -> 5999 size [0.29900747537612915, 0.6215816140174866, 0.3020442724227905]
+18:29:38 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:29:38 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:29:39 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:29:40 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:29:40 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:29:40 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:29:40 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:29:42 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+EXPORTED D:\MedSimXR\Assets\SimReady\box_corrugated_brown_b20.glb
+[box_corrugated_brown_b20] exit=0 18:29:42
+[CT_injection_system_a01] start 18:29:42
+INFO tris 298854 -> 39978 size [0.5541713833808899, 0.6721066832542419, 1.762650728225708]
+18:31:19 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:31:22 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:31:30 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:31:37 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:31:45 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:31:52 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:31:56 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:32:00 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:32:03 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:32:07 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:32:10 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:32:14 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:32:24 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:32:29 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:32:33 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:32:38 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:32:45 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:32:52 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:32:57 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:33:04 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:33:09 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:33:12 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:33:15 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:33:19 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:33:22 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:33:25 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:33:29 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:33:35 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:33:39 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:33:45 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:33:52 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:33:56 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:34:02 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:34:06 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:34:10 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:34:13 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:34:17 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:34:21 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:34:24 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:34:28 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+EXPORTED D:\MedSimXR\Assets\SimReady\CT_injection_system_a01.glb
+[CT_injection_system_a01] exit=0 18:34:29
+ALL DONE

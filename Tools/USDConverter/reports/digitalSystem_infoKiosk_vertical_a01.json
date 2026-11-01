@@ -1,0 +1,47 @@
+{
+ "meshes": 3,
+ "triangles_original": 28932,
+ "triangles_exported": 14997,
+ "decimate_ratio": 0.5184570717544588,
+ "bbox_min": [
+  -0.2033444195985794,
+  -0.3934353291988373,
+  8.746757521294057e-05
+ ],
+ "bbox_max": [
+  0.20334437489509583,
+  0.3934353291988373,
+  1.6072875261306763
+ ],
+ "size_m": [
+  0.4066888093948364,
+  0.7868706583976746,
+  1.607200026512146
+ ],
+ "materials": [
+  "m_opaque__metal__digitalSystem_infoKiosk_vertical_a01",
+  "m_opaque__plastic__digitalSystem_infoKiosk_screen_01",
+  "m_opaque__plastic__digitalSystem_infoKiosk_vertical_a01",
+  "m_opaque__rubber__digitalSystem_infoKiosk_vertical_a01",
+  "m_trans__glass__clean_a01"
+ ],
+ "textures_original_px": {
+  "t_digitalSystem_infoKiosk_vertical_a01_alb.<UDIM>.png": [
+   4096,
+   4096
+  ],
+  "t_digitalSystem_infoKiosk_vertical_a01_orm.<UDIM>.png": [
+   4096,
+   4096
+  ],
+  "t_digitalSystem_infoKiosk_vertical_a01_nor.<UDIM>.png": [
+   4096,
+   4096
+  ],
+  "t_digitalSystem_infoKiosk_vertical_a01_emi.1001.png": [
+   4096,
+   4096
+  ]
+ },
+ "texture_cap_px": 1024
+}

@@ -1,0 +1,108 @@
+{
+  "reviewStatus": "PENDING_CLINICAL_REVIEW - generic educational sequences written for this prototype, not taken from any hospital protocol",
+  "procedures": [
+    {
+      "moduleId": "B_safe_handling",
+      "title": "Module B - Safe Handling of Supplies",
+      "category": "handling",
+      "briefing": "Move the supply box the way you would handle stock on a ward: check it first, carry it under control, put it where it belongs. Dropping it or trying to move fixed equipment counts as an unsafe action.",
+      "targetSeconds": 120,
+      "steps": [
+        {
+          "id": "b1_inspect",
+          "prompt": "Inspect the supply box (look at it and press E) and read its label before moving it.",
+          "trigger": "inspect",
+          "objectId": "box_corrugated_brown_b20",
+          "hint": "It is the brown corrugated box resting on a table. Aim the crosshair at it and press E.",
+          "explanation": "Check what an item is, and what it says on the label, before you lift or move it."
+        },
+        {
+          "id": "b2_grab",
+          "prompt": "Pick the box up with a controlled grip (look at it and press G).",
+          "trigger": "grab",
+          "objectId": "box_corrugated_brown_b20",
+          "hint": "Aim at the box and press G. The mouse wheel rotates it while held.",
+          "explanation": "Lift deliberately and keep the load close and visible; do not rush a carry."
+        },
+        {
+          "id": "b3_place",
+          "prompt": "Carry it to the inspection table and release it (G) on the marked work surface.",
+          "trigger": "placed",
+          "objectId": "box_corrugated_brown_b20",
+          "hint": "The work surface is the highlighted pad on the inspection table. Release the box over it.",
+          "explanation": "Put supplies down on a stable, intended surface rather than the floor or an unstable spot."
+        },
+        {
+          "id": "b4_return",
+          "prompt": "Return the box to its original storage position (press R while looking at it).",
+          "trigger": "reset",
+          "objectId": "box_corrugated_brown_b20",
+          "hint": "Look at the box and press R to send it back to where it started.",
+          "explanation": "Supplies go back where they belong so the next person can find them."
+        }
+      ],
+      "unsafeEvents": [
+        {
+          "eventType": "dropped",
+          "objectId": "",
+          "message": "The box hit the floor. Dropped supplies can be damaged or contaminated and are reported according to local policy."
+        },
+        {
+          "eventType": "grab_denied",
+          "objectId": "",
+          "message": "Fixed equipment is not moved by hand. Ask for help and follow local manual-handling policy."
+        }
+      ]
+    },
+    {
+      "moduleId": "D_infection_prevention",
+      "title": "Module D - Infection Prevention Sequence",
+      "category": "sequence",
+      "briefing": "Work through a simple clean-to-dirty sequence: hand hygiene, clean supplies, patient contact, waste disposal, hand hygiene again. Select each item with a left click in the right order.",
+      "targetSeconds": 90,
+      "steps": [
+        {
+          "id": "d1_hygiene_before",
+          "prompt": "Start with hand hygiene: select the hand wash basin.",
+          "trigger": "select",
+          "objectId": "washBasin_a01",
+          "hint": "Look for the hand wash basin on the front wall and left-click it.",
+          "explanation": "Hand hygiene before preparing supplies and before patient contact is a core infection-prevention step."
+        },
+        {
+          "id": "d2_supplies",
+          "prompt": "Collect clean supplies: select the medical utility cart.",
+          "trigger": "select",
+          "objectId": "cart_medical_utility_a01",
+          "hint": "The utility cart is the wheeled unit with drawers.",
+          "explanation": "Clean supplies are gathered after hand hygiene so that they are not contaminated."
+        },
+        {
+          "id": "d3_patient",
+          "prompt": "Approach the patient: select the hospital bed.",
+          "trigger": "select",
+          "objectId": "bed_hospital_standard_a01",
+          "hint": "Select the hospital bed.",
+          "explanation": "Patient contact happens after hand hygiene and with clean supplies already prepared."
+        },
+        {
+          "id": "d4_waste",
+          "prompt": "Dispose of used items: select the waste bin.",
+          "trigger": "select",
+          "objectId": "bin_waste_a01",
+          "hint": "Select the waste bin.",
+          "explanation": "Used items go straight into the waste container and never back onto clean surfaces."
+        },
+        {
+          "id": "d5_hygiene_after",
+          "prompt": "Finish with hand hygiene again: select the hand wash basin.",
+          "trigger": "select",
+          "objectId": "washBasin_a01",
+          "hint": "Return to the hand wash basin.",
+          "explanation": "Hand hygiene after patient contact and waste disposal protects you, the next patient and the environment."
+        }
+      ],
+      "unsafeEvents": []
+    }
+  ]
+}

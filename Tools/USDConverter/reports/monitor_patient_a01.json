@@ -1,0 +1,216 @@
+{
+ "meshes": 21,
+ "triangles_original": 386462,
+ "triangles_exported": 14982,
+ "decimate_ratio": 0.03881364791363705,
+ "bbox_min": [
+  -0.2737980782985687,
+  -0.247624933719635,
+  -0.10006403923034668
+ ],
+ "bbox_max": [
+  0.25424593687057495,
+  0.27578118443489075,
+  1.4956820011138916
+ ],
+ "size_m": [
+  0.5280439853668213,
+  0.5234061479568481,
+  1.5957460403442383
+ ],
+ "materials": [
+  "m_opaque__metal__glossy_a01",
+  "m_opaque__metal__glossy_a01.001",
+  "m_opaque__metal__glossy_a01.002",
+  "m_opaque__metal__glossy_a01.003",
+  "m_opaque__metal__glossy_a01.004",
+  "m_opaque__metal__glossy_a01.005",
+  "m_opaque__metal__glossy_a01.006",
+  "m_opaque__metal__glossy_a01.007",
+  "m_opaque__metal__glossy_a01.008",
+  "m_opaque__metal__glossy_a01.009",
+  "m_opaque__metal__glossy_a01.010",
+  "m_opaque__metal__glossy_a01.011",
+  "m_opaque__metal__glossy_a01.012",
+  "m_opaque__plastic__black_a01",
+  "m_opaque__plastic__black_a01.001",
+  "m_opaque__plastic__black_a01.002",
+  "m_opaque__plastic__black_a01.003",
+  "m_opaque__plastic__black_a01.004",
+  "m_opaque__plastic__black_a01.005",
+  "m_opaque__plastic__blue_a01",
+  "m_opaque__plastic__glossy_black_a01",
+  "m_opaque__plastic__glossy_white_a01",
+  "m_opaque__plastic__glossy_white_a01.001",
+  "m_opaque__plastic__glossy_white_a01.002",
+  "m_opaque__plastic__glossy_white_a01.003",
+  "m_opaque__plastic__glossy_white_a01.004",
+  "m_opaque__plastic__glossy_white_a01.005",
+  "m_opaque__plastic__glossy_white_a01.006",
+  "m_opaque__plastic__glossy_white_a01.007",
+  "m_opaque__plastic__grainy_black_a01",
+  "m_opaque__plastic__grainy_black_a01.001",
+  "m_opaque__plastic__grainy_black_a01.002",
+  "m_opaque__plastic__grainy_black_a01.003",
+  "m_opaque__plastic__grainy_black_a01.004",
+  "m_opaque__plastic__grainy_black_a01.005",
+  "m_opaque__plastic__grainy_black_a01.006",
+  "m_opaque__plastic__grainy_black_a01.007",
+  "m_opaque__plastic__grainy_black_a01.008",
+  "m_opaque__plastic__grainy_black_a01.009",
+  "m_opaque__plastic__gray_a01",
+  "m_opaque__plastic__green_a01",
+  "m_opaque__plastic__orange_a01",
+  "m_opaque__plastic__red_a01",
+  "m_opaque__plastic__yellow_a01",
+  "m_opaque__rubber__smooth_black_a01",
+  "m_opaque__rubber__smooth_black_a01.001",
+  "m_opaque__rubber__smooth_black_a01.002",
+  "m_opaque__rubber__smooth_black_a01.003",
+  "m_opaque__rubber__smooth_black_a01.004",
+  "m_trans__glass__clean_a01"
+ ],
+ "textures_original_px": {
+  "t_plastic_glossy_white_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_glossy_white_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_glossy_white_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_black_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_black_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_black_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_rubber_smooth_black_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_rubber_smooth_black_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_rubber_smooth_black_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_grainy_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_grainy_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_metal_glossy_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_metal_glossy_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_metal_glossy_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_red_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_red_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_red_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_blue_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_blue_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_blue_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_green_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_green_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_green_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_orange_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_orange_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_orange_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_yellow_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_yellow_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_yellow_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_gray_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_gray_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_gray_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_glossy_black_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_glossy_black_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_glossy_black_a01_tile_nor.png": [
+   4096,
+   4096
+  ]
+ },
+ "texture_cap_px": 1024
+}

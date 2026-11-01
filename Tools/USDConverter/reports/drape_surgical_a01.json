@@ -1,0 +1,39 @@
+{
+ "meshes": 1,
+ "triangles_original": 73340,
+ "triangles_exported": 7999,
+ "decimate_ratio": 0.109080992637033,
+ "bbox_min": [
+  -0.13658669590950012,
+  -0.10601583868265152,
+  -0.0006675563636235893
+ ],
+ "bbox_max": [
+  0.13658668100833893,
+  0.10601581633090973,
+  0.07238048315048218
+ ],
+ "size_m": [
+  0.27317339181900024,
+  0.21203166246414185,
+  0.07304804027080536
+ ],
+ "materials": [
+  "m_opaque__paper__surgicalDrape_a01"
+ ],
+ "textures_original_px": {
+  "t_surgicalDrape_a01_alb.png": [
+   4096,
+   4096
+  ],
+  "t_surgicalDrape_a01_orm.png": [
+   4096,
+   4096
+  ],
+  "t_surgicalDrape_a01_nor.png": [
+   4096,
+   4096
+  ]
+ },
+ "texture_cap_px": 512
+}

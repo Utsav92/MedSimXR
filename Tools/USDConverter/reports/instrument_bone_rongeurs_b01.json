@@ -1,0 +1,44 @@
+{
+ "meshes": 6,
+ "triangles_original": 27558,
+ "triangles_exported": 2995,
+ "decimate_ratio": 0.10886131069018071,
+ "bbox_min": [
+  -0.070796899497509,
+  -0.06526732444763184,
+  -0.00801696628332138
+ ],
+ "bbox_max": [
+  0.14020377397537231,
+  0.06526854634284973,
+  0.00801696628332138
+ ],
+ "size_m": [
+  0.21100068092346191,
+  0.13053587079048157,
+  0.01603393256664276
+ ],
+ "materials": [
+  "m_opaque__metal__glossy_a01",
+  "m_opaque__metal__glossy_a01.001",
+  "m_opaque__metal__glossy_a01.002",
+  "m_opaque__metal__glossy_a01.003",
+  "m_opaque__metal__glossy_a01.004",
+  "m_opaque__metal__glossy_a01.005"
+ ],
+ "textures_original_px": {
+  "t_metal_glossy_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_metal_glossy_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_metal_glossy_a01_tile_nor.png": [
+   4096,
+   4096
+  ]
+ },
+ "texture_cap_px": 512
+}

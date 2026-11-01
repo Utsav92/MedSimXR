@@ -1,0 +1,13 @@
+bed_hospital_standard_a01
+bin_waste_a01
+cleaning_soapDispenser_a01
+IV_pole_a01
+trolley_cleaning_a01
+chair_hospital_a01
+safety_eyewashStation_stand_selfContained_a01
+light_surgical_ceiling_arm_a01
+appliance_handDryer_automatic_a01
+sign_hospital_sidewall_a01
+tray_sterilization_instrument_c02
+stethoscope_electronic_a01
+table_surgical_a01

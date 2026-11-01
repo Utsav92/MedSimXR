@@ -1,0 +1,6 @@
+robot_surgical_c01
+drape_surgical_a01
+medicine_a03
+box_glove_a01
+syringe_a01
+thermometer_fever_a01

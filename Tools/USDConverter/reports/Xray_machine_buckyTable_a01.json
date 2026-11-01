@@ -1,0 +1,111 @@
+{
+ "meshes": 10,
+ "triangles_original": 85712,
+ "triangles_exported": 24990,
+ "decimate_ratio": 0.2916744446518574,
+ "bbox_min": [
+  -0.42330360412597656,
+  -1.1750000715255737,
+  -0.04070639610290527
+ ],
+ "bbox_max": [
+  0.4489087164402008,
+  1.1750000715255737,
+  0.9031238555908203
+ ],
+ "size_m": [
+  0.872212290763855,
+  2.3500001430511475,
+  0.9438302516937256
+ ],
+ "materials": [
+  "m_opaque__metal__aluminiumBrushed_a01",
+  "m_opaque__metal__aluminiumBrushed_a01.001",
+  "m_opaque__metal__aluminiumBrushed_a01.002",
+  "m_opaque__metal__aluminiumBrushed_a01.003",
+  "m_opaque__metal__aluminiumBrushed_a01.004",
+  "m_opaque__metal__paintedRough_white_a01",
+  "m_opaque__metal__paintedRough_white_a01.001",
+  "m_opaque__metal__painted_black_a01",
+  "m_opaque__metal__painted_yellow_a01",
+  "m_opaque__metal__painted_yellow_a01.001",
+  "m_opaque__plastic__glossy_white_a01",
+  "m_opaque__plastic__glossy_white_a01.001",
+  "m_opaque__plastic__glossy_white_a01.002",
+  "m_opaque__plastic__glossy_white_a01.003",
+  "m_opaque__plastic__rough_black_a01",
+  "m_opaque__rubber__smooth_black_a01",
+  "m_trans__plastic__clean_a01"
+ ],
+ "textures_original_px": {
+  "t_metal_painted_gray_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_metal_painted_gray_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_metal_aluminiumBrushed_a01_tile_alb.png": [
+   2048,
+   2048
+  ],
+  "t_metal_aluminiumBrushed_a01_tile_orm.png": [
+   2048,
+   2048
+  ],
+  "t_metal_aluminiumBrushed_a01_tile_nor.png": [
+   2048,
+   2048
+  ],
+  "t_plastic_glossy_white_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_glossy_white_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_glossy_white_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_metal_paintedRough_white_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_metal_paintedRough_white_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_metal_paintedRough_white_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_rough_black_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_rough_black_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_rough_black_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_rubber_smooth_black_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_rubber_smooth_black_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_rubber_smooth_black_a01_tile_nor.png": [
+   4096,
+   4096
+  ]
+ },
+ "texture_cap_px": 1024
+}

@@ -1,0 +1,17 @@
+trolley_emergency_a01
+Xray_machine_buckyStand_a01
+defibrillator_a01
+fireProtection_extinguisher_portable_a01
+sink_surgical_a01
+syringe_a01
+box_glove_a01
+instrument_bone_forceps_b01
+instrument_hand_drill_b01
+needle_surgical_a01
+Xray_machine_HVgenerator_a01
+device_endoscopy_system_b01
+pump_suction_surgical_a01
+stethoscope_electronic_a01
+screen_hospital_a01
+warmer_infusion_a01
+unit_head_bed_a01

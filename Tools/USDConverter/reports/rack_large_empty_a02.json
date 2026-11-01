@@ -1,0 +1,40 @@
+{
+ "meshes": 1,
+ "triangles_original": 53128,
+ "triangles_exported": 15000,
+ "decimate_ratio": 0.28233699744014457,
+ "bbox_min": [
+  -1.9999886751174927,
+  -1.033290982246399,
+  0.0
+ ],
+ "bbox_max": [
+  1.9999890327453613,
+  1.0332903861999512,
+  3.010000705718994
+ ],
+ "size_m": [
+  3.9999775886535645,
+  2.0665812492370605,
+  3.010000705718994
+ ],
+ "materials": [
+  "opaque__metal__painted_unique_rack_a",
+  "opaque__metal__unique_rack_a"
+ ],
+ "textures_original_px": {
+  "T_Rack_A1_Albedo.<UDIM>.png": [
+   2048,
+   2048
+  ],
+  "T_Rack_A1_ORM.<UDIM>.png": [
+   2048,
+   2048
+  ],
+  "T_Rack_A1_Normal.<UDIM>.png": [
+   2048,
+   2048
+  ]
+ },
+ "texture_cap_px": 1024
+}

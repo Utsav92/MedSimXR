@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2478382680900089901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4380546191996659763}
+  - component: {fileID: 8437694520215420456}
+  - component: {fileID: 8255045375705844058}
+  m_Layer: 0
+  m_Name: trolley_emergency_a01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4380546191996659763
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2478382680900089901}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 791934016879870017}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &8437694520215420456
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2478382680900089901}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.8500047, y: 2.408109, z: 0.9178037}
+  m_Center: {x: 0, y: 1.2040545, z: 0}
+--- !u!114 &8255045375705844058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2478382680900089901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 679d4d16f7023644386d406922735cec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MedSimXR.Runtime::MedSimXR.Interaction.InteractableObject
+  objectId: trolley_emergency_a01
+  displayName: Emergency Trolley
+  category: Emergency
+  description: A wheeled trolley that keeps emergency medicines and resuscitation supplies together so they can be reached quickly. Its contents are checked regularly.
+  trainingUse: Identification and orientation. Learners recognise where emergency equipment is kept.
+  labelText: 'EMERGENCY TROLLEY
+
+    Training model - not a medical device specification.'
+  isPlaceholder: 0
+  sourceNote: NVIDIA SimReady Assets, CC-BY-4.0. Converted USD to GLB, decimated, textures capped.
+  canGrab: 0
+  canInspect: 1
+  isFixed: 1
+--- !u!1001 &4847242554808879109
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4380546191996659763}
+    m_Modifications:
+    - target: {fileID: -3910990755373119420, guid: 1062592608c6c4b4d861a795c99bdeb4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.08155975
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 1062592608c6c4b4d861a795c99bdeb4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6908152
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 1062592608c6c4b4d861a795c99bdeb4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.06795034
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 1062592608c6c4b4d861a795c99bdeb4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 1062592608c6c4b4d861a795c99bdeb4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 1062592608c6c4b4d861a795c99bdeb4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 1062592608c6c4b4d861a795c99bdeb4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 1062592608c6c4b4d861a795c99bdeb4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 1062592608c6c4b4d861a795c99bdeb4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 1062592608c6c4b4d861a795c99bdeb4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771091787928289351, guid: 1062592608c6c4b4d861a795c99bdeb4, type: 3}
+      propertyPath: m_Name
+      value: Model
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -4161369568681901532, guid: 1062592608c6c4b4d861a795c99bdeb4, type: 3}
+--- !u!4 &791934016879870017 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3910990755373119420, guid: 1062592608c6c4b4d861a795c99bdeb4, type: 3}
+  m_PrefabInstance: {fileID: 4847242554808879109}
+  m_PrefabAsset: {fileID: 0}

@@ -1,0 +1,5 @@
+Xray_machine_buckyTable_a01
+fireProtection_extinguisher_portable_a01
+tool_pen_surgical_marking_a01
+disinfectant_a01
+digitalSystem_infoKiosk_vertical_a01

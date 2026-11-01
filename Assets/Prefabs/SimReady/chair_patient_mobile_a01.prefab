@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1454437930179856140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 321832461773629619}
+  - component: {fileID: 6082911231886699503}
+  - component: {fileID: 6275887191469552902}
+  m_Layer: 0
+  m_Name: chair_patient_mobile_a01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &321832461773629619
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454437930179856140}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3171900793516747623}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6082911231886699503
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454437930179856140}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.9331929, y: 1.3180053, z: 0.785064}
+  m_Center: {x: 0, y: 0.65900266, z: 0}
+--- !u!114 &6275887191469552902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454437930179856140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 679d4d16f7023644386d406922735cec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MedSimXR.Runtime::MedSimXR.Interaction.InteractableObject
+  objectId: chair_patient_mobile_a01
+  displayName: Patient Transport Chair
+  category: Patient mobility
+  description: A wheeled chair used to move a seated patient between areas of a facility.
+  trainingUse: 'Identification and orientation. Learners recognise the chair and its main parts: seat, backrest, armrests, footrests and wheels.'
+  labelText: 'PATIENT TRANSPORT CHAIR
+
+    Training model - not a medical device specification.'
+  isPlaceholder: 0
+  sourceNote: NVIDIA SimReady Assets, CC-BY-4.0. Converted USD to GLB, decimated, textures capped at 1024 px.
+  canGrab: 0
+  canInspect: 1
+  isFixed: 1
+--- !u!1001 &7331161274513777443
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 321832461773629619}
+    m_Modifications:
+    - target: {fileID: -3910990755373119420, guid: ef9be86164048d0419f28dc458a90f2f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.028033137
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: ef9be86164048d0419f28dc458a90f2f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.119775355
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: ef9be86164048d0419f28dc458a90f2f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.02143991
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: ef9be86164048d0419f28dc458a90f2f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: ef9be86164048d0419f28dc458a90f2f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: ef9be86164048d0419f28dc458a90f2f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: ef9be86164048d0419f28dc458a90f2f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: ef9be86164048d0419f28dc458a90f2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: ef9be86164048d0419f28dc458a90f2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: ef9be86164048d0419f28dc458a90f2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771091787928289351, guid: ef9be86164048d0419f28dc458a90f2f, type: 3}
+      propertyPath: m_Name
+      value: Model
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -4161369568681901532, guid: ef9be86164048d0419f28dc458a90f2f, type: 3}
+--- !u!4 &3171900793516747623 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3910990755373119420, guid: ef9be86164048d0419f28dc458a90f2f, type: 3}
+  m_PrefabInstance: {fileID: 7331161274513777443}
+  m_PrefabAsset: {fileID: 0}

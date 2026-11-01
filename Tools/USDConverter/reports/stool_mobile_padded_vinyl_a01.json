@@ -1,0 +1,104 @@
+{
+ "meshes": 13,
+ "triangles_original": 68143,
+ "triangles_exported": 7991,
+ "decimate_ratio": 0.11740017316525542,
+ "bbox_min": [
+  -0.2253255546092987,
+  -0.26221075654029846,
+  -0.03704070299863815
+ ],
+ "bbox_max": [
+  0.27476030588150024,
+  0.2622106671333313,
+  0.3280944228172302
+ ],
+ "size_m": [
+  0.5000858306884766,
+  0.5244214534759521,
+  0.365135133266449
+ ],
+ "materials": [
+  "opaque__leather__glosssy_black_a",
+  "opaque__leather__glosssy_black_a.001",
+  "opaque__metal__glossy_a",
+  "opaque__metal__glossy_a.001",
+  "opaque__metal__painted_black_a",
+  "opaque__metal__painted_black_a.001",
+  "opaque__plastic__glossy_black_a",
+  "opaque__plastic__glossy_black_a.001",
+  "opaque__plastic__glossy_black_a.002",
+  "opaque__plastic__glossy_black_a.003",
+  "opaque__plastic__glossy_black_a.004",
+  "opaque__plastic__polyurethane_black_a",
+  "opaque__plastic__polyurethane_black_a.001",
+  "opaque__plastic__polyurethane_black_a.002",
+  "opaque__plastic__polyurethane_black_a.003",
+  "opaque__plastic__polyurethane_black_a.004",
+  "opaque__plastic__polyurethane_black_a.005",
+  "opaque__plastic__polyurethane_black_a.006",
+  "opaque__plastic__polyurethane_black_a.007",
+  "opaque__plastic__polyurethane_black_a.008",
+  "opaque__plastic__polyurethane_black_a.009",
+  "opaque__plastic__polyurethane_black_a.010"
+ ],
+ "textures_original_px": {
+  "T_Polyurethane_Black_Rough_A_Albedo.png": [
+   2048,
+   2048
+  ],
+  "T_Polyurethane_Black_Rough_A_ORM.png": [
+   2048,
+   2048
+  ],
+  "T_Polyurethane_Black_Rough_A_Normal.png": [
+   2048,
+   2048
+  ],
+  "T_metalpainted_gray_metallic_a_ORM.png": [
+   1024,
+   1024
+  ],
+  "T_Aluminium_Raw_A_Normal.png": [
+   1024,
+   1024
+  ],
+  "T_Leather_Black_Glossy_A_Albedo.png": [
+   1024,
+   1024
+  ],
+  "T_Leather_Black_Glossy_A_ORM.png": [
+   1024,
+   1024
+  ],
+  "T_Leather_Black_Glossy_A_Normal.png": [
+   1024,
+   1024
+  ],
+  "T_Plastic_Glossy_Black_A_Albedo.png": [
+   1024,
+   1024
+  ],
+  "T_Plastic_Glossy_Black_A_ORM.png": [
+   1024,
+   1024
+  ],
+  "T_Plastic_Glossy_Black_A_Normal.png": [
+   1024,
+   1024
+  ],
+  "T_Metal_Glossy_A_Albedo.png": [
+   1024,
+   1024
+  ],
+  "T_Metal_Glossy_A_ORM.png": [
+   1024,
+   1024
+  ],
+  "T_Metal_Glossy_A_Normal.png": [
+   1024,
+   1024
+  ]
+ },
+ "texture_cap_px": 512
+}

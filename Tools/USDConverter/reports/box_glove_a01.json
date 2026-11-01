@@ -1,0 +1,39 @@
+{
+ "meshes": 1,
+ "triangles_original": 3166,
+ "triangles_exported": 3166,
+ "decimate_ratio": 1.0,
+ "bbox_min": [
+  -0.08907945454120636,
+  -0.0586036778986454,
+  -2.271138146170415e-05
+ ],
+ "bbox_max": [
+  0.08907945454120636,
+  0.0586036778986454,
+  0.056190650910139084
+ ],
+ "size_m": [
+  0.17815890908241272,
+  0.1172073557972908,
+  0.056213364005088806
+ ],
+ "materials": [
+  "opaque__cardboard__glovebox_a01"
+ ],
+ "textures_original_px": {
+  "t_gloveBox_a01_alb.png": [
+   4096,
+   4096
+  ],
+  "t_cardboard_standard_white_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_cardboard_standard_white_a01_tile_nor.png": [
+   4096,
+   4096
+  ]
+ },
+ "texture_cap_px": 512
+}

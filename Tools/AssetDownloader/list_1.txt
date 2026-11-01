@@ -1,0 +1,13 @@
+cart_medical_utility_a01
+table_bedside_b01
+monitor_a01
+trolley_emergency_a01
+pump_infusion_a01
+stool_mobile_padded_vinyl_a01
+fireProtection_extinguisher_portable_a01
+ultrasound_a01
+disinfectant_a01
+sofa_visitor_a01
+syringe_a01
+medicine_a03
+unit_head_bed_a01

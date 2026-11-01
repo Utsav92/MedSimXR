@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-01 14:19:09Z" end-time="2026-11-01 14:23:20Z" duration="251.7738538">
+  <test-suite type="TestSuite" id="1058" name="MedSim XR" fullname="MedSim XR" runstate="Runnable" testcasecount="46" result="Passed" start-time="2026-11-01 14:19:09Z" end-time="2026-11-01 14:23:20Z" duration="251.773854" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1052" name="MedSimXR.Tests.PlayMode.dll" fullname="D:/MedSimXR/Library/ScriptAssemblies/MedSimXR.Tests.PlayMode.dll" runstate="Runnable" testcasecount="46" result="Passed" start-time="2026-11-01 14:19:09Z" end-time="2026-11-01 14:23:20Z" duration="251.735028" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="17616" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1053" name="MedSimXR" fullname="MedSimXR" runstate="Runnable" testcasecount="46" result="Passed" start-time="2026-11-01 14:19:09Z" end-time="2026-11-01 14:23:20Z" duration="251.731545" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1054" name="Tests" fullname="MedSimXR.Tests" runstate="Runnable" testcasecount="46" result="Passed" start-time="2026-11-01 14:19:09Z" end-time="2026-11-01 14:23:20Z" duration="251.728642" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="DemoCapture" fullname="MedSimXR.Tests.DemoCapture" classname="MedSimXR.Tests.DemoCapture" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-01 14:19:09Z" end-time="2026-11-01 14:23:20Z" duration="251.722638" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1002" name="RenderWalkthrough" fullname="MedSimXR.Tests.DemoCapture.RenderWalkthrough" methodname="RenderWalkthrough" classname="MedSimXR.Tests.DemoCapture" runstate="Runnable" seed="1585413210" result="Passed" start-time="2026-11-01 14:19:09Z" end-time="2026-11-01 14:23:20Z" duration="251.670511" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="6000000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[MedSim] demo frames written: 2958 in D:\MedSimXR\Documentation\demo_frames
+Saving results to: C:/Users/Utsav/AppData/LocalLow/MedSimXR/MedSim XR\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

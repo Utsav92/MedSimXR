@@ -1,0 +1,63 @@
+{
+ "meshes": 2,
+ "triangles_original": 61358,
+ "triangles_exported": 3998,
+ "decimate_ratio": 0.0651911731151602,
+ "bbox_min": [
+  -0.05193876475095749,
+  -0.02032128907740116,
+  -0.02712107077240944
+ ],
+ "bbox_max": [
+  0.09765224903821945,
+  0.01718359813094139,
+  0.021548770368099213
+ ],
+ "size_m": [
+  0.14959101378917694,
+  0.0375048890709877,
+  0.04866984114050865
+ ],
+ "materials": [
+  "m_opaque__plastic__black_a01",
+  "m_opaque__plastic__gray_dark_a01",
+  "m_opaque__plastic__gray_light_a01",
+  "m_opaque__plastic__white_a01",
+  "m_trans__glass__clean_a01"
+ ],
+ "textures_original_px": {
+  "t_plastic_gray_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_gray_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_black_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_black_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_black_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_feverThermometer_a01_alb.png": [
+   2048,
+   2048
+  ],
+  "t_feverThermometer_a01_orm.png": [
+   2048,
+   2048
+  ],
+  "t_feverThermometer_a01_nor.png": [
+   2048,
+   2048
+  ]
+ },
+ "texture_cap_px": 512
+}

@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1530189578856098180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5266600255471778882}
+  - component: {fileID: 3364473615281830518}
+  - component: {fileID: 1994647207805355082}
+  m_Layer: 0
+  m_Name: bin_waste_a01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5266600255471778882
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530189578856098180}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2303739321867386071}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &3364473615281830518
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530189578856098180}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.33687693, y: 0.30033314, z: 0.18010232}
+  m_Center: {x: 0, y: 0.15016657, z: 0}
+--- !u!114 &1994647207805355082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530189578856098180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 679d4d16f7023644386d406922735cec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MedSimXR.Runtime::MedSimXR.Interaction.InteractableObject
+  objectId: bin_waste_a01
+  displayName: Waste Bin
+  category: Infection prevention
+  description: A bin for disposing of used items.
+  trainingUse: 'Identification and the infection-prevention sequence: used items go straight into the bin.'
+  labelText: 'WASTE BIN
+
+    Training model - not a medical device specification.'
+  isPlaceholder: 0
+  sourceNote: NVIDIA SimReady Assets, CC-BY-4.0. Converted USD to GLB, decimated, textures capped.
+  canGrab: 0
+  canInspect: 1
+  isFixed: 1
+--- !u!1001 &6215486541245396115
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5266600255471778882}
+    m_Modifications:
+    - target: {fileID: -3910990755373119420, guid: da811cfc07219c045a4113885ab928e3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.039936587
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: da811cfc07219c045a4113885ab928e3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.020333692
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: da811cfc07219c045a4113885ab928e3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.000000007450581
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: da811cfc07219c045a4113885ab928e3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: da811cfc07219c045a4113885ab928e3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: da811cfc07219c045a4113885ab928e3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: da811cfc07219c045a4113885ab928e3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: da811cfc07219c045a4113885ab928e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: da811cfc07219c045a4113885ab928e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: da811cfc07219c045a4113885ab928e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771091787928289351, guid: da811cfc07219c045a4113885ab928e3, type: 3}
+      propertyPath: m_Name
+      value: Model
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -4161369568681901532, guid: da811cfc07219c045a4113885ab928e3, type: 3}
+--- !u!4 &2303739321867386071 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3910990755373119420, guid: da811cfc07219c045a4113885ab928e3, type: 3}
+  m_PrefabInstance: {fileID: 6215486541245396115}
+  m_PrefabAsset: {fileID: 0}

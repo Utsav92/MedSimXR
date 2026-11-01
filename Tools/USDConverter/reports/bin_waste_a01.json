@@ -1,0 +1,70 @@
+{
+ "meshes": 3,
+ "triangles_original": 44723,
+ "triangles_exported": 7997,
+ "decimate_ratio": 0.1788788766406547,
+ "bbox_min": [
+  -0.12849068641662598,
+  -0.09007713198661804,
+  -0.02024800516664982
+ ],
+ "bbox_max": [
+  0.20838451385498047,
+  0.09007713198661804,
+  0.26069340109825134
+ ],
+ "size_m": [
+  0.33687520027160645,
+  0.18015426397323608,
+  0.2809413969516754
+ ],
+ "materials": [
+  "m_opaque__metal__glossy_a01",
+  "m_opaque__metal__painted_red_a01",
+  "m_opaque__metal__painted_white_a01",
+  "m_opaque__metal__painted_white_a01.001",
+  "m_opaque__plastic__black_a01",
+  "m_opaque__plastic__black_a01.001",
+  "m_opaque__plastic__black_a01.002",
+  "m_opaque__plastic__red_a01"
+ ],
+ "textures_original_px": {
+  "t_plastic_black_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_black_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_black_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_metal_glossy_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_metal_glossy_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_metal_paintedGlossy_white_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_metal_paintedGlossy_white_a01_tile_nor.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_red_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_red_a01_tile_nor.png": [
+   4096,
+   4096
+  ]
+ },
+ "texture_cap_px": 1024
+}

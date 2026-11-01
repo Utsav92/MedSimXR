@@ -1,0 +1,4593 @@
+{
+  "generated_by": "Tools/AssetValidator/build_manifest.py",
+  "source_dataset": "https://huggingface.co/datasets/nvidia/simready-assets",
+  "dataset_license": "cc-by-4.0",
+  "attribution": "NVIDIA Corporation - SimReady Assets (CC BY 4.0). Converted/decimated for MedSim XR. Changes were made.",
+  "assets": [
+    {
+      "name": "chair_patient_mobile_a01",
+      "original_repository_path": "nvidia/simready-assets/chair_patient_mobile_a01/simready_usd/sm_chair_patient_mobile_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.chair_patient_mobile_a01.2026.10.08_232743463638",
+      "package_content_sha256": "e68b5ad1e807bbd670ba3bf7f3d709be2bcca2d7f12f0c4d57dec3f94c18390d",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 871125616,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__fabric__tarp_standard_white_a01",
+        "m_opaque__leather__glossy_bonded_a01",
+        "m_opaque__metal__rough_a01",
+        "m_opaque__plastic__grainy_darkgray_a01",
+        "m_opaque__plastic__grainy_lightgray_a01",
+        "m_opaque__plastic__gray_a01",
+        "m_opaque__plastic__gray_a01.001",
+        "m_opaque__plastic__gray_a01.002",
+        "m_opaque__plastic__gray_a01.003",
+        "m_opaque__plastic__gray_a01.004",
+        "m_opaque__plastic__gray_a01.005",
+        "m_opaque__plastic__gray_a01.006",
+        "m_opaque__plastic__gray_a01.007",
+        "m_opaque__plastic__green_a01",
+        "m_opaque__plastic__red_a01",
+        "m_opaque__rubber__glossy_black_a01",
+        "m_opaque__rubber__glossy_black_a01.001",
+        "m_opaque__rubber__glossy_black_a01.002",
+        "m_opaque__rubber__glossy_black_a01.003",
+        "m_opaque__rubber__glossy_black_a01.004",
+        "m_opaque__rubber__new_black_a01",
+        "m_opaque__rubber__new_black_a01.001",
+        "m_opaque__rubber__new_black_a01.002",
+        "m_opaque__rubber__new_black_a01.003"
+      ],
+      "texture_references_source": [
+        "t_leather_glossy_bonded_a01_tile_nor.png",
+        "t_leather_glossy_bonded_a01_tile_orm.png",
+        "t_metal_rough_a01_tile_alb.png",
+        "t_metal_rough_a01_tile_nor.png",
+        "t_metal_rough_a01_tile_orm.png",
+        "t_plastic_grainy_a01_tile_nor.png",
+        "t_plastic_grainy_a01_tile_orm.png",
+        "t_plastic_gray_a01_tile_nor.png",
+        "t_plastic_gray_a01_tile_orm.png",
+        "t_plastic_green_a01_tile_alb.png",
+        "t_plastic_green_a01_tile_nor.png",
+        "t_plastic_green_a01_tile_orm.png",
+        "t_plastic_red_a01_tile_alb.png",
+        "t_plastic_red_a01_tile_nor.png",
+        "t_plastic_red_a01_tile_orm.png",
+        "t_rubber_glossy_black_a01_tile_alb.png",
+        "t_rubber_glossy_black_a01_tile_nor.png",
+        "t_rubber_glossy_black_a01_tile_orm.png",
+        "t_rubber_new_a01_tile_alb.png",
+        "t_rubber_new_a01_tile_nor.png",
+        "t_rubber_new_a01_tile_orm.png",
+        "t_tarp_standard_white_a01_tile_alb.png",
+        "t_tarp_standard_white_a01_tile_nor.png",
+        "t_tarp_standard_white_a01_tile_orm.png"
+      ],
+      "texture_original_px": {
+        "t_plastic_gray_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_gray_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_glossy_black_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_glossy_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_glossy_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_new_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_new_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_new_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_leather_glossy_bonded_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_leather_glossy_bonded_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_rough_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_rough_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_rough_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_red_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_red_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_red_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_green_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_green_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_green_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_grainy_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_grainy_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_tarp_standard_white_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_tarp_standard_white_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_tarp_standard_white_a01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 1024,
+      "polygon_count_triangles_original": 1876699,
+      "polygon_count_triangles_exported": 29989,
+      "decimate_ratio": 0.015985514992015237,
+      "bounding_box_size_m": [
+        0.8465844988822937,
+        0.7855210304260254,
+        1.3123103380203247
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.9331929,
+          1.3180053,
+          0.785064
+        ],
+        "center_m": [
+          0.0,
+          0.65900266,
+          0.0
+        ],
+        "has_rigidbody": false
+      },
+      "converted_glb": "Assets/SimReady/chair_patient_mobile_a01.glb",
+      "converted_glb_size_bytes": 2757956,
+      "converted_glb_sha256": "3eee3512f00edd24b6409b3b543bc5c61b642b697fe7962364d457af2b57d082",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": [
+        "Blender reported 'Mesh seat_01_mesh_00 is not valid' during glTF export; verify seat geometry visually."
+      ]
+    },
+    {
+      "name": "CT_injection_system_a01",
+      "original_repository_path": "nvidia/simready-assets/CT_injection_system_a01/simready_usd/sm_CT_injection_system_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.CT_injection_system_a01.2026.10.08_202507132315",
+      "package_content_sha256": "887a1df90340f799839cf2bf236db4c6bceaab83f281ef6c04227ce97245d771",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 520757458,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__metal__steel_clean_a01",
+        "m_opaque__metal__steel_clean_a01.001",
+        "m_opaque__metal__steel_clean_a01.002",
+        "m_opaque__metal__steel_clean_a01.003",
+        "m_opaque__metal__steel_clean_a01.004",
+        "m_opaque__plastic__black_a01",
+        "m_opaque__plastic__black_a01.001",
+        "m_opaque__plastic__black_a01.002",
+        "m_opaque__plastic__black_a01.003",
+        "m_opaque__plastic__black_a01.004",
+        "m_opaque__plastic__black_a01.005",
+        "m_opaque__plastic__black_a01.006",
+        "m_opaque__plastic__black_a01.007",
+        "m_opaque__plastic__black_a01.008",
+        "m_opaque__plastic__black_a01.009",
+        "m_opaque__plastic__blue_a01",
+        "m_opaque__plastic__glossy_black_a01",
+        "m_opaque__plastic__gray_a01",
+        "m_opaque__plastic__gray_a01.001",
+        "m_opaque__plastic__gray_a01.002",
+        "m_opaque__plastic__gray_a01.003",
+        "m_opaque__plastic__gray_a01.004",
+        "m_opaque__plastic__gray_a01.005",
+        "m_opaque__plastic__gray_a01.006",
+        "m_opaque__plastic__gray_a01.007",
+        "m_opaque__plastic__gray_a01.008",
+        "m_opaque__plastic__white_a01",
+        "m_opaque__plastic__white_a01.001",
+        "m_opaque__plastic__white_a01.002",
+        "m_opaque__plastic__white_a01.003",
+        "m_opaque__rubber__black_a01",
+        "m_opaque__rubber__black_a01.001",
+        "m_opaque__rubber__black_a01.002",
+        "m_opaque__rubber__black_a01.003",
+        "m_opaque__rubber__black_a01.004",
+        "m_opaque__rubber__black_a01.005",
+        "m_opaque__rubber__black_a01.006",
+        "m_opaque__rubber__red_a01",
+        "m_opaque__rubber__red_a01.001",
+        "m_opaque__rubber__red_a01.002",
+        "m_trans__glass__colored_glossy_a01"
+      ],
+      "texture_references_source": [
+        "t_metal_steelStainless_clean_a01_tile_alb.png",
+        "t_metal_steelStainless_clean_a01_tile_nor.png",
+        "t_metal_steelStainless_clean_a01_tile_orm.png",
+        "t_plastic_black_a01_tile_alb.png",
+        "t_plastic_black_a01_tile_nor.png",
+        "t_plastic_black_a01_tile_orm.png",
+        "t_plastic_blue_a01_tile_nor.png",
+        "t_plastic_blue_a01_tile_orm.png",
+        "t_plastic_glossy_black_a01_tile_alb.png",
+        "t_plastic_glossy_black_a01_tile_nor.png",
+        "t_plastic_glossy_black_a01_tile_orm.png",
+        "t_plastic_glossy_white_a01_tile_alb.png",
+        "t_plastic_glossy_white_a01_tile_nor.png",
+        "t_plastic_glossy_white_a01_tile_orm.png",
+        "t_plastic_gray_a01_tile_nor.png",
+        "t_plastic_gray_a01_tile_orm.png",
+        "t_rubber_new_a01_tile_alb.png",
+        "t_rubber_new_a01_tile_nor.png",
+        "t_rubber_new_a01_tile_orm.png"
+      ],
+      "texture_original_px": {
+        "t_rubber_new_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_new_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_new_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_gray_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_gray_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_steelStainless_clean_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_steelStainless_clean_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_steelStainless_clean_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_white_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_white_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_white_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_black_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_blue_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_blue_a01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 1024,
+      "polygon_count_triangles_original": 298854,
+      "polygon_count_triangles_exported": 39978,
+      "decimate_ratio": 0.13384461978089635,
+      "bounding_box_size_m": [
+        0.5541713833808899,
+        0.6721066832542419,
+        1.762650728225708
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.57631135,
+          1.7625377,
+          0.67211246
+        ],
+        "center_m": [
+          0.0,
+          0.88126886,
+          0.0
+        ],
+        "has_rigidbody": false
+      },
+      "converted_glb": "Assets/SimReady/CT_injection_system_a01.glb",
+      "converted_glb_size_bytes": 1735096,
+      "converted_glb_sha256": "02ffb5b8a8b88f140de6009c3c20ae4ae2ab2899fa5401a61d544bb3638280b6",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": [
+        "Visual teaching model only. No operation, dosing or patient connection is simulated."
+      ]
+    },
+    {
+      "name": "box_corrugated_brown_b20",
+      "original_repository_path": "nvidia/simready-assets/box_corrugated_brown_b20/simready_usd/sm_box_corrugated_brown_b20_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.box_corrugated_brown_b20.2026.10.09_202102468240",
+      "package_content_sha256": "a2a0e842d6cc07146931f1db4c8defe5a23b13c88f0d1440c805f661d961f58d",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 58497904,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "opaque__cardboard__brown_a",
+        "opaque__cardboard__trim_a",
+        "opaque__nylon__tape_a",
+        "opaque__paper__decals_black_a",
+        "opaque__paper__decals_blue_a",
+        "opaque__paper__decals_green_a",
+        "opaque__paper__decals_grey_a"
+      ],
+      "texture_references_source": [
+        "T_Plastic_Black_A_ORM.png",
+        "t_corrugatedboxes_b01_tile01_albedo.png",
+        "t_corrugatedboxes_b01_tile01_normal.png",
+        "t_corrugatedboxes_b01_tile01_orm.png",
+        "t_corrugatedboxes_b01_trim_Albedo.png",
+        "t_corrugatedboxes_b01_trim_normal.png",
+        "t_corrugatedboxes_b01_trim_orm.png"
+      ],
+      "texture_original_px": {
+        "t_corrugatedboxes_b01_tile01_albedo.png": [
+          2048,
+          2048
+        ],
+        "t_corrugatedboxes_b01_tile01_orm.png": [
+          2048,
+          2048
+        ],
+        "t_corrugatedboxes_b01_tile01_normal.png": [
+          2048,
+          2048
+        ],
+        "t_corrugatedboxes_b01_trim_Albedo.png": [
+          2048,
+          2048
+        ],
+        "t_corrugatedboxes_b01_trim_orm.png": [
+          2048,
+          2048
+        ],
+        "t_corrugatedboxes_b01_trim_normal.png": [
+          2048,
+          2048
+        ],
+        "T_Plastic_Black_A_ORM.png": [
+          1024,
+          1024
+        ]
+      },
+      "texture_cap_px": 1024,
+      "polygon_count_triangles_original": 15992,
+      "polygon_count_triangles_exported": 5999,
+      "decimate_ratio": 0.3751875937968984,
+      "bounding_box_size_m": [
+        0.29900747537612915,
+        0.6215816140174866,
+        0.3020442724227905
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.29890102,
+          0.30173284,
+          0.6215673
+        ],
+        "center_m": [
+          0.0,
+          0.15086642,
+          0.0
+        ],
+        "has_rigidbody": true
+      },
+      "converted_glb": "Assets/SimReady/box_corrugated_brown_b20.glb",
+      "converted_glb_size_bytes": 990732,
+      "converted_glb_sha256": "3c02b6af3871015e1638507c858bae5ba29448f01d0922c2033f0b08e6f4ab05",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "rack_large_empty_a02",
+      "original_repository_path": "nvidia/simready-assets/rack_large_empty_a02/simready_usd/sm_rack_large_empty_a02_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.rack_large_empty_a02.2026.10.09_153944858411",
+      "package_content_sha256": "81532f24161ad640eed547058b50618945c7f15b7f293db6c0c9ae8b007b23a5",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 57309789,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "opaque__metal__painted_unique_rack_a",
+        "opaque__metal__unique_rack_a"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "T_Rack_A1_Albedo.1001.png",
+        "T_Rack_A1_Albedo.1002.png",
+        "T_Rack_A1_Albedo.1003.png",
+        "T_Rack_A1_Normal.1001.png",
+        "T_Rack_A1_Normal.1002.png",
+        "T_Rack_A1_Normal.1003.png",
+        "T_Rack_A1_ORM.1001.png",
+        "T_Rack_A1_ORM.1002.png",
+        "T_Rack_A1_ORM.1003.png"
+      ],
+      "texture_original_px": {
+        "T_Rack_A1_Albedo.<UDIM>.png": [
+          2048,
+          2048
+        ],
+        "T_Rack_A1_ORM.<UDIM>.png": [
+          2048,
+          2048
+        ],
+        "T_Rack_A1_Normal.<UDIM>.png": [
+          2048,
+          2048
+        ]
+      },
+      "texture_cap_px": 1024,
+      "polygon_count_triangles_original": 53128,
+      "polygon_count_triangles_exported": 15000,
+      "decimate_ratio": 0.28233699744014457,
+      "bounding_box_size_m": [
+        3.9999775886535645,
+        2.0665812492370605,
+        3.010000705718994
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          3.9999774,
+          3.0100007,
+          2.0665874
+        ],
+        "center_m": [
+          0.0,
+          1.5050004,
+          0.0
+        ],
+        "has_rigidbody": false
+      },
+      "converted_glb": "Assets/SimReady/rack_large_empty_a02.glb",
+      "converted_glb_size_bytes": 1119288,
+      "converted_glb_sha256": "5739a003780c3e519747c53ddaea950a78c8d96be5c2c04b305d254743725149",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": [
+        "Source texture used UDIM tiles; flattened to the first tile (1001) for GLB export."
+      ]
+    },
+    {
+      "name": "bed_hospital_standard_a01",
+      "original_repository_path": "nvidia/simready-assets/bed_hospital_standard_a01/simready_usd/sm_bed_hospital_standard_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.bed_hospital_standard_a01.2026.10.08_220911992744",
+      "package_content_sha256": "c58d416197549a3588785888ac3a7f6300fc9d7b4799bedff24a87d79cc3beac",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 864970090,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__fabric__tweed_herringbone_a01",
+        "m_opaque__fabric__tweed_herringbone_b01",
+        "m_opaque__metal__chromeClean_a01",
+        "m_opaque__metal__painted_blue_a01",
+        "m_opaque__metal__painted_gray_a01",
+        "m_opaque__metal__painted_gray_a01.001",
+        "m_opaque__metal__painted_gray_a01.002",
+        "m_opaque__metal__painted_gray_a01.003",
+        "m_opaque__metal__painted_gray_a01.004",
+        "m_opaque__metal__painted_green_a01",
+        "m_opaque__metal__steelStainless_a01",
+        "m_opaque__plastic__black_b01",
+        "m_opaque__plastic__emissive_green_a01",
+        "m_opaque__plastic__emissive_white_a01",
+        "m_opaque__plastic__glossy_black_a01",
+        "m_opaque__plastic__glossy_blue_a01",
+        "m_opaque__plastic__glossy_orange_a01",
+        "m_opaque__plastic__glossy_red_a01",
+        "m_opaque__plastic__glossy_red_a01.001",
+        "m_opaque__plastic__glossy_white_a01",
+        "m_opaque__plastic__glossy_white_a01.001",
+        "m_opaque__plastic__glossy_white_a01.002",
+        "m_opaque__plastic__glossy_white_a01.003",
+        "m_opaque__plastic__glossy_white_a01.004",
+        "m_opaque__plastic__glossy_yellow_a01",
+        "m_opaque__plastic__gray_a01",
+        "m_opaque__plastic__gray_a01.001",
+        "m_opaque__rubber__glossy_black_a01",
+        "m_opaque__rubber__glossy_black_a01.001",
+        "m_opaque__rubber__glossy_black_a01.002",
+        "m_opaque__rubber__glossy_black_a01.003",
+        "m_opaque__rubber__glossy_black_a01.004",
+        "m_trans__glass__clean_a01"
+      ],
+      "texture_references_source": [
+        "t_metal_chromeClean_a01_tile_alb.png",
+        "t_metal_chromeClean_a01_tile_nor.png",
+        "t_metal_chromeClean_a01_tile_orm.png",
+        "t_metal_painted_gray_a01_tile_nor.png",
+        "t_metal_painted_gray_a01_tile_orm.png",
+        "t_metal_steelStainless_a01_tile_alb.png",
+        "t_metal_steelStainless_a01_tile_nor.png",
+        "t_metal_steelStainless_a01_tile_orm.png",
+        "t_plastic_black_b01_tile_nor.png",
+        "t_plastic_black_b01_tile_orm.png",
+        "t_plastic_glossy_black_a01_tile_alb.png",
+        "t_plastic_glossy_black_a01_tile_nor.png",
+        "t_plastic_glossy_black_a01_tile_orm.png",
+        "t_plastic_glossy_white_a01_tile_alb.png",
+        "t_plastic_glossy_white_a01_tile_nor.png",
+        "t_plastic_glossy_white_a01_tile_orm.png",
+        "t_rubber_glossy_black_a01_tile_alb.png",
+        "t_rubber_glossy_black_a01_tile_nor.png",
+        "t_rubber_glossy_black_a01_tile_orm.png",
+        "t_tweed_herringbone_a01_tile_alb.png",
+        "t_tweed_herringbone_a01_tile_nor.png",
+        "t_tweed_herringbone_a01_tile_orm.png"
+      ],
+      "texture_original_px": {
+        "t_metal_painted_gray_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_painted_gray_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_white_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_white_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_white_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_glossy_black_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_glossy_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_glossy_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chromeClean_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chromeClean_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chromeClean_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_steelStainless_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_steelStainless_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_steelStainless_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_black_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_b01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_b01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_tweed_herringbone_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_tweed_herringbone_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_tweed_herringbone_a01_tile_alb.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 1024,
+      "polygon_count_triangles_original": 853847,
+      "polygon_count_triangles_exported": 29990,
+      "decimate_ratio": 0.035135100316567254,
+      "bounding_box_size_m": [
+        3.232840061187744,
+        1.0070757865905762,
+        1.0207633972167969
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          3.2313237,
+          1.0199988,
+          1.0071781
+        ],
+        "center_m": [
+          0.0,
+          0.5099994,
+          0.0
+        ],
+        "has_rigidbody": false
+      },
+      "converted_glb": "Assets/SimReady/bed_hospital_standard_a01.glb",
+      "converted_glb_size_bytes": 2604576,
+      "converted_glb_sha256": "fd217216bab054889900b43b367bc7de1e83e9fc9988eee651238c66eb297e9d",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "cart_medical_utility_a01",
+      "original_repository_path": "nvidia/simready-assets/cart_medical_utility_a01/simready_usd/sm_cart_medical_utility_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.cart_medical_utility_a01.2026.10.08_231602871868",
+      "package_content_sha256": "1fbbd92fc9291d1d18d582f9073180da08124ebd30a17d2e2c9278eb309e31e8",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 495339434,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__metal__chrome_clean_a01",
+        "m_opaque__metal__chrome_clean_a01.001",
+        "m_opaque__metal__chrome_clean_a01.002",
+        "m_opaque__metal__chrome_clean_a01.003",
+        "m_opaque__metal__chrome_clean_a01.004",
+        "m_opaque__metal__glossy_a01",
+        "m_opaque__metal__glossy_a01.001",
+        "m_opaque__metal__glossy_a01.002",
+        "m_opaque__metal__glossy_a01.003",
+        "m_opaque__metal__steel_a01",
+        "m_opaque__metal__steel_a01.001",
+        "m_opaque__metal__steel_a01.002",
+        "m_opaque__metal__steel_a01.003",
+        "m_opaque__metal__steel_a01.004",
+        "m_opaque__metal__steel_b01",
+        "m_opaque__metal__steel_b01.001",
+        "m_opaque__plastic__black_a01",
+        "m_opaque__plastic__black_a01.001",
+        "m_opaque__plastic__black_a01.002",
+        "m_opaque__plastic__black_b01",
+        "m_opaque__plastic__black_c01",
+        "m_opaque__plastic__black_c01.001",
+        "m_opaque__plastic__emissive_blue_a01",
+        "m_opaque__plastic__emissive_blue_a01.001",
+        "m_opaque__plastic__emissive_blue_a01.002",
+        "m_opaque__plastic__emissive_green_a01",
+        "m_opaque__plastic__gray_a01",
+        "m_opaque__plastic__gray_a01.001",
+        "m_opaque__plastic__gray_a01.002",
+        "m_opaque__plastic__gray_a01.003",
+        "m_opaque__plastic__white_a01",
+        "m_opaque__plastic__white_a01.001",
+        "m_opaque__plastic__white_a01.002",
+        "m_opaque__plastic__white_a01.003",
+        "m_opaque__plastic__white_a01.004",
+        "m_opaque__plastic__white_a01.005",
+        "m_opaque__plastic__white_a01.006",
+        "m_opaque__plastic__white_a01.007",
+        "m_opaque__plastic__white_a01.008",
+        "m_opaque__plastic__white_a01.009",
+        "m_opaque__plastic__white_a01.010",
+        "m_opaque__plastic__white_a01.011",
+        "m_opaque__rubber__black_a01",
+        "m_opaque__rubber__black_a01.001",
+        "m_trans__glass__clean_a01",
+        "m_trans__glass__clean_a01.001",
+        "m_trans__glass__purple_a01"
+      ],
+      "texture_references_source": [
+        "t_metal_chromeClean_a01_tile_nor.png",
+        "t_metal_chromeClean_a01_tile_orm.png",
+        "t_metal_glossy_a01_tile_alb.png",
+        "t_metal_glossy_a01_tile_nor.png",
+        "t_metal_glossy_a01_tile_orm.png",
+        "t_metal_steelStainless_clean_a01_tile_alb.png",
+        "t_metal_steelStainless_clean_a01_tile_nor.png",
+        "t_metal_steelStainless_clean_a01_tile_orm.png",
+        "t_plastic_black_b01_tile_alb.png",
+        "t_plastic_black_b01_tile_nor.png",
+        "t_plastic_black_b01_tile_orm.png",
+        "t_plastic_glossy_black_a01_tile_orm.png",
+        "t_plastic_glossy_white_a01_tile_alb.png",
+        "t_plastic_glossy_white_a01_tile_nor.png",
+        "t_plastic_glossy_white_a01_tile_orm.png",
+        "t_plastic_gray_a01_tile_nor.png",
+        "t_plastic_gray_a01_tile_orm.png",
+        "t_rubber_new_a01_tile_alb.png",
+        "t_rubber_new_a01_tile_nor.png",
+        "t_rubber_new_a01_tile_orm.png"
+      ],
+      "texture_original_px": {
+        "t_plastic_glossy_white_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_white_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chromeClean_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chromeClean_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_steelStainless_clean_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_steelStainless_clean_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_b01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_b01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_b01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_glossy_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_glossy_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_glossy_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_white_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_gray_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_gray_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_steelStainless_clean_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_new_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_new_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_new_a01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 1024,
+      "polygon_count_triangles_original": 760590,
+      "polygon_count_triangles_exported": 24981,
+      "decimate_ratio": 0.0328692199476722,
+      "bounding_box_size_m": [
+        0.7905716896057129,
+        0.6226992607116699,
+        1.4529093503952026
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.78932035,
+          1.529815,
+          0.9050592
+        ],
+        "center_m": [
+          0.0,
+          0.7649075,
+          0.0
+        ],
+        "has_rigidbody": false
+      },
+      "converted_glb": "Assets/SimReady/cart_medical_utility_a01.glb",
+      "converted_glb_size_bytes": 1658532,
+      "converted_glb_sha256": "99cd383380d3b324adeafc02e59e98c2d374c587de7138b85ef33830f4e9e7fd",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "cabinet_for_drugs_a01",
+      "original_repository_path": "nvidia/simready-assets/cabinet_for_drugs_a01/simready_usd/sm_cabinet_for_drugs_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.cabinet_for_drugs_a01.2026.10.08_231150866199",
+      "package_content_sha256": "24851f2f502f006461917be7d300a148341dc7b29aa3f740290a159047cd1038",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 283779779,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__metal__chrome_glossy_a01",
+        "m_opaque__metal__chrome_glossy_a01.001",
+        "m_opaque__metal__chrome_glossy_a01.002",
+        "m_opaque__metal__chrome_glossy_a01.003",
+        "m_opaque__metal__chrome_glossy_a01.004",
+        "m_opaque__metal__chrome_glossy_a01.005",
+        "m_opaque__metal__chrome_glossy_a01.006",
+        "m_opaque__metal__chrome_glossy_a01.007",
+        "m_opaque__metal__chrome_glossy_a01.008",
+        "m_opaque__metal__painted_white_glossy_a01",
+        "m_opaque__metal__painted_white_glossy_a01.001",
+        "m_opaque__metal__painted_white_glossy_a01.002",
+        "m_opaque__metal__painted_white_glossy_a01.003",
+        "m_opaque__metal__painted_white_glossy_a01.004",
+        "m_opaque__plastic__emissive_blue_a01",
+        "m_opaque__rubber__black_glossy_a01"
+      ],
+      "texture_references_source": [
+        "t_metal_chrome_a01_tile_alb.png",
+        "t_metal_chrome_a01_tile_nor.png",
+        "t_metal_chrome_a01_tile_orm.png",
+        "t_metal_paintedGlossy_white_a01_tile_alb.png",
+        "t_metal_paintedGlossy_white_a01_tile_nor.png",
+        "t_metal_paintedGlossy_white_a01_tile_orm.png",
+        "t_plastic_glossy_white_a01_tile_nor.png",
+        "t_plastic_glossy_white_a01_tile_orm.png",
+        "t_rubber_glossy_black_a01_tile_alb.png",
+        "t_rubber_glossy_black_a01_tile_nor.png",
+        "t_rubber_glossy_black_a01_tile_orm.png"
+      ],
+      "texture_original_px": {
+        "t_metal_chrome_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chrome_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chrome_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_paintedGlossy_white_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_paintedGlossy_white_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_paintedGlossy_white_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_white_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_white_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_glossy_black_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_glossy_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_glossy_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 1024,
+      "polygon_count_triangles_original": 472064,
+      "polygon_count_triangles_exported": 19993,
+      "decimate_ratio": 0.042367136659436005,
+      "bounding_box_size_m": [
+        1.0689380168914795,
+        0.7503687739372253,
+        1.142109751701355
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          1.0688505,
+          1.1418422,
+          0.7499797
+        ],
+        "center_m": [
+          -5.9604645e-08,
+          0.5709211,
+          0.0
+        ],
+        "has_rigidbody": false
+      },
+      "converted_glb": "Assets/SimReady/cabinet_for_drugs_a01.glb",
+      "converted_glb_size_bytes": 1144208,
+      "converted_glb_sha256": "3eac32235ded57144a575a68dee4ad46d95a44ab23b41c7cb1971332a71fb141",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "bin_waste_a01",
+      "original_repository_path": "nvidia/simready-assets/bin_waste_a01/simready_usd/sm_bin_waste_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.bin_waste_a01.2026.10.10_004650961533",
+      "package_content_sha256": "9404efc1eea8e954d8737704539b633dd9bf14c219709c0581f74c7dd965e224",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 135098360,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__metal__glossy_a01",
+        "m_opaque__metal__painted_red_a01",
+        "m_opaque__metal__painted_white_a01",
+        "m_opaque__metal__painted_white_a01.001",
+        "m_opaque__plastic__black_a01",
+        "m_opaque__plastic__black_a01.001",
+        "m_opaque__plastic__black_a01.002",
+        "m_opaque__plastic__red_a01"
+      ],
+      "texture_references_source": [
+        "t_metal_glossy_a01_tile_alb.png",
+        "t_metal_glossy_a01_tile_nor.png",
+        "t_metal_paintedGlossy_white_a01_tile_nor.png",
+        "t_metal_paintedGlossy_white_a01_tile_orm.png",
+        "t_plastic_black_a01_tile_alb.png",
+        "t_plastic_black_a01_tile_nor.png",
+        "t_plastic_black_a01_tile_orm.png",
+        "t_plastic_red_a01_tile_nor.png",
+        "t_plastic_red_a01_tile_orm.png"
+      ],
+      "texture_original_px": {
+        "t_plastic_black_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_glossy_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_glossy_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_paintedGlossy_white_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_paintedGlossy_white_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_red_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_red_a01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 1024,
+      "polygon_count_triangles_original": 44723,
+      "polygon_count_triangles_exported": 7997,
+      "decimate_ratio": 0.1788788766406547,
+      "bounding_box_size_m": [
+        0.33687520027160645,
+        0.18015426397323608,
+        0.2809413969516754
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.33687693,
+          0.30033314,
+          0.18010232
+        ],
+        "center_m": [
+          0.0,
+          0.15016657,
+          0.0
+        ],
+        "has_rigidbody": false
+      },
+      "converted_glb": "Assets/SimReady/bin_waste_a01.glb",
+      "converted_glb_size_bytes": 541916,
+      "converted_glb_sha256": "de1db38aa834e36f55a15a35caab136f7db5fc44a7c026a65ce4930286bdcd3f",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "washBasin_a01",
+      "original_repository_path": "nvidia/simready-assets/washBasin_a01/simready_usd/sm_washBasin_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.washBasin_a01.2026.10.10_190711015736",
+      "package_content_sha256": "597aa03da4a470209cb0011c2a7f75c13b9aaac9e934a0284e78f9497eb6f589",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 279520084,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__ceramic__smoothGlossy_a01",
+        "m_opaque__metal__chromeClean_a01",
+        "m_opaque__metal__chrome_a01",
+        "m_trans__glass__blackClean_a01"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "t_ceramic_smoothGlossy_a01_tile_alb.png",
+        "t_ceramic_smoothGlossy_a01_tile_nor.png",
+        "t_ceramic_smoothGlossy_a01_tile_orm.png",
+        "t_metal_chromeClean_a01_tile_alb.png",
+        "t_metal_chromeClean_a01_tile_nor.png",
+        "t_metal_chromeClean_a01_tile_orm.png",
+        "t_metal_chrome_a01_tile_alb.png",
+        "t_metal_chrome_a01_tile_nor.png",
+        "t_metal_chrome_a01_tile_orm.png"
+      ],
+      "texture_original_px": {
+        "t_ceramic_smoothGlossy_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_ceramic_smoothGlossy_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_ceramic_smoothGlossy_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chromeClean_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chromeClean_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chromeClean_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chrome_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chrome_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chrome_a01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 1024,
+      "polygon_count_triangles_original": 22602,
+      "polygon_count_triangles_exported": 20000,
+      "decimate_ratio": 0.8848774444739403,
+      "bounding_box_size_m": [
+        0.3495239019393921,
+        0.5761544704437256,
+        0.46085458993911743
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.34952402,
+          0.46085483,
+          0.5761545
+        ],
+        "center_m": [
+          0.0,
+          0.23042741,
+          0.0
+        ],
+        "has_rigidbody": false
+      },
+      "converted_glb": "Assets/SimReady/washBasin_a01.glb",
+      "converted_glb_size_bytes": 743428,
+      "converted_glb_sha256": "a8ae792c501ce7957d1501debf3d54d0a71485dde761ebc859dd7f78276139b3",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "table_metal_stainless_a03",
+      "original_repository_path": "nvidia/simready-assets/table_metal_stainless_a03/simready_usd/sm_table_metal_stainless_a03_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.table_metal_stainless_a03.2026.10.09_174629469614",
+      "package_content_sha256": "f2e3a685994355fe52789ede46c82eb0f06e68c974c89658af9c2718c6c10150",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 18006458,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "opaque__metal__steel_a",
+        "opaque__plastic__black_a"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "T_Plastic_Black_A_Albedo.png",
+        "T_Plastic_Black_A_Normal.png",
+        "T_Plastic_Black_A_ORM.png",
+        "T_Steel_A1_Albedo.png",
+        "T_Steel_A1_Normal.png",
+        "T_Steel_A1_ORM.png"
+      ],
+      "texture_original_px": {
+        "T_Plastic_Black_A_Albedo.png": [
+          1024,
+          1024
+        ],
+        "T_Plastic_Black_A_ORM.png": [
+          1024,
+          1024
+        ],
+        "T_Plastic_Black_A_Normal.png": [
+          1024,
+          1024
+        ],
+        "T_Steel_A1_Albedo.png": [
+          1024,
+          1024
+        ],
+        "T_Steel_A1_ORM.png": [
+          1024,
+          1024
+        ],
+        "T_Steel_A1_Normal.png": [
+          1024,
+          1024
+        ]
+      },
+      "texture_cap_px": 1024,
+      "polygon_count_triangles_original": 13912,
+      "polygon_count_triangles_exported": 7999,
+      "decimate_ratio": 0.5750431282346176,
+      "bounding_box_size_m": [
+        1.7999482154846191,
+        0.6988765001296997,
+        0.8500053286552429
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          1.8005133,
+          1.644775,
+          0.6998748
+        ],
+        "center_m": [
+          0.0,
+          0.8223875,
+          0.0
+        ],
+        "has_rigidbody": false
+      },
+      "converted_glb": "Assets/SimReady/table_metal_stainless_a03.glb",
+      "converted_glb_size_bytes": 516792,
+      "converted_glb_sha256": "b3df3f177080fa7f2859d05e9ea7709830e6b4f23164c033b4869f2584e97613",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "table_bedside_b01",
+      "original_repository_path": "nvidia/simready-assets/table_bedside_b01/simready_usd/sm_table_bedside_b01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.table_bedside_b01.2026.10.09_174611600606",
+      "package_content_sha256": "0b048c4f3b16b28217c8cfac085113375d01981e463237ee5d4127137ac1a4fb",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 324169005,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__metal__chrome_a01",
+        "m_opaque__metal__chrome_a01.001",
+        "m_opaque__metal__chrome_a01.002",
+        "m_opaque__metal__chrome_a01.003",
+        "m_opaque__plastic__black_a01",
+        "m_opaque__plastic__black_a01.001",
+        "m_opaque__plastic__black_a01.002",
+        "m_opaque__plastic__black_a01.003",
+        "m_opaque__plastic__black_a01.004",
+        "m_opaque__plastic__black_a01.005",
+        "m_opaque__plastic__black_a01.006",
+        "m_opaque__plastic__black_a01.007",
+        "m_opaque__plastic__black_a01.008",
+        "m_opaque__plastic__black_a01.009",
+        "m_opaque__plastic__black_a01.010",
+        "m_opaque__plastic__black_a01.011",
+        "m_opaque__plastic__glossy_darkgray_a01",
+        "m_opaque__plastic__glossy_darkgray_a01.001",
+        "m_opaque__plastic__glossy_white_a01",
+        "m_opaque__plastic__glossy_white_a01.001",
+        "m_opaque__plastic__glossy_white_a01.002",
+        "m_opaque__plastic__glossy_white_a01.003",
+        "m_opaque__plastic__gray_a01",
+        "m_opaque__plastic__gray_a01.001",
+        "m_opaque__plastic__gray_a01.002",
+        "m_opaque__plastic__gray_a01.003",
+        "m_opaque__plastic__gray_a01.004",
+        "m_opaque__plastic__gray_a01.005",
+        "m_opaque__plastic__gray_a01.006",
+        "m_opaque__plastic__gray_a01.007",
+        "m_opaque__plastic__gray_a01.008",
+        "m_opaque__plastic__gray_a01.009",
+        "m_opaque__plastic__gray_a01.010",
+        "m_opaque__plastic__gray_a01.011"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "t_metal_chrome_a01_tile_alb.png",
+        "t_metal_chrome_a01_tile_nor.png",
+        "t_metal_chrome_a01_tile_orm.png",
+        "t_plastic_black_a01_tile_alb.png",
+        "t_plastic_black_a01_tile_nor.png",
+        "t_plastic_black_a01_tile_orm.png",
+        "t_plastic_glossy_white_a01_tile_alb.png",
+        "t_plastic_glossy_white_a01_tile_nor.png",
+        "t_plastic_glossy_white_a01_tile_orm.png",
+        "t_plastic_gray_a01_tile_nor.png",
+        "t_plastic_gray_a01_tile_orm.png"
+      ],
+      "texture_original_px": {
+        "t_plastic_black_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_gray_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_gray_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_white_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_white_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chrome_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chrome_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chrome_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_white_a01_tile_alb.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 1024,
+      "polygon_count_triangles_original": 361430,
+      "polygon_count_triangles_exported": 11978,
+      "decimate_ratio": 0.03320144979664112,
+      "bounding_box_size_m": [
+        0.6339151859283447,
+        0.5526220202445984,
+        1.5590626001358032
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.6358862,
+          1.5591725,
+          0.57468295
+        ],
+        "center_m": [
+          0.0,
+          0.77958626,
+          0.0
+        ],
+        "has_rigidbody": false
+      },
+      "converted_glb": "Assets/SimReady/table_bedside_b01.glb",
+      "converted_glb_size_bytes": 869040,
+      "converted_glb_sha256": "1bb2d16dc6d7bf4607f78b3d665735d94798abdc05761848ae82d57b10431722",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "IV_pole_a01",
+      "original_repository_path": "nvidia/simready-assets/IV_pole_a01/simready_usd/sm_IV_pole_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.IV_pole_a01.2026.10.08_203419610312",
+      "package_content_sha256": "83f42c2ac5eee1c0b7a381a4f239ff4a64954ef68f8e8facd975ea393214efb9",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 223275142,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__metal__chrome_a01",
+        "m_opaque__metal__chrome_a01.001",
+        "m_opaque__metal__chrome_a01.002",
+        "m_opaque__metal__chrome_a01.003",
+        "m_opaque__metal__chrome_a01.004",
+        "m_opaque__metal__chrome_a01.005",
+        "m_opaque__metal__chrome_a01.006",
+        "m_opaque__metal__chrome_a01.007",
+        "m_opaque__metal__chrome_a01.008",
+        "m_opaque__metal__chrome_a01.009",
+        "m_opaque__metal__chrome_a01.010",
+        "m_opaque__metal__chrome_a01.011",
+        "m_opaque__metal__chrome_a01.012",
+        "m_opaque__metal__chrome_a01.013",
+        "m_opaque__metal__chrome_a01.014",
+        "m_opaque__metal__chrome_a01.015",
+        "m_opaque__metal__paintedRough_white_a01",
+        "m_opaque__metal__paintedRough_white_a01.001",
+        "m_opaque__metal__paintedRough_white_a01.002",
+        "m_opaque__metal__paintedRough_white_a01.003",
+        "m_opaque__metal__paintedRough_white_a01.004",
+        "m_opaque__metal__paintedRough_white_a01.005",
+        "m_opaque__metal__paintedRough_white_a01.006",
+        "m_opaque__metal__paintedRough_white_a01.007",
+        "m_opaque__metal__paintedRough_white_a01.008",
+        "m_opaque__metal__paintedRough_white_a01.009",
+        "m_opaque__metal__paintedRough_white_a01.010",
+        "m_opaque__metal__paintedRough_white_a01.011",
+        "m_opaque__metal__paintedRough_white_a01.012",
+        "m_opaque__plastic__black_a01",
+        "m_opaque__plastic__black_a01.001",
+        "m_opaque__plastic__black_a01.002",
+        "m_opaque__plastic__gray_a01",
+        "m_opaque__plastic__gray_a01.001",
+        "m_opaque__plastic__gray_a01.002",
+        "m_opaque__plastic__gray_a01.003",
+        "m_opaque__plastic__gray_a01.004",
+        "m_opaque__plastic__gray_a01.005",
+        "m_opaque__rubber__new_black_a01",
+        "m_opaque__rubber__new_black_a01.001",
+        "m_opaque__rubber__new_black_a01.002",
+        "m_opaque__rubber__new_black_a01.003",
+        "m_opaque__rubber__new_black_a01.004",
+        "m_opaque__rubber__new_black_a01.005"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "t_metal_chrome_a01_tile_alb.png",
+        "t_metal_chrome_a01_tile_nor.png",
+        "t_metal_chrome_a01_tile_orm.png",
+        "t_metal_paintedRough_white_a01_tile_alb.png",
+        "t_metal_paintedRough_white_a01_tile_nor.png",
+        "t_metal_paintedRough_white_a01_tile_orm.png",
+        "t_plastic_black_a01_tile_alb.png",
+        "t_plastic_black_a01_tile_nor.png",
+        "t_plastic_black_a01_tile_orm.png",
+        "t_plastic_gray_a01_tile_alb.png",
+        "t_plastic_gray_a01_tile_nor.png",
+        "t_plastic_gray_a01_tile_orm.png",
+        "t_rubber_new_a01_tile_alb.png",
+        "t_rubber_new_a01_tile_nor.png",
+        "t_rubber_new_a01_tile_orm.png"
+      ],
+      "texture_original_px": {
+        "t_metal_chrome_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chrome_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chrome_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_paintedRough_white_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_paintedRough_white_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_paintedRough_white_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_new_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_new_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_new_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_gray_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_gray_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_gray_a01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 1024,
+      "polygon_count_triangles_original": 458714,
+      "polygon_count_triangles_exported": 14987,
+      "decimate_ratio": 0.032700113796396015,
+      "bounding_box_size_m": [
+        0.650465726852417,
+        0.5709105730056763,
+        1.996253252029419
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.72182,
+          2.1958401,
+          0.57086456
+        ],
+        "center_m": [
+          0.0,
+          1.0979201,
+          0.0
+        ],
+        "has_rigidbody": false
+      },
+      "converted_glb": "Assets/SimReady/IV_pole_a01.glb",
+      "converted_glb_size_bytes": 1272556,
+      "converted_glb_sha256": "54cf82b4bc815ccf1be8a8318d997c168809460eda63da9a266076dd4c75d7c1",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "trolley_emergency_a01",
+      "original_repository_path": "nvidia/simready-assets/trolley_emergency_a01/simready_usd/sm_trolley_emergency_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.trolley_emergency_a01.2026.10.12_210505979683",
+      "package_content_sha256": "fb1cd7db3cdf5baa2e7daaa897eab88358cf71ff2b22a519cb89e2d2070e1d59",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 373092716,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__fabric__cotton_redblack_a01",
+        "m_opaque__metal__chrome_a01",
+        "m_opaque__metal__chrome_a01.001",
+        "m_opaque__metal__chrome_a01.002",
+        "m_opaque__metal__painted_black_a01",
+        "m_opaque__metal__painted_red_a01",
+        "m_opaque__metal__painted_white_a01",
+        "m_opaque__metal__stainlesssteel_a01",
+        "m_opaque__metal__stainlesssteel_a01.001",
+        "m_opaque__metal__stainlesssteel_a01.002",
+        "m_opaque__metal__stainlesssteel_a01.003",
+        "m_opaque__plastic__black_a01",
+        "m_opaque__plastic__black_a01.001",
+        "m_opaque__plastic__black_a01.002",
+        "m_opaque__plastic__black_a01.003",
+        "m_opaque__plastic__black_a01.004",
+        "m_opaque__plastic__black_a01.005",
+        "m_opaque__plastic__black_a01.006",
+        "m_opaque__plastic__black_gray_a01",
+        "m_opaque__plastic__black_gray_a01.001",
+        "m_opaque__plastic__black_gray_a01.002",
+        "m_opaque__plastic__black_gray_a01.003",
+        "m_opaque__plastic__black_gray_a01.004",
+        "m_opaque__plastic__black_gray_a01.005",
+        "m_opaque__plastic__black_gray_a01.006",
+        "m_opaque__plastic__gray_a01",
+        "m_opaque__plastic__white_a01",
+        "m_opaque__plastic__white_a01.001",
+        "m_opaque__plastic__white_gray_a01",
+        "m_opaque__plastic__white_gray_a01.001",
+        "m_opaque__plastic__white_gray_a01.002",
+        "m_opaque__plastic__white_gray_a01.003",
+        "m_opaque__rubber__black_a01",
+        "m_opaque__rubber__black_a01.001",
+        "m_opaque__rubber__black_a01.002",
+        "m_opaque__rubber__black_a01.003"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "t_fabric_d01_tile_nor.png",
+        "t_fabric_d01_tile_orm.png",
+        "t_metal_chrome_a01_tile_alb.png",
+        "t_metal_chrome_a01_tile_nor.png",
+        "t_metal_chrome_a01_tile_orm.png",
+        "t_metal_paintedGlossy_white_a01_tile_alb.png",
+        "t_metal_paintedGlossy_white_a01_tile_nor.png",
+        "t_metal_paintedGlossy_white_a01_tile_orm.png",
+        "t_metal_painted_a03_tile_alb.png",
+        "t_metal_painted_a03_tile_nor.png",
+        "t_metal_painted_a03_tile_orm.png",
+        "t_metal_stainlessSteel_clean_a01_tile_alb.png",
+        "t_metal_stainlessSteel_clean_a01_tile_nor.png",
+        "t_metal_stainlessSteel_clean_a01_tile_orm.png",
+        "t_plastic_black_a01_tile_alb.png",
+        "t_plastic_black_a01_tile_nor.png",
+        "t_plastic_black_a01_tile_orm.png",
+        "t_plastic_gray_a01_tile_nor.png",
+        "t_plastic_gray_a01_tile_orm.png",
+        "t_rubber_lined_black_a01_tile_alb.png",
+        "t_rubber_lined_black_a01_tile_nor.png",
+        "t_rubber_lined_black_a01_tile_orm.png"
+      ],
+      "texture_original_px": {
+        "t_metal_stainlessSteel_clean_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_stainlessSteel_clean_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_stainlessSteel_clean_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_lined_black_a01_tile_alb.png": [
+          4096,
+          2048
+        ],
+        "t_rubber_lined_black_a01_tile_orm.png": [
+          4096,
+          2048
+        ],
+        "t_rubber_lined_black_a01_tile_nor.png": [
+          4096,
+          2048
+        ],
+        "t_plastic_gray_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_gray_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_paintedGlossy_white_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_paintedGlossy_white_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_paintedGlossy_white_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_painted_a03_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_painted_a03_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_painted_a03_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chrome_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chrome_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chrome_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_fabric_d01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_fabric_d01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 1024,
+      "polygon_count_triangles_original": 453028,
+      "polygon_count_triangles_exported": 29985,
+      "decimate_ratio": 0.06622107242819428,
+      "bounding_box_size_m": [
+        0.8313920497894287,
+        0.9180941581726074,
+        2.169027805328369
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.8500047,
+          2.408109,
+          0.9178037
+        ],
+        "center_m": [
+          0.0,
+          1.2040545,
+          0.0
+        ],
+        "has_rigidbody": false
+      },
+      "converted_glb": "Assets/SimReady/trolley_emergency_a01.glb",
+      "converted_glb_size_bytes": 1727064,
+      "converted_glb_sha256": "0ebeee6aa282c9d54849b818248de7f0d1daae4181c47fe2c96276ec90b80cca",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "trolley_instrument_b01",
+      "original_repository_path": "nvidia/simready-assets/trolley_instrument_b01/simready_usd/sm_trolley_instrument_b01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.trolley_instrument_b01.2026.10.09_182223598797",
+      "package_content_sha256": "ef1461c3f1ff628a429d6c3443afb0114a0119c72f5810aa05426369adf8498c",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 120886983,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__metal__chrome_clean_a01",
+        "m_opaque__metal__glossy_a01",
+        "m_opaque__metal__glossy_a01.001",
+        "m_opaque__metal__glossy_a01.002",
+        "m_opaque__metal__glossy_a01.003",
+        "m_opaque__metal__steel_a01",
+        "m_opaque__metal__steel_a01.001",
+        "m_opaque__metal__steel_a01.002",
+        "m_opaque__metal__steel_a01.003",
+        "m_opaque__plastic__black_a01",
+        "m_opaque__plastic__black_a01.001",
+        "m_opaque__plastic__black_a01.002",
+        "m_opaque__plastic__black_a01.003",
+        "m_opaque__plastic__black_b01",
+        "m_opaque__plastic__black_b01.001",
+        "m_opaque__plastic__black_b01.002",
+        "m_opaque__plastic__black_b01.003",
+        "m_opaque__rubber__clean_black_a01",
+        "m_opaque__rubber__clean_black_a01.001",
+        "m_opaque__rubber__clean_black_a01.002",
+        "m_opaque__rubber__clean_black_a01.003"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "t_metal_chromeClean_a01_tile_nor.png",
+        "t_metal_chromeClean_a01_tile_orm.png",
+        "t_metal_glossy_a01_tile_alb.png",
+        "t_metal_glossy_a01_tile_nor.png",
+        "t_metal_glossy_a01_tile_orm.png",
+        "t_metal_steel_a01_tile_nor.png",
+        "t_metal_steel_a01_tile_orm.png",
+        "t_plastic_black_a01_tile_nor.png",
+        "t_plastic_black_a01_tile_orm.png",
+        "t_rubber_new_a01_tile_alb.png",
+        "t_rubber_new_a01_tile_nor.png",
+        "t_rubber_new_a01_tile_orm.png"
+      ],
+      "texture_original_px": {
+        "t_rubber_new_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_new_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_new_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_steel_a01_tile_orm.png": [
+          2048,
+          2048
+        ],
+        "t_metal_steel_a01_tile_nor.png": [
+          2048,
+          2048
+        ],
+        "t_metal_glossy_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_glossy_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_glossy_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chromeClean_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chromeClean_a01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 1024,
+      "polygon_count_triangles_original": 116792,
+      "polygon_count_triangles_exported": 19996,
+      "decimate_ratio": 0.17124460579491746,
+      "bounding_box_size_m": [
+        0.9583178758621216,
+        0.5772860050201416,
+        0.9784497618675232
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          1.0555389,
+          0.9782469,
+          0.57835627
+        ],
+        "center_m": [
+          -5.9604645e-08,
+          0.48912346,
+          0.0
+        ],
+        "has_rigidbody": false
+      },
+      "converted_glb": "Assets/SimReady/trolley_instrument_b01.glb",
+      "converted_glb_size_bytes": 1160996,
+      "converted_glb_sha256": "6ee4f42d3b4d2ef542d635a68a8729a86a3406c0f9686c717e96351c86ba1178",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "trolley_cleaning_a01",
+      "original_repository_path": "nvidia/simready-assets/trolley_cleaning_a01/simready_usd/sm_trolley_cleaning_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.trolley_cleaning_a01.2026.10.10_190638445566",
+      "package_content_sha256": "992e4d48cad54df97f873d5111dc2c955f6051ffdd68776b5f64de96c475ddde",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 48011354,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "opaque__fabric__unique_trolley_cleaning_a",
+        "opaque__fabric__unique_trolley_cleaning_b",
+        "opaque__metal__black_glossy_a",
+        "opaque__metal__glossy_a",
+        "opaque__metal__glossy_a.001",
+        "opaque__metal__glossy_a.002",
+        "opaque__metal__glossy_a.003",
+        "opaque__metal__glossy_a.004",
+        "opaque__metal__glossy_a.005",
+        "opaque__metal__glossy_a.006",
+        "opaque__metal__glossy_a.007",
+        "opaque__metal__glossy_a.008",
+        "opaque__metal__rough_a",
+        "opaque__metal__rough_a.001",
+        "opaque__metal__rough_a.002",
+        "opaque__metal__rough_a.003",
+        "opaque__plastic__black_a",
+        "opaque__plastic__black_a.001",
+        "opaque__plastic__black_a.002",
+        "opaque__plastic__black_a.003",
+        "opaque__plastic__blue_a",
+        "opaque__plastic__blue_a.001",
+        "opaque__plastic__gray_a",
+        "opaque__plastic__gray_a.001",
+        "opaque__plastic__lightblue_a",
+        "opaque__plastic__lightblue_a.001",
+        "opaque__plastic__lightblue_a.002",
+        "opaque__plastic__red_a",
+        "opaque__plastic__red_a.001",
+        "opaque__plastic__white_a",
+        "opaque__plastic__white_a.001",
+        "opaque__plastic__white_a.002",
+        "opaque__plastic__white_a.003"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "T_CleaningTrolley_A01_Cloth_Albedo.png",
+        "T_CleaningTrolley_A01_Cloth_Normal.png",
+        "T_CleaningTrolley_A01_Cloth_ORM.png",
+        "T_CleaningTrolley_A01_Mop_Albedo.png",
+        "T_CleaningTrolley_A01_Mop_Normal.png",
+        "T_CleaningTrolley_A01_Mop_ORM.png",
+        "T_Metal_Glossy_A_Albedo_1.png",
+        "T_Metal_Glossy_A_Normal_1.png",
+        "T_Metal_Glossy_A_ORM_1.png",
+        "T_Metal_Rough_A_Albedo.png",
+        "T_Metal_Rough_A_Normal.png",
+        "T_Metal_Rough_A_ORM.png",
+        "T_Plastic_Black_A_Albedo.png",
+        "T_Plastic_Black_A_Normal.png",
+        "T_Plastic_Black_A_ORM.png",
+        "T_Plastic_Blue_A_Albedo.png",
+        "T_Plastic_Blue_A_Normal.png",
+        "T_Plastic_Blue_A_ORM.png",
+        "T_Plastic_Gray_A_Normal.png",
+        "T_Plastic_Gray_A_ORM.png",
+        "T_Plastic_Red_A_Albedo.png",
+        "T_Plastic_Red_A_Normal.png",
+        "T_Plastic_Red_A_ORM.png"
+      ],
+      "texture_original_px": {
+        "T_CleaningTrolley_A01_Cloth_Albedo.png": [
+          1024,
+          1024
+        ],
+        "T_CleaningTrolley_A01_Cloth_ORM.png": [
+          1024,
+          1024
+        ],
+        "T_CleaningTrolley_A01_Cloth_Normal.png": [
+          1024,
+          1024
+        ],
+        "T_CleaningTrolley_A01_Mop_Albedo.png": [
+          1024,
+          1024
+        ],
+        "T_CleaningTrolley_A01_Mop_ORM.png": [
+          1024,
+          1024
+        ],
+        "T_CleaningTrolley_A01_Mop_Normal.png": [
+          1024,
+          1024
+        ],
+        "T_Metal_Glossy_A_Albedo_1.png": [
+          1024,
+          1024
+        ],
+        "T_Metal_Glossy_A_ORM_1.png": [
+          1024,
+          1024
+        ],
+        "T_Metal_Glossy_A_Normal_1.png": [
+          1024,
+          1024
+        ],
+        "T_Metal_Rough_A_Albedo.png": [
+          1024,
+          1024
+        ],
+        "T_Metal_Rough_A_ORM.png": [
+          1024,
+          1024
+        ],
+        "T_Metal_Rough_A_Normal.png": [
+          1024,
+          1024
+        ],
+        "T_Plastic_Red_A_ORM.png": [
+          1024,
+          1024
+        ],
+        "T_Plastic_Red_A_Normal.png": [
+          1024,
+          1024
+        ],
+        "T_Plastic_Blue_A_ORM.png": [
+          1024,
+          1024
+        ],
+        "T_Plastic_Blue_A_Normal.png": [
+          1024,
+          1024
+        ],
+        "T_Plastic_Red_A_Albedo.png": [
+          1024,
+          1024
+        ],
+        "T_Plastic_Black_A_Albedo.png": [
+          1024,
+          1024
+        ],
+        "T_Plastic_Black_A_ORM.png": [
+          1024,
+          1024
+        ],
+        "T_Plastic_Black_A_Normal.png": [
+          1024,
+          1024
+        ],
+        "T_Plastic_Gray_A_ORM.png": [
+          1024,
+          1024
+        ],
+        "T_Plastic_Gray_A_Normal.png": [
+          1024,
+          1024
+        ],
+        "T_Plastic_Blue_A_Albedo.png": [
+          1024,
+          1024
+        ]
+      },
+      "texture_cap_px": 1024,
+      "polygon_count_triangles_original": 197208,
+      "polygon_count_triangles_exported": 19977,
+      "decimate_ratio": 0.10141576406636647,
+      "bounding_box_size_m": [
+        0.6651133298873901,
+        0.6834037899971008,
+        1.2824492454528809
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.66433716,
+          1.3432653,
+          0.6960478
+        ],
+        "center_m": [
+          0.0,
+          0.67163265,
+          0.0
+        ],
+        "has_rigidbody": false
+      },
+      "converted_glb": "Assets/SimReady/trolley_cleaning_a01.glb",
+      "converted_glb_size_bytes": 2556156,
+      "converted_glb_sha256": "71f31f5f8a3bba1aca95e53d2cee02e0c612f1f07ff9b35742398efcbc00afbb",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "wheelChair_c01",
+      "original_repository_path": "nvidia/simready-assets/wheelChair_c01/simready_usd/sm_wheelChair_c01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.wheelChair_c01.2026.10.12_210514010067",
+      "package_content_sha256": "9b6fd988fbda969526f1e9ecce169910243536204fa0a1712f3caa8ab7d3bca9",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 418841600,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__fabric__cotton_black_b01",
+        "m_opaque__fabric__cotton_black_q01",
+        "m_opaque__fabric__tweed_herringbone_a01",
+        "m_opaque__metal__chrome_a01",
+        "m_opaque__metal__chrome_a01.001",
+        "m_opaque__metal__chrome_a01.002",
+        "m_opaque__metal__paintedRough_white_a01",
+        "m_opaque__metal__painted_glossy_black_a01",
+        "m_opaque__metal__painted_glossy_black_a01.001",
+        "m_opaque__metal__painted_glossy_black_a01.002",
+        "m_opaque__metal__painted_glossy_black_a01.003",
+        "m_opaque__metal__painted_glossy_black_a01.004",
+        "m_opaque__metal__painted_glossy_black_a01.005",
+        "m_opaque__metal__painted_glossy_black_a01.006",
+        "m_opaque__metal__painted_gray_a01",
+        "m_opaque__metal__painted_gray_a01.001",
+        "m_opaque__plastic__glossy_black_a01",
+        "m_opaque__plastic__glossy_black_a01.001",
+        "m_opaque__plastic__glossy_black_a01.002",
+        "m_opaque__plastic__rough_black_a01",
+        "m_opaque__plastic__yellow_a01",
+        "m_opaque__rubber__glossy_black_a01",
+        "m_opaque__rubber__glossy_black_a01.001",
+        "m_opaque__rubber__glossy_black_a01.002",
+        "m_opaque__rubber__glossy_black_a01.003",
+        "m_opaque__rubber__glossy_black_a01.004"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "t_fabric_b01_tile_nor.png",
+        "t_fabric_b01_tile_orm.png",
+        "t_fabric_black_b01_tile_alb.jpg",
+        "t_fabric_darkGray_q01_tile_alb.jpg",
+        "t_fabric_q01_tile_nor.png",
+        "t_fabric_q01_tile_orm.png",
+        "t_metal_chrome_a01_tile_nor.png",
+        "t_metal_chrome_a01_tile_orm.png",
+        "t_metal_paintedRough_white_a01_tile_nor.png",
+        "t_metal_paintedRough_white_a01_tile_orm.png",
+        "t_metal_painted_gray_a01_tile_nor.png",
+        "t_metal_painted_gray_a01_tile_orm.png",
+        "t_plastic_glossy_black_a01_tile_alb.png",
+        "t_plastic_glossy_black_a01_tile_nor.png",
+        "t_plastic_glossy_black_a01_tile_orm.png",
+        "t_plastic_yellow_a01_tile_alb.png",
+        "t_plastic_yellow_a01_tile_nor.png",
+        "t_plastic_yellow_a01_tile_orm.png",
+        "t_rubber_glossy_black_a01_tile_alb.png",
+        "t_rubber_glossy_black_a01_tile_nor.png",
+        "t_rubber_glossy_black_a01_tile_orm.png",
+        "t_tweed_herringbone_a01_tile_alb.png",
+        "t_tweed_herringbone_a01_tile_nor.png",
+        "t_tweed_herringbone_a01_tile_orm.png"
+      ],
+      "texture_original_px": {
+        "t_metal_painted_gray_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_painted_gray_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chrome_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chrome_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_glossy_black_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_glossy_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_glossy_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_black_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_fabric_darkGray_q01_tile_alb.jpg": [
+          4096,
+          4096
+        ],
+        "t_fabric_q01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_fabric_q01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_tweed_herringbone_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_tweed_herringbone_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_tweed_herringbone_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_fabric_black_b01_tile_alb.jpg": [
+          4096,
+          4096
+        ],
+        "t_fabric_b01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_fabric_b01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_paintedRough_white_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_paintedRough_white_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_yellow_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_yellow_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_yellow_a01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 1024,
+      "polygon_count_triangles_original": 1030310,
+      "polygon_count_triangles_exported": 24990,
+      "decimate_ratio": 0.0242645417398647,
+      "bounding_box_size_m": [
+        0.718854546546936,
+        0.5245715379714966,
+        0.6663919687271118
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.83252215,
+          1.027156,
+          0.5423732
+        ],
+        "center_m": [
+          2.9802322e-08,
+          0.513578,
+          0.0
+        ],
+        "has_rigidbody": false
+      },
+      "converted_glb": "Assets/SimReady/wheelChair_c01.glb",
+      "converted_glb_size_bytes": 3036644,
+      "converted_glb_sha256": "ec00d59ad9a34f68a2d2b98eaaf5f62c424bec7d66bb071eb0063450881f0ac4",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "stool_mobile_padded_vinyl_a01",
+      "original_repository_path": "nvidia/simready-assets/stool_mobile_padded_vinyl_a01/simready_usd/sm_stool_mobile_padded_vinyl_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.stool_mobile_padded_vinyl_a01.2026.10.10_190606647269",
+      "package_content_sha256": "0dd3df94ce656b0a9c3560c8c90454a2eb9e68aad57224fe36c8e6a14d489f7a",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 35531653,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "opaque__leather__glosssy_black_a",
+        "opaque__leather__glosssy_black_a.001",
+        "opaque__metal__glossy_a",
+        "opaque__metal__glossy_a.001",
+        "opaque__metal__painted_black_a",
+        "opaque__metal__painted_black_a.001",
+        "opaque__plastic__glossy_black_a",
+        "opaque__plastic__glossy_black_a.001",
+        "opaque__plastic__glossy_black_a.002",
+        "opaque__plastic__glossy_black_a.003",
+        "opaque__plastic__glossy_black_a.004",
+        "opaque__plastic__polyurethane_black_a",
+        "opaque__plastic__polyurethane_black_a.001",
+        "opaque__plastic__polyurethane_black_a.002",
+        "opaque__plastic__polyurethane_black_a.003",
+        "opaque__plastic__polyurethane_black_a.004",
+        "opaque__plastic__polyurethane_black_a.005",
+        "opaque__plastic__polyurethane_black_a.006",
+        "opaque__plastic__polyurethane_black_a.007",
+        "opaque__plastic__polyurethane_black_a.008",
+        "opaque__plastic__polyurethane_black_a.009",
+        "opaque__plastic__polyurethane_black_a.010"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "T_Aluminium_Raw_A_Normal.png",
+        "T_Leather_Black_Glossy_A_Albedo.png",
+        "T_Leather_Black_Glossy_A_Normal.png",
+        "T_Leather_Black_Glossy_A_ORM.png",
+        "T_Metal_Glossy_A_Albedo.png",
+        "T_Metal_Glossy_A_Normal.png",
+        "T_Metal_Glossy_A_ORM.png",
+        "T_Plastic_Glossy_Black_A_Albedo.png",
+        "T_Plastic_Glossy_Black_A_Normal.png",
+        "T_Plastic_Glossy_Black_A_ORM.png",
+        "T_Polyurethane_Black_Rough_A_Albedo.png",
+        "T_Polyurethane_Black_Rough_A_Normal.png",
+        "T_Polyurethane_Black_Rough_A_ORM.png",
+        "T_metalpainted_gray_metallic_a_ORM.png"
+      ],
+      "texture_original_px": {
+        "T_Polyurethane_Black_Rough_A_Albedo.png": [
+          2048,
+          2048
+        ],
+        "T_Polyurethane_Black_Rough_A_ORM.png": [
+          2048,
+          2048
+        ],
+        "T_Polyurethane_Black_Rough_A_Normal.png": [
+          2048,
+          2048
+        ],
+        "T_metalpainted_gray_metallic_a_ORM.png": [
+          1024,
+          1024
+        ],
+        "T_Aluminium_Raw_A_Normal.png": [
+          1024,
+          1024
+        ],
+        "T_Leather_Black_Glossy_A_Albedo.png": [
+          1024,
+          1024
+        ],
+        "T_Leather_Black_Glossy_A_ORM.png": [
+          1024,
+          1024
+        ],
+        "T_Leather_Black_Glossy_A_Normal.png": [
+          1024,
+          1024
+        ],
+        "T_Plastic_Glossy_Black_A_Albedo.png": [
+          1024,
+          1024
+        ],
+        "T_Plastic_Glossy_Black_A_ORM.png": [
+          1024,
+          1024
+        ],
+        "T_Plastic_Glossy_Black_A_Normal.png": [
+          1024,
+          1024
+        ],
+        "T_Metal_Glossy_A_Albedo.png": [
+          1024,
+          1024
+        ],
+        "T_Metal_Glossy_A_ORM.png": [
+          1024,
+          1024
+        ],
+        "T_Metal_Glossy_A_Normal.png": [
+          1024,
+          1024
+        ]
+      },
+      "texture_cap_px": 512,
+      "polygon_count_triangles_original": 68143,
+      "polygon_count_triangles_exported": 7991,
+      "decimate_ratio": 0.11740017316525542,
+      "bounding_box_size_m": [
+        0.5000858306884766,
+        0.5244214534759521,
+        0.365135133266449
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.5215565,
+          0.596704,
+          0.54169774
+        ],
+        "center_m": [
+          0.0,
+          0.298352,
+          2.9802322e-08
+        ],
+        "has_rigidbody": false
+      },
+      "converted_glb": "Assets/SimReady/stool_mobile_padded_vinyl_a01.glb",
+      "converted_glb_size_bytes": 531856,
+      "converted_glb_sha256": "bcaa3990818c708f84f8dfc396ff15bf5d046766ea500511ccc19c7356adc8c5",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "cleaning_soapDispenser_a01",
+      "original_repository_path": "nvidia/simready-assets/cleaning_soapDispenser_a01/simready_usd/sm_cleaning_soapDispenser_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.cleaning_soapDispenser_a01.2026.10.09_230130152728",
+      "package_content_sha256": "ba1a309ba063a3a117becd2ed9c71f68877b37bec8dff6400c70e58f3d476461",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 27455465,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__plastic__cleaning_soapDispenser_a01",
+        "m_opaque__plastic__cleaning_soapDispenser_a01.001",
+        "m_trans__glass__clean_a01",
+        "m_trans__glass__cleaning_soapDispenser_a01",
+        "m_trans__plastic__cleaning_soapDispenser_a01"
+      ],
+      "texture_references_source": [
+        "t_cleaning_soapDispenser_a01_alb.png",
+        "t_cleaning_soapDispenser_a01_nor.png",
+        "t_cleaning_soapDispenser_a01_orm.png"
+      ],
+      "texture_original_px": {
+        "t_cleaning_soapDispenser_a01_alb.png": [
+          4096,
+          4096
+        ],
+        "t_cleaning_soapDispenser_a01_orm.png": [
+          4096,
+          4096
+        ],
+        "t_cleaning_soapDispenser_a01_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 512,
+      "polygon_count_triangles_original": 82342,
+      "polygon_count_triangles_exported": 5998,
+      "decimate_ratio": 0.07286682373515338,
+      "bounding_box_size_m": [
+        0.07514994591474533,
+        0.06952621042728424,
+        0.1787874549627304
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.07526683,
+          0.20875183,
+          0.0692645
+        ],
+        "center_m": [
+          0.0,
+          0.104375914,
+          0.0
+        ],
+        "has_rigidbody": false
+      },
+      "converted_glb": "Assets/SimReady/cleaning_soapDispenser_a01.glb",
+      "converted_glb_size_bytes": 286168,
+      "converted_glb_sha256": "51d3bd4a14dec4caf14c3e764775a5a97311e1a3dc798e1b9be394ff72784cf1",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "disinfectant_a01",
+      "original_repository_path": "nvidia/simready-assets/disinfectant_a01/simready_usd/sm_disinfectant_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.disinfectant_a01.2026.10.09_005815039787",
+      "package_content_sha256": "13fe6e594a7dc09724e38930f5d1a98cb0150d5ec88cc7a5a2498783a66df04f",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 64428097,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__paper__white_rough_a01",
+        "m_opaque__plastic__white_a01",
+        "m_opaque__plastic__white_rough_a01"
+      ],
+      "texture_references_source": [
+        "t_desinfectant_a01_alb.png",
+        "t_desinfectant_a01_orm.png",
+        "t_plastic_glossy_white_a01_tile_nor.png",
+        "t_plastic_glossy_white_a01_tile_orm.png",
+        "t_plastic_scratched_white_a01_tile_alb.png",
+        "t_plastic_scratched_white_a01_tile_nor.png",
+        "t_plastic_scratched_white_a01_tile_orm.png"
+      ],
+      "texture_original_px": {
+        "t_plastic_scratched_white_a01_tile_alb.png": [
+          2048,
+          2048
+        ],
+        "t_plastic_scratched_white_a01_tile_orm.png": [
+          2048,
+          2048
+        ],
+        "t_plastic_scratched_white_a01_tile_nor.png": [
+          2048,
+          2048
+        ],
+        "t_plastic_glossy_white_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_white_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_desinfectant_a01_alb.png": [
+          4096,
+          4096
+        ],
+        "t_desinfectant_a01_orm.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 512,
+      "polygon_count_triangles_original": 52892,
+      "polygon_count_triangles_exported": 5999,
+      "decimate_ratio": 0.11343870528624367,
+      "bounding_box_size_m": [
+        0.044716887176036835,
+        0.06745749711990356,
+        0.19101113080978394
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.04471366,
+          0.19103837,
+          0.067469575
+        ],
+        "center_m": [
+          0.0,
+          0.095519185,
+          0.0
+        ],
+        "has_rigidbody": true
+      },
+      "converted_glb": "Assets/SimReady/disinfectant_a01.glb",
+      "converted_glb_size_bytes": 271520,
+      "converted_glb_sha256": "089bce977691c116821a4247196f5519879519cb699dcf909d6f799d1f1a2620",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "fireProtection_extinguisher_portable_a01",
+      "original_repository_path": "nvidia/simready-assets/fireProtection_extinguisher_portable_a01/simready_usd/sm_fireProtection_extinguisher_portable_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.fireProtection_extinguisher_portable_a01.2026.10.09_031708445733",
+      "package_content_sha256": "dd6f11cdefbc1c4c2ada0b04fce3aae5a0c8820bea4c6ac1d9b9b40c41906e73",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 51352984,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__metal__fireProtection_extinguisher_a01",
+        "m_opaque__paper__fireProtection_extinguisher_decal_a01",
+        "m_trans__glass__fireProtection_extinguisher_glass_a01"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "t_fireProtection_extinguisher_portable_a01_alb.png",
+        "t_fireProtection_extinguisher_portable_a01_nor.png",
+        "t_fireProtection_extinguisher_portable_a01_orm.png",
+        "t_fireProtection_extinguisher_portable_decal_a01_alb.png",
+        "t_fireProtection_extinguisher_portable_decal_a01_nor.png",
+        "t_fireProtection_extinguisher_portable_decal_a01_orm.png"
+      ],
+      "texture_original_px": {
+        "t_fireProtection_extinguisher_portable_a01_alb.png": [
+          4096,
+          4096
+        ],
+        "t_fireProtection_extinguisher_portable_a01_orm.png": [
+          4096,
+          4096
+        ],
+        "t_fireProtection_extinguisher_portable_a01_nor.png": [
+          4096,
+          4096
+        ],
+        "t_fireProtection_extinguisher_portable_decal_a01_alb.png": [
+          4096,
+          4096
+        ],
+        "t_fireProtection_extinguisher_portable_decal_a01_orm.png": [
+          4096,
+          4096
+        ],
+        "t_fireProtection_extinguisher_portable_decal_a01_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 512,
+      "polygon_count_triangles_original": 107250,
+      "polygon_count_triangles_exported": 9998,
+      "decimate_ratio": 0.09324009324009325,
+      "bounding_box_size_m": [
+        0.10868804156780243,
+        0.1840265989303589,
+        0.41729632019996643
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.10856627,
+          0.41742915,
+          0.18420696
+        ],
+        "center_m": [
+          0.0,
+          0.20871457,
+          0.0
+        ],
+        "has_rigidbody": false
+      },
+      "converted_glb": "Assets/SimReady/fireProtection_extinguisher_portable_a01.glb",
+      "converted_glb_size_bytes": 439468,
+      "converted_glb_sha256": "f740c3fc2162c4effe3e61bfa0430be7e58770d8a3cfea412635aa7e5d4908ad",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "syringe_a01",
+      "original_repository_path": "nvidia/simready-assets/syringe_a01/simready_usd/sm_syringe_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.syringe_a01.2026.10.09_231518040075",
+      "package_content_sha256": "febf83dd3b2ecd657ae9196d524355abf128e75ce954f4843dcc38c0933cfd22",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 82542414,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__metal__chrome_a01",
+        "m_opaque__rubber__black_a01",
+        "m_opaque__rubber__black_a01.001",
+        "m_trans__plastic__lightgreen_a01",
+        "m_trans__plastic__lightgreen_a01.001",
+        "m_trans__plastic__white_a01",
+        "m_trans__plastic__white_a01.001"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "t_metal_chrome_a01_tile_alb.png",
+        "t_metal_chrome_a01_tile_nor.png",
+        "t_metal_chrome_a01_tile_orm.png",
+        "t_rubber_glossy_black_a01_tile_alb.png",
+        "t_rubber_glossy_black_a01_tile_nor.png",
+        "t_rubber_glossy_black_a01_tile_orm.png"
+      ],
+      "texture_original_px": {
+        "t_rubber_glossy_black_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_glossy_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_glossy_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chrome_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chrome_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chrome_a01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 512,
+      "polygon_count_triangles_original": 25998,
+      "polygon_count_triangles_exported": 3993,
+      "decimate_ratio": 0.15385798907608278,
+      "bounding_box_size_m": [
+        0.10951478779315948,
+        0.035328976809978485,
+        0.03562869131565094
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.17510189,
+          0.035607845,
+          0.035194
+        ],
+        "center_m": [
+          0.0,
+          0.017803922,
+          0.0
+        ],
+        "has_rigidbody": true
+      },
+      "converted_glb": "Assets/SimReady/syringe_a01.glb",
+      "converted_glb_size_bytes": 195128,
+      "converted_glb_sha256": "481c4df0900ead7a3aa8d1fd601e7465a7f5a6d09b17f5be7172163f880842f3",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "thermometer_fever_a01",
+      "original_repository_path": "nvidia/simready-assets/thermometer_fever_a01/simready_usd/sm_thermometer_fever_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.thermometer_fever_a01.2026.10.09_180306846308",
+      "package_content_sha256": "b2b1699e1c7322a980fcf3f1f45610ca0b7f55e02b4391a5ffc25c742e2e901e",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 99359073,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__plastic__black_a01",
+        "m_opaque__plastic__gray_dark_a01",
+        "m_opaque__plastic__gray_light_a01",
+        "m_opaque__plastic__white_a01",
+        "m_trans__glass__clean_a01"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "t_feverThermometer_a01_alb.png",
+        "t_feverThermometer_a01_nor.png",
+        "t_feverThermometer_a01_orm.png",
+        "t_plastic_black_a01_tile_alb.png",
+        "t_plastic_black_a01_tile_nor.png",
+        "t_plastic_black_a01_tile_orm.png",
+        "t_plastic_gray_a01_tile_nor.png",
+        "t_plastic_gray_a01_tile_orm.png"
+      ],
+      "texture_original_px": {
+        "t_plastic_gray_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_gray_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_feverThermometer_a01_alb.png": [
+          2048,
+          2048
+        ],
+        "t_feverThermometer_a01_orm.png": [
+          2048,
+          2048
+        ],
+        "t_feverThermometer_a01_nor.png": [
+          2048,
+          2048
+        ]
+      },
+      "texture_cap_px": 512,
+      "polygon_count_triangles_original": 61358,
+      "polygon_count_triangles_exported": 3998,
+      "decimate_ratio": 0.0651911731151602,
+      "bounding_box_size_m": [
+        0.14959101378917694,
+        0.0375048890709877,
+        0.04866984114050865
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.1578142,
+          0.07601984,
+          0.03910272
+        ],
+        "center_m": [
+          0.0,
+          0.03800992,
+          0.0
+        ],
+        "has_rigidbody": true
+      },
+      "converted_glb": "Assets/SimReady/thermometer_fever_a01.glb",
+      "converted_glb_size_bytes": 240576,
+      "converted_glb_sha256": "89c1c7ae130450a63dee813fb3f61c4a7364cfc67beed37ab014d25391cb62d0",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "medicine_a03",
+      "original_repository_path": "nvidia/simready-assets/medicine_a03/simready_usd/sm_medicine_a03_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.medicine_a03.2026.10.09_065011170873",
+      "package_content_sha256": "5b1b53a450cf06bed8fc5d207d920c4fdc4deefefcd1cc425ae382f2bf10c710",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 35960697,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__cardboard__white_a01"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "t_cardboard_standard_white_a01_tile_nor.png",
+        "t_cardboard_standard_white_a01_tile_orm.png",
+        "t_medicine_a01_alb.png"
+      ],
+      "texture_original_px": {
+        "t_medicine_a01_alb.png": [
+          4096,
+          4096
+        ],
+        "t_cardboard_standard_white_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_cardboard_standard_white_a01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 512,
+      "polygon_count_triangles_original": 2878,
+      "polygon_count_triangles_exported": 2878,
+      "decimate_ratio": 1.0,
+      "bounding_box_size_m": [
+        0.03492427617311478,
+        0.08500315248966217,
+        0.15050837397575378
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.034924276,
+          0.15050837,
+          0.08500315
+        ],
+        "center_m": [
+          0.0,
+          0.07525419,
+          0.0
+        ],
+        "has_rigidbody": true
+      },
+      "converted_glb": "Assets/SimReady/medicine_a03.glb",
+      "converted_glb_size_bytes": 149652,
+      "converted_glb_sha256": "3ae90d4e8f05dddde8ffb4fcfbeb504433ceff5f720af3ba035c56b58933978c",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "box_glove_a01",
+      "original_repository_path": "nvidia/simready-assets/box_glove_a01/simready_usd/sm_box_glove_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.box_glove_a01.2026.10.08_225217574805",
+      "package_content_sha256": "d282338d43d36312c226dfca608e551f53f93299a3563d36f59afdd0a8c46b6e",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 37146065,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "opaque__cardboard__glovebox_a01"
+      ],
+      "texture_references_source": [
+        "t_cardboard_standard_white_a01_tile_nor.png",
+        "t_cardboard_standard_white_a01_tile_orm.png",
+        "t_gloveBox_a01_alb.png"
+      ],
+      "texture_original_px": {
+        "t_gloveBox_a01_alb.png": [
+          4096,
+          4096
+        ],
+        "t_cardboard_standard_white_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_cardboard_standard_white_a01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 512,
+      "polygon_count_triangles_original": 3166,
+      "polygon_count_triangles_exported": 3166,
+      "decimate_ratio": 1.0,
+      "bounding_box_size_m": [
+        0.17815890908241272,
+        0.1172073557972908,
+        0.056213364005088806
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.17815891,
+          0.056213364,
+          0.117207356
+        ],
+        "center_m": [
+          0.0,
+          0.028106682,
+          0.0
+        ],
+        "has_rigidbody": true
+      },
+      "converted_glb": "Assets/SimReady/box_glove_a01.glb",
+      "converted_glb_size_bytes": 150780,
+      "converted_glb_sha256": "c3ee44faaee42aecd9c79a2179e47d5ed9d6812d06ff29898e15c6482bc97dd9",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "monitor_patient_a01",
+      "original_repository_path": "nvidia/simready-assets/monitor_patient_a01/simready_usd/sm_monitor_patient_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.monitor_patient_a01.2026.10.09_141348460675",
+      "package_content_sha256": "f864fd5584045b8b377a022e7bb2c938536f15a34a398a4818c780c1adc77c31",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 625505966,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__metal__glossy_a01",
+        "m_opaque__metal__glossy_a01.001",
+        "m_opaque__metal__glossy_a01.002",
+        "m_opaque__metal__glossy_a01.003",
+        "m_opaque__metal__glossy_a01.004",
+        "m_opaque__metal__glossy_a01.005",
+        "m_opaque__metal__glossy_a01.006",
+        "m_opaque__metal__glossy_a01.007",
+        "m_opaque__metal__glossy_a01.008",
+        "m_opaque__metal__glossy_a01.009",
+        "m_opaque__metal__glossy_a01.010",
+        "m_opaque__metal__glossy_a01.011",
+        "m_opaque__metal__glossy_a01.012",
+        "m_opaque__plastic__black_a01",
+        "m_opaque__plastic__black_a01.001",
+        "m_opaque__plastic__black_a01.002",
+        "m_opaque__plastic__black_a01.003",
+        "m_opaque__plastic__black_a01.004",
+        "m_opaque__plastic__black_a01.005",
+        "m_opaque__plastic__blue_a01",
+        "m_opaque__plastic__glossy_black_a01",
+        "m_opaque__plastic__glossy_white_a01",
+        "m_opaque__plastic__glossy_white_a01.001",
+        "m_opaque__plastic__glossy_white_a01.002",
+        "m_opaque__plastic__glossy_white_a01.003",
+        "m_opaque__plastic__glossy_white_a01.004",
+        "m_opaque__plastic__glossy_white_a01.005",
+        "m_opaque__plastic__glossy_white_a01.006",
+        "m_opaque__plastic__glossy_white_a01.007",
+        "m_opaque__plastic__grainy_black_a01",
+        "m_opaque__plastic__grainy_black_a01.001",
+        "m_opaque__plastic__grainy_black_a01.002",
+        "m_opaque__plastic__grainy_black_a01.003",
+        "m_opaque__plastic__grainy_black_a01.004",
+        "m_opaque__plastic__grainy_black_a01.005",
+        "m_opaque__plastic__grainy_black_a01.006",
+        "m_opaque__plastic__grainy_black_a01.007",
+        "m_opaque__plastic__grainy_black_a01.008",
+        "m_opaque__plastic__grainy_black_a01.009",
+        "m_opaque__plastic__gray_a01",
+        "m_opaque__plastic__green_a01",
+        "m_opaque__plastic__orange_a01",
+        "m_opaque__plastic__red_a01",
+        "m_opaque__plastic__yellow_a01",
+        "m_opaque__rubber__smooth_black_a01",
+        "m_opaque__rubber__smooth_black_a01.001",
+        "m_opaque__rubber__smooth_black_a01.002",
+        "m_opaque__rubber__smooth_black_a01.003",
+        "m_opaque__rubber__smooth_black_a01.004",
+        "m_trans__glass__clean_a01"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "t_metal_glossy_a01_tile_alb.png",
+        "t_metal_glossy_a01_tile_nor.png",
+        "t_metal_glossy_a01_tile_orm.png",
+        "t_plastic_black_a01_tile_alb.png",
+        "t_plastic_black_a01_tile_nor.png",
+        "t_plastic_black_a01_tile_orm.png",
+        "t_plastic_blue_a01_tile_alb.png",
+        "t_plastic_blue_a01_tile_nor.png",
+        "t_plastic_blue_a01_tile_orm.png",
+        "t_plastic_glossy_black_a01_tile_alb.png",
+        "t_plastic_glossy_black_a01_tile_nor.png",
+        "t_plastic_glossy_black_a01_tile_orm.png",
+        "t_plastic_glossy_white_a01_tile_alb.png",
+        "t_plastic_glossy_white_a01_tile_nor.png",
+        "t_plastic_glossy_white_a01_tile_orm.png",
+        "t_plastic_grainy_a01_tile_nor.png",
+        "t_plastic_grainy_a01_tile_orm.png",
+        "t_plastic_gray_a01_tile_alb.png",
+        "t_plastic_gray_a01_tile_nor.png",
+        "t_plastic_gray_a01_tile_orm.png",
+        "t_plastic_green_a01_tile_alb.png",
+        "t_plastic_green_a01_tile_nor.png",
+        "t_plastic_green_a01_tile_orm.png",
+        "t_plastic_orange_a01_tile_alb.png",
+        "t_plastic_orange_a01_tile_nor.png",
+        "t_plastic_orange_a01_tile_orm.png",
+        "t_plastic_red_a01_tile_alb.png",
+        "t_plastic_red_a01_tile_nor.png",
+        "t_plastic_red_a01_tile_orm.png",
+        "t_plastic_yellow_a01_tile_alb.png",
+        "t_plastic_yellow_a01_tile_nor.png",
+        "t_plastic_yellow_a01_tile_orm.png",
+        "t_rubber_smooth_black_a01_tile_alb.png",
+        "t_rubber_smooth_black_a01_tile_nor.png",
+        "t_rubber_smooth_black_a01_tile_orm.png"
+      ],
+      "texture_original_px": {
+        "t_plastic_glossy_white_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_white_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_white_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_smooth_black_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_smooth_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_smooth_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_grainy_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_grainy_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_glossy_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_glossy_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_glossy_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_red_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_red_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_red_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_blue_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_blue_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_blue_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_green_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_green_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_green_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_orange_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_orange_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_orange_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_yellow_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_yellow_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_yellow_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_gray_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_gray_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_gray_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_black_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 1024,
+      "polygon_count_triangles_original": 386462,
+      "polygon_count_triangles_exported": 14982,
+      "decimate_ratio": 0.03881364791363705,
+      "bounding_box_size_m": [
+        0.5280439853668213,
+        0.5234061479568481,
+        1.5957460403442383
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.5753373,
+          1.5951934,
+          0.52995515
+        ],
+        "center_m": [
+          0.0,
+          0.7975967,
+          0.0
+        ],
+        "has_rigidbody": false
+      },
+      "converted_glb": "Assets/SimReady/monitor_patient_a01.glb",
+      "converted_glb_size_bytes": 2060944,
+      "converted_glb_sha256": "2c8bf4073d46a03fc340fb46b7625e174f7ff6e70256fa863238a5e492664e74",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "robot_surgical_c01",
+      "original_repository_path": "nvidia/simready-assets/robot_surgical_c01/simready_usd/sm_robot_surgical_c01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.robot_surgical_c01.2026.10.09_154634536222",
+      "package_content_sha256": "090acf11b7cf88c1ccdac751d52c8367041650d1488dd03c77318f78a1636d7f",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 334031453,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__metal__anodizedsteel_a01",
+        "m_opaque__metal__chrome_a01",
+        "m_opaque__metal__chrome_a01.001",
+        "m_opaque__metal__chrome_a01.002",
+        "m_opaque__metal__chrome_a01.003",
+        "m_opaque__metal__chrome_a01.004",
+        "m_opaque__metal__chrome_a01.005",
+        "m_opaque__metal__chrome_a01.006",
+        "m_opaque__metal__gold_polished_a01",
+        "m_opaque__metal__gold_polished_a01.001",
+        "m_opaque__metal__gold_polished_a01.002",
+        "m_opaque__metal__painted_black_a01",
+        "m_opaque__plastic__emmisive_blue_a01",
+        "m_opaque__plastic__emmisive_blue_a01.001",
+        "m_opaque__plastic__emmisive_blue_a01.002",
+        "m_opaque__plastic__glossy_beige_a01",
+        "m_opaque__plastic__glossy_black_a01",
+        "m_opaque__plastic__glossy_black_a01.001",
+        "m_opaque__plastic__glossy_black_a01.002",
+        "m_opaque__plastic__glossy_gray_a01",
+        "m_opaque__plastic__glossy_gray_a01.001",
+        "m_opaque__plastic__glossy_gray_a01.002",
+        "m_opaque__plastic__glossy_red_a01",
+        "m_opaque__plastic__glossy_red_a01.001",
+        "m_opaque__plastic__glossy_white_a01",
+        "m_opaque__plastic__glossy_white_a01.001",
+        "m_opaque__plastic__glossy_white_a01.002",
+        "m_opaque__plastic__glossy_white_a01.003",
+        "m_opaque__plastic__glossy_white_a01.004",
+        "m_opaque__plastic__glossy_white_a01.005",
+        "m_opaque__plastic__rough_black_a01",
+        "m_opaque__plastic__rough_black_a01.001",
+        "m_opaque__plastic__rough_black_a01.002",
+        "m_opaque__plastic__white_a01",
+        "m_opaque__plastic__white_a01.001",
+        "m_opaque__rubber__rough_black_a01",
+        "m_opaque__rubber__rough_black_a01.001",
+        "m_opaque__rubber__rough_black_a01.002"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "t_metal_anodizedSteel_semiGloss_orange_a01_tile_alb.png",
+        "t_metal_anodizedSteel_semiGloss_orange_a01_tile_nor.png",
+        "t_metal_anodizedSteel_semiGloss_orange_a01_tile_orm.png",
+        "t_metal_chrome_a01_tile_alb.png",
+        "t_metal_chrome_a01_tile_nor.png",
+        "t_metal_chrome_a01_tile_orm.png",
+        "t_metal_goldPolished_a01_tile_nor.png",
+        "t_metal_goldPolished_a01_tile_orm.png",
+        "t_metal_paintedGlossy_white_a01_tile_nor.png",
+        "t_metal_paintedGlossy_white_a01_tile_orm.png",
+        "t_plastic_glossy_black_a01_tile_alb.png",
+        "t_plastic_glossy_black_a01_tile_nor.png",
+        "t_plastic_glossy_black_a01_tile_orm.png",
+        "t_plastic_glossy_white_a01_tile_alb.png",
+        "t_plastic_glossy_white_a01_tile_nor.png",
+        "t_plastic_glossy_white_a01_tile_orm.png",
+        "t_plastic_red_a01_tile_nor.png",
+        "t_plastic_red_a01_tile_orm.png",
+        "t_rubber_rough_black_a01_tile_alb.png",
+        "t_rubber_rough_black_a01_tile_nor.png",
+        "t_rubber_rough_black_a01_tile_orm.png"
+      ],
+      "texture_original_px": {
+        "t_plastic_glossy_white_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_white_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_white_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_goldPolished_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_goldPolished_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chrome_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chrome_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chrome_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_rough_black_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_rough_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_rough_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_red_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_red_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_black_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_paintedGlossy_white_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_paintedGlossy_white_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_anodizedSteel_semiGloss_orange_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_anodizedSteel_semiGloss_orange_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_anodizedSteel_semiGloss_orange_a01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 1024,
+      "polygon_count_triangles_original": 903991,
+      "polygon_count_triangles_exported": 39978,
+      "decimate_ratio": 0.04424822813501462,
+      "bounding_box_size_m": [
+        1.2414941787719727,
+        0.6759997606277466,
+        1.324435830116272
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          1.4816053,
+          1.5958841,
+          0.6748034
+        ],
+        "center_m": [
+          -5.9604645e-08,
+          0.79794204,
+          0.0
+        ],
+        "has_rigidbody": false
+      },
+      "converted_glb": "Assets/SimReady/robot_surgical_c01.glb",
+      "converted_glb_size_bytes": 2871948,
+      "converted_glb_sha256": "ac0c955a5293a27191e6007f1f7053d21813a2876a31d8b6fc0d8574359e6020",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "Xray_machine_buckyTable_a01",
+      "original_repository_path": "nvidia/simready-assets/Xray_machine_buckyTable_a01/simready_usd/sm_Xray_machine_buckyTable_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.Xray_machine_buckyTable_a01.2026.10.08_211627026381",
+      "package_content_sha256": "a3c8408351552532f2b09cdaded4cad3d4215ca2d321c2c766ed5f16e689100d",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 274828218,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__metal__aluminiumBrushed_a01",
+        "m_opaque__metal__aluminiumBrushed_a01.001",
+        "m_opaque__metal__aluminiumBrushed_a01.002",
+        "m_opaque__metal__aluminiumBrushed_a01.003",
+        "m_opaque__metal__aluminiumBrushed_a01.004",
+        "m_opaque__metal__paintedRough_white_a01",
+        "m_opaque__metal__paintedRough_white_a01.001",
+        "m_opaque__metal__painted_black_a01",
+        "m_opaque__metal__painted_yellow_a01",
+        "m_opaque__metal__painted_yellow_a01.001",
+        "m_opaque__plastic__glossy_white_a01",
+        "m_opaque__plastic__glossy_white_a01.001",
+        "m_opaque__plastic__glossy_white_a01.002",
+        "m_opaque__plastic__glossy_white_a01.003",
+        "m_opaque__plastic__rough_black_a01",
+        "m_opaque__rubber__smooth_black_a01",
+        "m_trans__plastic__clean_a01"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "t_metal_aluminiumBrushed_a01_tile_alb.png",
+        "t_metal_aluminiumBrushed_a01_tile_nor.png",
+        "t_metal_aluminiumBrushed_a01_tile_orm.png",
+        "t_metal_paintedRough_white_a01_tile_alb.png",
+        "t_metal_paintedRough_white_a01_tile_nor.png",
+        "t_metal_paintedRough_white_a01_tile_orm.png",
+        "t_metal_painted_gray_a01_tile_nor.png",
+        "t_metal_painted_gray_a01_tile_orm.png",
+        "t_plastic_glossy_white_a01_tile_alb.png",
+        "t_plastic_glossy_white_a01_tile_nor.png",
+        "t_plastic_glossy_white_a01_tile_orm.png",
+        "t_plastic_rough_black_a01_tile_alb.png",
+        "t_plastic_rough_black_a01_tile_nor.png",
+        "t_plastic_rough_black_a01_tile_orm.png",
+        "t_rubber_smooth_black_a01_tile_alb.png",
+        "t_rubber_smooth_black_a01_tile_nor.png",
+        "t_rubber_smooth_black_a01_tile_orm.png"
+      ],
+      "texture_original_px": {
+        "t_metal_painted_gray_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_painted_gray_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_aluminiumBrushed_a01_tile_alb.png": [
+          2048,
+          2048
+        ],
+        "t_metal_aluminiumBrushed_a01_tile_orm.png": [
+          2048,
+          2048
+        ],
+        "t_metal_aluminiumBrushed_a01_tile_nor.png": [
+          2048,
+          2048
+        ],
+        "t_plastic_glossy_white_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_white_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_white_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_paintedRough_white_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_paintedRough_white_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_paintedRough_white_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_rough_black_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_rough_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_rough_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_smooth_black_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_smooth_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_smooth_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 1024,
+      "polygon_count_triangles_original": 85712,
+      "polygon_count_triangles_exported": 24990,
+      "decimate_ratio": 0.2916744446518574,
+      "bounding_box_size_m": [
+        0.872212290763855,
+        2.3500001430511475,
+        0.9438302516937256
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.8743485,
+          0.9439224,
+          2.3499985
+        ],
+        "center_m": [
+          0.0,
+          0.4719612,
+          0.0
+        ],
+        "has_rigidbody": false
+      },
+      "converted_glb": "Assets/SimReady/Xray_machine_buckyTable_a01.glb",
+      "converted_glb_size_bytes": 1571736,
+      "converted_glb_sha256": "834bf018f547f09532a68bcf4fd8e69dad8cacb77784696d5c131f3babab8b7b",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "Xray_machine_buckyStand_a01",
+      "original_repository_path": "nvidia/simready-assets/Xray_machine_buckyStand_a01/simready_usd/sm_Xray_machine_buckyStand_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.Xray_machine_buckyStand_a01.2026.10.08_210122259079",
+      "package_content_sha256": "a3292108f1d0e1e7664fed075a47de89ca9d67e14c6e215c5a93c534b81c772d",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 234464058,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__metal__chrome_a01",
+        "m_opaque__metal__paintedRough_white_a01",
+        "m_opaque__metal__paintedRough_white_a01.001",
+        "m_opaque__metal__painted_black_a01",
+        "m_opaque__metal__painted_black_a01.001",
+        "m_opaque__metal__painted_yellow_a01",
+        "m_opaque__plastic__black_a01",
+        "m_opaque__plastic__black_a01.001",
+        "m_opaque__plastic__black_a01.002",
+        "m_opaque__plastic__black_a01.003",
+        "m_opaque__plastic__black_a01.004",
+        "m_opaque__plastic__glossy_white_a01",
+        "m_opaque__plastic__glossy_white_a01.001",
+        "m_opaque__plastic__glossy_white_a01.002",
+        "m_opaque__plastic__glossy_white_a01.003",
+        "m_opaque__plastic__rough_black_a01"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "t_metal_chrome_a01_tile_alb.png",
+        "t_metal_chrome_a01_tile_nor.png",
+        "t_metal_chrome_a01_tile_orm.png",
+        "t_metal_paintedRough_white_a01_tile_alb.png",
+        "t_metal_paintedRough_white_a01_tile_nor.png",
+        "t_metal_paintedRough_white_a01_tile_orm.png",
+        "t_metal_painted_gray_a01_tile_nor.png",
+        "t_metal_painted_gray_a01_tile_orm.png",
+        "t_plastic_black_a01_tile_alb.png",
+        "t_plastic_black_a01_tile_nor.png",
+        "t_plastic_black_a01_tile_orm.png",
+        "t_plastic_glossy_white_a01_tile_alb.png",
+        "t_plastic_glossy_white_a01_tile_nor.png",
+        "t_plastic_glossy_white_a01_tile_orm.png",
+        "t_plastic_rough_black_a01_tile_alb.png",
+        "t_plastic_rough_black_a01_tile_nor.png",
+        "t_plastic_rough_black_a01_tile_orm.png"
+      ],
+      "texture_original_px": {
+        "t_plastic_black_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_white_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_white_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_white_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_paintedRough_white_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_paintedRough_white_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_paintedRough_white_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_painted_gray_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_painted_gray_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_rough_black_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_rough_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_rough_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chrome_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chrome_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chrome_a01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 1024,
+      "polygon_count_triangles_original": 142799,
+      "polygon_count_triangles_exported": 19995,
+      "decimate_ratio": 0.1400570032003025,
+      "bounding_box_size_m": [
+        0.5061864852905273,
+        0.5532824397087097,
+        2.442479133605957
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.6676617,
+          2.4423952,
+          0.5681758
+        ],
+        "center_m": [
+          0.0,
+          1.2211976,
+          0.0
+        ],
+        "has_rigidbody": false
+      },
+      "converted_glb": "Assets/SimReady/Xray_machine_buckyStand_a01.glb",
+      "converted_glb_size_bytes": 1415528,
+      "converted_glb_sha256": "fffb63784f66ae1f62c48e75585d0fff45384220cab9c519ea0e79da1d7b7309",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "instrument_artery_forceps_b01",
+      "original_repository_path": "nvidia/simready-assets/instrument_artery_forceps_b01/simready_usd/sm_instrument_artery_forceps_b01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.instrument_artery_forceps_b01.2026.10.09_054834596566",
+      "package_content_sha256": "eb5364b85ca28fede85c277dbda3ee3e96920e5a9d8f6fbaaf0656bd7032c93d",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 39373903,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__metal__glossy_a01",
+        "m_opaque__metal__glossy_a01.001"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "t_metal_glossy_a01_tile_alb.png",
+        "t_metal_glossy_a01_tile_nor.png",
+        "t_metal_glossy_a01_tile_orm.png"
+      ],
+      "texture_original_px": {
+        "t_metal_glossy_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_glossy_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_glossy_a01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 512,
+      "polygon_count_triangles_original": 15330,
+      "polygon_count_triangles_exported": 2998,
+      "decimate_ratio": 0.19569471624266144,
+      "bounding_box_size_m": [
+        0.18569648265838623,
+        0.09434813261032104,
+        0.004855216480791569
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.22153014,
+          0.0073848483,
+          0.09431738
+        ],
+        "center_m": [
+          0.0,
+          0.0036924242,
+          0.0
+        ],
+        "has_rigidbody": true
+      },
+      "converted_glb": "Assets/SimReady/instrument_artery_forceps_b01.glb",
+      "converted_glb_size_bytes": 135304,
+      "converted_glb_sha256": "0499b8e2a59e3c581ba5e52bed7412c4dfbe537ec76447c3c1826ae3c459b93f",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "instrument_bone_forceps_b01",
+      "original_repository_path": "nvidia/simready-assets/instrument_bone_forceps_b01/simready_usd/sm_instrument_bone_forceps_b01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.instrument_bone_forceps_b01.2026.10.09_055339159590",
+      "package_content_sha256": "e8d4b3d572180b6dfe1c858bdabf6d02a244b4f7d9a2284c762f927140e1d1a5",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 39351249,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__metal__glossy_a01",
+        "m_opaque__metal__glossy_a01.001"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "t_metal_glossy_a01_tile_alb.png",
+        "t_metal_glossy_a01_tile_nor.png",
+        "t_metal_glossy_a01_tile_orm.png"
+      ],
+      "texture_original_px": {
+        "t_metal_glossy_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_glossy_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_glossy_a01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 512,
+      "polygon_count_triangles_original": 13246,
+      "polygon_count_triangles_exported": 2998,
+      "decimate_ratio": 0.2264834667069304,
+      "bounding_box_size_m": [
+        0.17332443594932556,
+        0.09840331226587296,
+        0.02280956692993641
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.2114765,
+          0.026834257,
+          0.10453369
+        ],
+        "center_m": [
+          0.0,
+          0.0134171285,
+          0.0
+        ],
+        "has_rigidbody": true
+      },
+      "converted_glb": "Assets/SimReady/instrument_bone_forceps_b01.glb",
+      "converted_glb_size_bytes": 129596,
+      "converted_glb_sha256": "1b12e33dbcf1be7e33fbab42b1482fe3ef693a5f986549fd02673ff12b66366f",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "instrument_bone_rongeurs_b01",
+      "original_repository_path": "nvidia/simready-assets/instrument_bone_rongeurs_b01/simready_usd/sm_instrument_bone_rongeurs_b01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.instrument_bone_rongeurs_b01.2026.10.09_055359059966",
+      "package_content_sha256": "d225c3d7e1e7bcaa037c851fd19b9456c2a2821792bf069a2e3517bf024fd1f9",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 40176236,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__metal__glossy_a01",
+        "m_opaque__metal__glossy_a01.001",
+        "m_opaque__metal__glossy_a01.002",
+        "m_opaque__metal__glossy_a01.003",
+        "m_opaque__metal__glossy_a01.004",
+        "m_opaque__metal__glossy_a01.005"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "t_metal_glossy_a01_tile_alb.png",
+        "t_metal_glossy_a01_tile_nor.png",
+        "t_metal_glossy_a01_tile_orm.png"
+      ],
+      "texture_original_px": {
+        "t_metal_glossy_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_glossy_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_glossy_a01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 512,
+      "polygon_count_triangles_original": 27558,
+      "polygon_count_triangles_exported": 2995,
+      "decimate_ratio": 0.10886131069018071,
+      "bounding_box_size_m": [
+        0.21100068092346191,
+        0.13053587079048157,
+        0.01603393256664276
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.23606662,
+          0.024096146,
+          0.13078359
+        ],
+        "center_m": [
+          0.0,
+          0.012048073,
+          0.0
+        ],
+        "has_rigidbody": true
+      },
+      "converted_glb": "Assets/SimReady/instrument_bone_rongeurs_b01.glb",
+      "converted_glb_size_bytes": 145312,
+      "converted_glb_sha256": "107d34b4144c2034c5440eac827c6aabe0c81b32666cb316ae599ac9aa7d97d9",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "instrument_bone_mallet_b01",
+      "original_repository_path": "nvidia/simready-assets/instrument_bone_mallet_b01/simready_usd/sm_instrument_bone_mallet_b01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.instrument_bone_mallet_b01.2026.10.09_055351206019",
+      "package_content_sha256": "d360d3107c855c897f66c613db528e4585c602aab91e5635b924a2456472e6ef",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 39195673,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__metal__glossy_a01"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "t_metal_glossy_a01_tile_alb.png",
+        "t_metal_glossy_a01_tile_nor.png",
+        "t_metal_glossy_a01_tile_orm.png"
+      ],
+      "texture_original_px": {
+        "t_metal_glossy_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_glossy_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_glossy_a01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 512,
+      "polygon_count_triangles_original": 9962,
+      "polygon_count_triangles_exported": 2999,
+      "decimate_ratio": 0.3011443485243927,
+      "bounding_box_size_m": [
+        0.19168975949287415,
+        0.050908200442790985,
+        0.03453351929783821
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.19168814,
+          0.046328396,
+          0.050918624
+        ],
+        "center_m": [
+          0.0,
+          0.023164198,
+          0.0
+        ],
+        "has_rigidbody": true
+      },
+      "converted_glb": "Assets/SimReady/instrument_bone_mallet_b01.glb",
+      "converted_glb_size_bytes": 113488,
+      "converted_glb_sha256": "531d9fcbb5acd0884175c83e905037d02a58eea709c8a76641e4cc0318205de3",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "instrument_hand_drill_b01",
+      "original_repository_path": "nvidia/simready-assets/instrument_hand_drill_b01/simready_usd/sm_instrument_hand_drill_b01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.instrument_hand_drill_b01.2026.10.09_055423794065",
+      "package_content_sha256": "8dad363d30b3f43d6885fbaf1c73abd81a3a872166cb0436564af529c0807305",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 44058120,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__metal__glossy_a01",
+        "m_opaque__metal__glossy_a01.001",
+        "m_opaque__metal__glossy_a01.002"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "t_metal_glossy_a01_tile_alb.png",
+        "t_metal_glossy_a01_tile_nor.png",
+        "t_metal_glossy_a01_tile_orm.png"
+      ],
+      "texture_original_px": {
+        "t_metal_glossy_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_glossy_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_glossy_a01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 512,
+      "polygon_count_triangles_original": 111331,
+      "polygon_count_triangles_exported": 5996,
+      "decimate_ratio": 0.053893345070106256,
+      "bounding_box_size_m": [
+        0.26725077629089355,
+        0.10923338681459427,
+        0.04671911150217056
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.29267192,
+          0.06644189,
+          0.10937898
+        ],
+        "center_m": [
+          0.0,
+          0.033220947,
+          0.0
+        ],
+        "has_rigidbody": true
+      },
+      "converted_glb": "Assets/SimReady/instrument_hand_drill_b01.glb",
+      "converted_glb_size_bytes": 245860,
+      "converted_glb_sha256": "c8fa11640e7e8a0776d390c6019f8b848c1f98f121fc9ddce36f43595c62d846",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "stapler_surgical_a01",
+      "original_repository_path": "nvidia/simready-assets/stapler_surgical_a01/simready_usd/sm_stapler_surgical_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.stapler_surgical_a01.2026.10.09_210346831728",
+      "package_content_sha256": "a0123f1c9cee46cac5d0cc8d7df441a1523f77aeeaa2b5753b64f5ad4034f7a6",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 173245686,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__metal__chromeClean_a01",
+        "m_opaque__metal__chromeClean_a01.001",
+        "m_opaque__plastic__glossy_red_a01",
+        "m_opaque__plastic__unique_a01",
+        "m_opaque__plastic__unique_a01.001",
+        "m_opaque__rubber__smooth_blue_a01",
+        "m_trans__glass__clear_a01"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "t_metal_chromeClean_a01_tile_alb.png",
+        "t_metal_chromeClean_a01_tile_nor.png",
+        "t_metal_chromeClean_a01_tile_orm.png",
+        "t_plastic_red_a01_tile_alb.png",
+        "t_plastic_red_a01_tile_nor.png",
+        "t_plastic_red_a01_tile_orm.png",
+        "t_rubber_smooth_black_a01_tile_nor.png",
+        "t_rubber_smooth_black_a01_tile_orm.png",
+        "t_surgicalstaplercstplatform_unique_a01_alb_1.png"
+      ],
+      "texture_original_px": {
+        "t_surgicalstaplercstplatform_unique_a01_alb_1.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_red_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_red_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_red_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_smooth_black_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_rubber_smooth_black_a01_tile_nor.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chromeClean_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chromeClean_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_metal_chromeClean_a01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 512,
+      "polygon_count_triangles_original": 93391,
+      "polygon_count_triangles_exported": 7997,
+      "decimate_ratio": 0.0856613592316176,
+      "bounding_box_size_m": [
+        0.46004050970077515,
+        0.12918229401111603,
+        0.044330719858407974
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.46036234,
+          0.045346946,
+          0.16686249
+        ],
+        "center_m": [
+          -1.4901161e-08,
+          0.022673473,
+          -7.450581e-09
+        ],
+        "has_rigidbody": true
+      },
+      "converted_glb": "Assets/SimReady/stapler_surgical_a01.glb",
+      "converted_glb_size_bytes": 365348,
+      "converted_glb_sha256": "4005dd8ba4e5e68b11d8ffd73610120a6ddcaf0d7fbf93f67204b58e71ecc842",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "needle_surgical_a01",
+      "original_repository_path": "nvidia/simready-assets/needle_surgical_a01/simready_usd/sm_needle_surgical_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.needle_surgical_a01.2026.10.09_070621018998",
+      "package_content_sha256": "c62643c54d3139f960e7ddd3643c0b018a4700fb837b16f1932f95469466ee4d",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 48321967,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__cardboard__white_clean_a01",
+        "m_opaque__cardboard__white_clean_a01.001",
+        "m_opaque__plastic__white_a01"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "t_cardboard_standard_white_a01_tile_nor.png",
+        "t_cardboard_standard_white_a01_tile_orm.png",
+        "t_plastic_glossy_white_a01_tile_orm.png",
+        "t_surgicalNeedles_a01_alb.png"
+      ],
+      "texture_original_px": {
+        "t_surgicalNeedles_a01_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_glossy_white_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_cardboard_standard_white_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_cardboard_standard_white_a01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 512,
+      "polygon_count_triangles_original": 23456,
+      "polygon_count_triangles_exported": 3998,
+      "decimate_ratio": 0.17053206002728513,
+      "bounding_box_size_m": [
+        0.12051402032375336,
+        0.05980296432971954,
+        0.060425616800785065
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.12046402,
+          0.060385138,
+          0.05977251
+        ],
+        "center_m": [
+          0.0,
+          0.030192569,
+          0.0
+        ],
+        "has_rigidbody": true
+      },
+      "converted_glb": "Assets/SimReady/needle_surgical_a01.glb",
+      "converted_glb_size_bytes": 175576,
+      "converted_glb_sha256": "b97416456e446af5187f2b788f508a25d5564ebbf704a2dc6435fb3a624cd060",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "tool_pen_surgical_marking_a01",
+      "original_repository_path": "nvidia/simready-assets/tool_pen_surgical_marking_a01/simready_usd/sm_tool_pen_surgical_marking_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.tool_pen_surgical_marking_a01.2026.10.09_181425240263",
+      "package_content_sha256": "0b3f433b16771257835cb9680d79a023204bfc7e72805e6906c15f0b11488d1d",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 89960441,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__plastic__glossy_blue_a01",
+        "m_opaque__plastic__toolPenSurgicalMarking_a01",
+        "m_opaque__plastic__toolPenSurgicalMarking_b01"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "t_plastic_blue_a01_tile_alb.png",
+        "t_plastic_blue_a01_tile_nor.png",
+        "t_plastic_blue_a01_tile_orm.png",
+        "t_surgicalmarkingpen_body_a01_alb.png",
+        "t_surgicalmarkingpen_body_a01_nor.png",
+        "t_surgicalmarkingpen_body_a01_orm.png",
+        "t_surgicalmarkingpen_case_a01_alb.png",
+        "t_surgicalmarkingpen_case_a01_nor.png",
+        "t_surgicalmarkingpen_case_a01_orm.png"
+      ],
+      "texture_original_px": {
+        "t_surgicalmarkingpen_body_a01_alb.png": [
+          4096,
+          4096
+        ],
+        "t_surgicalmarkingpen_body_a01_orm.png": [
+          4096,
+          4096
+        ],
+        "t_surgicalmarkingpen_body_a01_nor.png": [
+          4096,
+          4096
+        ],
+        "t_surgicalmarkingpen_case_a01_alb.png": [
+          4096,
+          4096
+        ],
+        "t_surgicalmarkingpen_case_a01_orm.png": [
+          4096,
+          4096
+        ],
+        "t_surgicalmarkingpen_case_a01_nor.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_blue_a01_tile_alb.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_blue_a01_tile_orm.png": [
+          4096,
+          4096
+        ],
+        "t_plastic_blue_a01_tile_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 512,
+      "polygon_count_triangles_original": 54870,
+      "polygon_count_triangles_exported": 2999,
+      "decimate_ratio": 0.05467468562055768,
+      "bounding_box_size_m": [
+        0.13569942116737366,
+        0.01906980387866497,
+        0.026656320318579674
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.13569607,
+          0.026623536,
+          0.019033317
+        ],
+        "center_m": [
+          0.0,
+          0.013311768,
+          0.0
+        ],
+        "has_rigidbody": true
+      },
+      "converted_glb": "Assets/SimReady/tool_pen_surgical_marking_a01.glb",
+      "converted_glb_size_bytes": 221196,
+      "converted_glb_sha256": "7b84388f2ad811fbac4889aa3fb37a549c8d8463b37485af794c0a2744dca1f9",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "drape_surgical_a01",
+      "original_repository_path": "nvidia/simready-assets/drape_surgical_a01/simready_usd/sm_drape_surgical_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.drape_surgical_a01.2026.10.09_010032919175",
+      "package_content_sha256": "13d38b0d76fa95b8ef50993fddf6204fea1ad7072e932924329079f74ea6c9e1",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 61111930,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__paper__surgicalDrape_a01"
+      ],
+      "texture_references_source": [
+        "t_surgicalDrape_a01_alb.png",
+        "t_surgicalDrape_a01_nor.png",
+        "t_surgicalDrape_a01_orm.png"
+      ],
+      "texture_original_px": {
+        "t_surgicalDrape_a01_alb.png": [
+          4096,
+          4096
+        ],
+        "t_surgicalDrape_a01_orm.png": [
+          4096,
+          4096
+        ],
+        "t_surgicalDrape_a01_nor.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 512,
+      "polygon_count_triangles_original": 73340,
+      "polygon_count_triangles_exported": 7999,
+      "decimate_ratio": 0.109080992637033,
+      "bounding_box_size_m": [
+        0.27317339181900024,
+        0.21203166246414185,
+        0.07304804027080536
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.27322552,
+          0.07303299,
+          0.21198776
+        ],
+        "center_m": [
+          0.0,
+          0.036516495,
+          0.0
+        ],
+        "has_rigidbody": true
+      },
+      "converted_glb": "Assets/SimReady/drape_surgical_a01.glb",
+      "converted_glb_size_bytes": 244540,
+      "converted_glb_sha256": "63b7916480ea78d55fac9f5028a2d289e0fa09a600744a8cd203c5d7f78057fe",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    },
+    {
+      "name": "digitalSystem_infoKiosk_vertical_a01",
+      "original_repository_path": "nvidia/simready-assets/digitalSystem_infoKiosk_vertical_a01/simready_usd/sm_digitalSystem_infoKiosk_vertical_a01_01.usd",
+      "download_status": "downloaded",
+      "package_id": "simready.hf.nvidia.simready-assets.digitalSystem_infoKiosk_vertical_a01.2026.10.09_005640671915",
+      "package_content_sha256": "c71eac73a9337e4397a9a0f9cfcb2a564b7b5c145dc9dbf6c2ab15e2d6fd8977",
+      "license": "CC-BY-4.0",
+      "attribution": "NVIDIA Corporation, SimReady Assets, CC BY 4.0, via nvidia/simready-assets",
+      "source_size_bytes": 35119877,
+      "geometry_format_source": "USD (geometries.usd payload)",
+      "geometry_format_converted": "GLB (binary glTF 2.0)",
+      "material_references": [
+        "m_opaque__metal__digitalSystem_infoKiosk_vertical_a01",
+        "m_opaque__plastic__digitalSystem_infoKiosk_screen_01",
+        "m_opaque__plastic__digitalSystem_infoKiosk_vertical_a01",
+        "m_opaque__rubber__digitalSystem_infoKiosk_vertical_a01",
+        "m_trans__glass__clean_a01"
+      ],
+      "texture_references_source": [
+        ".thumbs",
+        "t_digitalSystem_infoKiosk_vertical_a01_alb.1001.png",
+        "t_digitalSystem_infoKiosk_vertical_a01_emi.1001.png",
+        "t_digitalSystem_infoKiosk_vertical_a01_nor.1001.png",
+        "t_digitalSystem_infoKiosk_vertical_a01_orm.1001.png"
+      ],
+      "texture_original_px": {
+        "t_digitalSystem_infoKiosk_vertical_a01_alb.<UDIM>.png": [
+          4096,
+          4096
+        ],
+        "t_digitalSystem_infoKiosk_vertical_a01_orm.<UDIM>.png": [
+          4096,
+          4096
+        ],
+        "t_digitalSystem_infoKiosk_vertical_a01_nor.<UDIM>.png": [
+          4096,
+          4096
+        ],
+        "t_digitalSystem_infoKiosk_vertical_a01_emi.1001.png": [
+          4096,
+          4096
+        ]
+      },
+      "texture_cap_px": 1024,
+      "polygon_count_triangles_original": 28932,
+      "polygon_count_triangles_exported": 14997,
+      "decimate_ratio": 0.5184570717544588,
+      "bounding_box_size_m": [
+        0.4066888093948364,
+        0.7868706583976746,
+        1.607200026512146
+      ],
+      "bounding_box_note": "Blender Z-up metres as imported from USD; glTF/Unity axes are Y-up. Size preserved (no scaling applied).",
+      "collider": {
+        "type": "BoxCollider",
+        "fit": "single box fitted to combined renderer bounds",
+        "size_m": [
+          0.4066888,
+          1.6072052,
+          0.7868801
+        ],
+        "center_m": [
+          0.0,
+          0.8036026,
+          0.0
+        ],
+        "has_rigidbody": false
+      },
+      "converted_glb": "Assets/SimReady/digitalSystem_infoKiosk_vertical_a01.glb",
+      "converted_glb_size_bytes": 780704,
+      "converted_glb_sha256": "7fecab11e76ba73f6f7c76a984b26b3f3bc69d2c938b2a98099009e29c049919",
+      "conversion_status": "converted",
+      "pipeline": "USD -> Blender 5.2 (headless usd_import, decimate, texture cap) -> GLB -> Unity glTFast import -> prefab",
+      "known_issues": []
+    }
+  ]
+}

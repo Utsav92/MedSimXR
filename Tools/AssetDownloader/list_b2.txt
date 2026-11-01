@@ -1,0 +1,11 @@
+Xray_machine_XrayArmRack_a01
+robotic_system_a01
+robotics_small_bot_a01
+lamp_uvc_robot_a01
+defibrillator_a01
+device_endoscope_a01
+monitor_surgical_a01
+needle_surgical_a01
+headlight_surgical_a01
+chair_surgical_a01
+arm_articulated_support_a01

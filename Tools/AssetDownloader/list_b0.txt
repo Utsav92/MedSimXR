@@ -1,0 +1,12 @@
+Xray_machine_buckyTable_a01
+Xray_machine_HVgenerator_a01
+robotic_system_arm_b01
+equipment_robot_trolley_a01
+anesthesia_machine_a01
+hemodialysis_machine_a01
+laser_system_a01
+tool_power_surgical_b01
+unit_electrosurgical_a01
+light_surgical_ceiling_mobile_a01
+drape_surgical_a01
+light_head_bed_a01

@@ -1,0 +1,520 @@
+{
+  "zoneTable": "table_metal_stainless_a03",
+  "zoneObject": "box_corrugated_brown_b20",
+  "zoneDx": 0.5,
+  "zoneDz": 0.0,
+  "items": [
+    {
+      "id": "chair_patient_mobile_a01",
+      "x": 2.6,
+      "y": 0,
+      "z": -0.9,
+      "yaw": 200,
+      "restOn": "",
+      "dx": 0,
+      "dz": 0
+    },
+    {
+      "id": "CT_injection_system_a01",
+      "x": 4.25,
+      "y": 0,
+      "z": 2.9,
+      "yaw": 270,
+      "restOn": "",
+      "dx": 0,
+      "dz": 0
+    },
+    {
+      "id": "rack_large_empty_a02",
+      "x": -2.8,
+      "y": 0,
+      "z": 2.85,
+      "yaw": 180,
+      "restOn": "",
+      "dx": 0,
+      "dz": 0
+    },
+    {
+      "id": "table_metal_stainless_a03",
+      "x": 0.9,
+      "y": 0,
+      "z": 2.6,
+      "yaw": 0,
+      "restOn": "",
+      "dx": 0,
+      "dz": 0
+    },
+    {
+      "id": "box_corrugated_brown_b20",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "yaw": 90,
+      "restOn": "table_metal_stainless_a03",
+      "dx": -0.5,
+      "dz": 0.0
+    },
+    {
+      "id": "bed_hospital_standard_a01",
+      "x": -2.6,
+      "y": 0,
+      "z": -2.9,
+      "yaw": 0,
+      "restOn": "",
+      "dx": 0,
+      "dz": 0
+    },
+    {
+      "id": "table_bedside_b01",
+      "x": -4.6,
+      "y": 0,
+      "z": -1.6,
+      "yaw": 90,
+      "restOn": "",
+      "dx": 0,
+      "dz": 0
+    },
+    {
+      "id": "IV_pole_a01",
+      "x": -3.0,
+      "y": 0,
+      "z": -1.5,
+      "yaw": 0,
+      "restOn": "",
+      "dx": 0,
+      "dz": 0
+    },
+    {
+      "id": "monitor_patient_a01",
+      "x": -4.5,
+      "y": 0,
+      "z": -3.6,
+      "yaw": 0,
+      "restOn": "",
+      "dx": 0,
+      "dz": 0
+    },
+    {
+      "id": "cart_medical_utility_a01",
+      "x": -1.2,
+      "y": 0,
+      "z": -1.8,
+      "yaw": 0,
+      "restOn": "",
+      "dx": 0,
+      "dz": 0
+    },
+    {
+      "id": "trolley_instrument_b01",
+      "x": -1.2,
+      "y": 0,
+      "z": -0.3,
+      "yaw": 0,
+      "restOn": "",
+      "dx": 0,
+      "dz": 0
+    },
+    {
+      "id": "instrument_artery_forceps_b01",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "yaw": 0,
+      "restOn": "trolley_instrument_b01",
+      "dx": -0.3,
+      "dz": -0.12
+    },
+    {
+      "id": "instrument_bone_forceps_b01",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "yaw": 0,
+      "restOn": "trolley_instrument_b01",
+      "dx": -0.3,
+      "dz": 0.12
+    },
+    {
+      "id": "instrument_bone_rongeurs_b01",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "yaw": 0,
+      "restOn": "trolley_instrument_b01",
+      "dx": 0.0,
+      "dz": -0.12
+    },
+    {
+      "id": "instrument_bone_mallet_b01",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "yaw": 0,
+      "restOn": "trolley_instrument_b01",
+      "dx": 0.0,
+      "dz": 0.12
+    },
+    {
+      "id": "instrument_hand_drill_b01",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "yaw": 0,
+      "restOn": "trolley_instrument_b01",
+      "dx": 0.3,
+      "dz": 0.0
+    },
+    {
+      "id": "needle_surgical_a01",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "yaw": 0,
+      "restOn": "trolley_instrument_b01",
+      "dx": 0.15,
+      "dz": 0.0
+    },
+    {
+      "id": "stapler_surgical_a01",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "yaw": 0,
+      "restOn": "trolley_instrument_b01",
+      "dx": -0.15,
+      "dz": 0.0
+    },
+    {
+      "id": "tool_pen_surgical_marking_a01",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "yaw": 0,
+      "restOn": "trolley_instrument_b01",
+      "dx": 0.3,
+      "dz": 0.17
+    },
+    {
+      "id": "washBasin_a01",
+      "x": 1.8,
+      "y": 0.8,
+      "z": -3.7,
+      "yaw": 0,
+      "restOn": "",
+      "dx": 0,
+      "dz": 0
+    },
+    {
+      "id": "cleaning_soapDispenser_a01",
+      "x": 1.8,
+      "y": 1.25,
+      "z": -3.95,
+      "yaw": 0,
+      "restOn": "",
+      "dx": 0,
+      "dz": 0
+    },
+    {
+      "id": "bin_waste_a01",
+      "x": 4.4,
+      "y": 0,
+      "z": -3.4,
+      "yaw": 0,
+      "restOn": "",
+      "dx": 0,
+      "dz": 0
+    },
+    {
+      "id": "trolley_cleaning_a01",
+      "x": 3.3,
+      "y": 0,
+      "z": -3.5,
+      "yaw": 0,
+      "restOn": "",
+      "dx": 0,
+      "dz": 0
+    },
+    {
+      "id": "disinfectant_a01",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "yaw": 0,
+      "restOn": "table_metal_stainless_a03",
+      "dx": 0.05,
+      "dz": 0.0
+    },
+    {
+      "id": "wheelChair_c01",
+      "x": 3.9,
+      "y": 0,
+      "z": -2.2,
+      "yaw": 180,
+      "restOn": "",
+      "dx": 0,
+      "dz": 0
+    },
+    {
+      "id": "trolley_emergency_a01",
+      "x": 4.4,
+      "y": 0,
+      "z": -1.2,
+      "yaw": 270,
+      "restOn": "",
+      "dx": 0,
+      "dz": 0
+    },
+    {
+      "id": "Xray_machine_buckyStand_a01",
+      "x": 4.5,
+      "y": 0,
+      "z": 0.6,
+      "yaw": 270,
+      "restOn": "",
+      "dx": 0,
+      "dz": 0
+    },
+    {
+      "id": "Xray_machine_buckyTable_a01",
+      "x": 2.2,
+      "y": 0,
+      "z": 0.9,
+      "yaw": 0,
+      "restOn": "",
+      "dx": 0,
+      "dz": 0
+    },
+    {
+      "id": "cabinet_for_drugs_a01",
+      "x": -4.55,
+      "y": 0,
+      "z": 0.8,
+      "yaw": 90,
+      "restOn": "",
+      "dx": 0,
+      "dz": 0
+    },
+    {
+      "id": "robot_surgical_c01",
+      "x": -3.0,
+      "y": 0,
+      "z": 0.9,
+      "yaw": 0,
+      "restOn": "",
+      "dx": 0,
+      "dz": 0
+    },
+    {
+      "id": "syringe_a01",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "yaw": 0,
+      "restOn": "table_metal_stainless_a03",
+      "dx": -0.8,
+      "dz": -0.2
+    },
+    {
+      "id": "thermometer_fever_a01",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "yaw": 0,
+      "restOn": "table_metal_stainless_a03",
+      "dx": -0.8,
+      "dz": 0.2
+    },
+    {
+      "id": "medicine_a03",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "yaw": 0,
+      "restOn": "table_metal_stainless_a03",
+      "dx": -0.25,
+      "dz": -0.2
+    },
+    {
+      "id": "box_glove_a01",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "yaw": 0,
+      "restOn": "table_metal_stainless_a03",
+      "dx": -0.25,
+      "dz": 0.2
+    },
+    {
+      "id": "drape_surgical_a01",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "yaw": 0,
+      "restOn": "table_bedside_b01",
+      "dx": 0.0,
+      "dz": 0.0
+    },
+    {
+      "id": "fireProtection_extinguisher_portable_a01",
+      "x": 4.7,
+      "y": 0,
+      "z": -3.8,
+      "yaw": 0,
+      "restOn": "",
+      "dx": 0,
+      "dz": 0
+    },
+    {
+      "id": "stool_mobile_padded_vinyl_a01",
+      "x": -1.9,
+      "y": 0,
+      "z": -2.0,
+      "yaw": 0,
+      "restOn": "",
+      "dx": 0,
+      "dz": 0
+    },
+    {
+      "id": "digitalSystem_infoKiosk_vertical_a01",
+      "x": -4.5,
+      "y": 0,
+      "z": -3.2,
+      "yaw": 90,
+      "restOn": "",
+      "dx": 0,
+      "dz": 0
+    }
+  ],
+  "shots": [
+    {
+      "name": "20_bed_bay",
+      "pos": {
+        "x": -0.5,
+        "y": 1.7,
+        "z": -1.0
+      },
+      "look": {
+        "x": -3.0,
+        "y": 0.6,
+        "z": -3.0
+      }
+    },
+    {
+      "name": "21_front_wall",
+      "pos": {
+        "x": 1.8,
+        "y": 1.6,
+        "z": -1.2
+      },
+      "look": {
+        "x": 1.8,
+        "y": 0.9,
+        "z": -3.9
+      }
+    },
+    {
+      "name": "22_left_wall",
+      "pos": {
+        "x": -2.2,
+        "y": 1.7,
+        "z": 0.6
+      },
+      "look": {
+        "x": -4.6,
+        "y": 0.9,
+        "z": 0.4
+      }
+    },
+    {
+      "name": "23_table",
+      "pos": {
+        "x": 0.9,
+        "y": 1.7,
+        "z": 0.6
+      },
+      "look": {
+        "x": 0.9,
+        "y": 0.9,
+        "z": 2.6
+      }
+    },
+    {
+      "name": "24_overview_front",
+      "pos": {
+        "x": 0.0,
+        "y": 2.9,
+        "z": -3.8
+      },
+      "look": {
+        "x": 0.0,
+        "y": 0.6,
+        "z": 1.0
+      }
+    },
+    {
+      "name": "25_overview_back_left",
+      "pos": {
+        "x": -4.6,
+        "y": 2.8,
+        "z": 3.7
+      },
+      "look": {
+        "x": 1.0,
+        "y": 0.6,
+        "z": -1.5
+      }
+    },
+    {
+      "name": "26_overview_back_right",
+      "pos": {
+        "x": 4.6,
+        "y": 2.8,
+        "z": 3.7
+      },
+      "look": {
+        "x": -1.0,
+        "y": 0.6,
+        "z": -1.5
+      }
+    },
+    {
+      "name": "27_imaging_right",
+      "pos": {
+        "x": 1.6,
+        "y": 1.8,
+        "z": -0.2
+      },
+      "look": {
+        "x": 4.0,
+        "y": 0.9,
+        "z": 1.4
+      }
+    },
+    {
+      "name": "28_surgical_left",
+      "pos": {
+        "x": -1.0,
+        "y": 1.8,
+        "z": -0.2
+      },
+      "look": {
+        "x": -3.2,
+        "y": 0.9,
+        "z": 1.0
+      }
+    },
+    {
+      "name": "29_trolley_instruments",
+      "pos": {
+        "x": -1.2,
+        "y": 1.8,
+        "z": -1.2
+      },
+      "look": {
+        "x": -1.2,
+        "y": 0.9,
+        "z": -0.3
+      }
+    }
+  ]
+}

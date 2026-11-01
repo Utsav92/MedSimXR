@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-31 19:41:56Z" end-time="2026-10-31 19:41:57Z" duration="1.5675258">
+  <test-suite type="TestSuite" id="1018" name="MedSim XR" fullname="MedSim XR" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2026-10-31 19:41:56Z" end-time="2026-10-31 19:41:57Z" duration="1.567526" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1012" name="MedSimXR.Tests.PlayMode.dll" fullname="D:/MedSimXR/Library/ScriptAssemblies/MedSimXR.Tests.PlayMode.dll" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2026-10-31 19:41:56Z" end-time="2026-10-31 19:41:57Z" duration="1.529985" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="6296" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1013" name="MedSimXR" fullname="MedSimXR" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2026-10-31 19:41:56Z" end-time="2026-10-31 19:41:57Z" duration="1.527207" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1014" name="Tests" fullname="MedSimXR.Tests" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2026-10-31 19:41:56Z" end-time="2026-10-31 19:41:57Z" duration="1.525325" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1001" name="Phase1PlayTests" fullname="MedSimXR.Tests.Phase1PlayTests" classname="MedSimXR.Tests.Phase1PlayTests" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2026-10-31 19:41:56Z" end-time="2026-10-31 19:41:57Z" duration="1.519896" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1003" name="Hover_RealRaycastFindsChair" fullname="MedSimXR.Tests.Phase1PlayTests.Hover_RealRaycastFindsChair" methodname="Hover_RealRaycastFindsChair" classname="MedSimXR.Tests.Phase1PlayTests" runstate="Runnable" seed="987177349" result="Failed" start-time="2026-10-31 19:41:56Z" end-time="2026-10-31 19:41:57Z" duration="1.463840" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  nothing under the crosshair. cam=(1.00, 1.70, -2.00) fwd=(0.73, -0.47, 0.49) reach=3.5 inputEnabled=True mode=Explore hits: [Floor d=3.61] [chair_patient_mobile_a01 d=1.67] [Player d=0.10]
+  Expected: not null
+  But was:  null
+]]></message>
+                <stack-trace><![CDATA[at MedSimXR.Tests.Phase1PlayTests+<Hover_RealRaycastFindsChair>d__12.MoveNext () [0x00083] in D:\MedSimXR\Assets\Tests\PlayMode\Phase1PlayTests.cs:90
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@80f691d4262b\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+              </failure>
+              <output><![CDATA[Saving results to: C:/Users/Utsav/AppData/LocalLow/MedSimXR/MedSim XR\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

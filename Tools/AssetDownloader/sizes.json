@@ -1,0 +1,458 @@
+{
+ "bed_hospital_standard_a01": {
+  "mb": 865.0,
+  "n": 74,
+  "usd": [
+   "bed_hospital_standard_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "bed_hospital_standard_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "bed_hospital_standard_a01/simready_usd/payloads/Newton/disabled.usda",
+   "bed_hospital_standard_a01/simready_usd/payloads/Newton/enabled.usda",
+   "bed_hospital_standard_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "bed_hospital_standard_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "cart_medical_utility_a01": {
+  "mb": 495.3,
+  "n": 70,
+  "usd": [
+   "cart_medical_utility_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "cart_medical_utility_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "cart_medical_utility_a01/simready_usd/payloads/Newton/disabled.usda",
+   "cart_medical_utility_a01/simready_usd/payloads/Newton/enabled.usda",
+   "cart_medical_utility_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "cart_medical_utility_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "cabinet_for_drugs_a01": {
+  "mb": 283.8,
+  "n": 50,
+  "usd": [
+   "cabinet_for_drugs_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "cabinet_for_drugs_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "cabinet_for_drugs_a01/simready_usd/payloads/Newton/disabled.usda",
+   "cabinet_for_drugs_a01/simready_usd/payloads/Newton/enabled.usda",
+   "cabinet_for_drugs_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "cabinet_for_drugs_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "bin_waste_a01": {
+  "mb": 275.5,
+  "n": 46,
+  "usd": [
+   "bin_waste_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "bin_waste_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "bin_waste_a01/simready_usd/payloads/Newton/disabled.usda",
+   "bin_waste_a01/simready_usd/payloads/Newton/enabled.usda",
+   "bin_waste_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "bin_waste_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "table_bedside_b01": {
+  "mb": 324.2,
+  "n": 94,
+  "usd": [
+   "table_bedside_b01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "table_bedside_b01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "table_bedside_b01/simready_usd/payloads/Newton/disabled.usda",
+   "table_bedside_b01/simready_usd/payloads/Newton/enabled.usda",
+   "table_bedside_b01/simready_usd/payloads/PhysX/disabled.usda",
+   "table_bedside_b01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "washBasin_a01": {
+  "mb": 279.5,
+  "n": 82,
+  "usd": [
+   "washBasin_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "washBasin_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "washBasin_a01/simready_usd/payloads/Newton/disabled.usda",
+   "washBasin_a01/simready_usd/payloads/Newton/enabled.usda",
+   "washBasin_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "washBasin_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "cleaning_soapDispenser_a01": {
+  "mb": 47.6,
+  "n": 36,
+  "usd": [
+   "cleaning_soapDispenser_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "cleaning_soapDispenser_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "cleaning_soapDispenser_a01/simready_usd/payloads/Newton/disabled.usda",
+   "cleaning_soapDispenser_a01/simready_usd/payloads/Newton/enabled.usda",
+   "cleaning_soapDispenser_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "cleaning_soapDispenser_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "monitor_a01": {
+  "mb": 606.2,
+  "n": 116,
+  "usd": [
+   "monitor_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "monitor_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "monitor_a01/simready_usd/payloads/Newton/disabled.usda",
+   "monitor_a01/simready_usd/payloads/Newton/enabled.usda",
+   "monitor_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "monitor_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "table_metal_stainless_a03": {
+  "mb": 18.0,
+  "n": 66,
+  "usd": [
+   "table_metal_stainless_a03/simready_usd/payloads/MuJoCo/disabled.usda",
+   "table_metal_stainless_a03/simready_usd/payloads/MuJoCo/enabled.usda",
+   "table_metal_stainless_a03/simready_usd/payloads/Newton/disabled.usda",
+   "table_metal_stainless_a03/simready_usd/payloads/Newton/enabled.usda",
+   "table_metal_stainless_a03/simready_usd/payloads/PhysX/disabled.usda",
+   "table_metal_stainless_a03/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "IV_pole_a01": {
+  "mb": 421.4,
+  "n": 118,
+  "usd": [
+   "IV_pole_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "IV_pole_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "IV_pole_a01/simready_usd/payloads/Newton/disabled.usda",
+   "IV_pole_a01/simready_usd/payloads/Newton/enabled.usda",
+   "IV_pole_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "IV_pole_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "trolley_emergency_a01": {
+  "mb": 726.8,
+  "n": 156,
+  "usd": [
+   "trolley_emergency_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "trolley_emergency_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "trolley_emergency_a01/simready_usd/payloads/Newton/disabled.usda",
+   "trolley_emergency_a01/simready_usd/payloads/Newton/enabled.usda",
+   "trolley_emergency_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "trolley_emergency_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "trolley_instrument_b01": {
+  "mb": 234.1,
+  "n": 100,
+  "usd": [
+   "trolley_instrument_b01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "trolley_instrument_b01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "trolley_instrument_b01/simready_usd/payloads/Newton/disabled.usda",
+   "trolley_instrument_b01/simready_usd/payloads/Newton/enabled.usda",
+   "trolley_instrument_b01/simready_usd/payloads/PhysX/disabled.usda",
+   "trolley_instrument_b01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "trolley_cleaning_a01": {
+  "mb": 76.2,
+  "n": 168,
+  "usd": [
+   "trolley_cleaning_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "trolley_cleaning_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "trolley_cleaning_a01/simready_usd/payloads/Newton/disabled.usda",
+   "trolley_cleaning_a01/simready_usd/payloads/Newton/enabled.usda",
+   "trolley_cleaning_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "trolley_cleaning_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "pump_infusion_a01": {
+  "mb": 772.7,
+  "n": 206,
+  "usd": [
+   "pump_infusion_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "pump_infusion_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "pump_infusion_a01/simready_usd/payloads/Newton/disabled.usda",
+   "pump_infusion_a01/simready_usd/payloads/Newton/enabled.usda",
+   "pump_infusion_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "pump_infusion_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "wheelChair_c01": {
+  "mb": 785.4,
+  "n": 172,
+  "usd": [
+   "wheelChair_c01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "wheelChair_c01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "wheelChair_c01/simready_usd/payloads/Newton/disabled.usda",
+   "wheelChair_c01/simready_usd/payloads/Newton/enabled.usda",
+   "wheelChair_c01/simready_usd/payloads/PhysX/disabled.usda",
+   "wheelChair_c01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "chair_hospital_a01": {
+  "mb": 643.1,
+  "n": 82,
+  "usd": [
+   "chair_hospital_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "chair_hospital_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "chair_hospital_a01/simready_usd/payloads/Newton/disabled.usda",
+   "chair_hospital_a01/simready_usd/payloads/Newton/enabled.usda",
+   "chair_hospital_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "chair_hospital_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "stool_mobile_padded_vinyl_a01": {
+  "mb": 60.6,
+  "n": 116,
+  "usd": [
+   "stool_mobile_padded_vinyl_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "stool_mobile_padded_vinyl_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "stool_mobile_padded_vinyl_a01/simready_usd/payloads/Newton/disabled.usda",
+   "stool_mobile_padded_vinyl_a01/simready_usd/payloads/Newton/enabled.usda",
+   "stool_mobile_padded_vinyl_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "stool_mobile_padded_vinyl_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "safety_firstAidCabinet_wallMounted_a01": {
+  "mb": 292.0,
+  "n": 64,
+  "usd": [
+   "safety_firstAidCabinet_wallMounted_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "safety_firstAidCabinet_wallMounted_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "safety_firstAidCabinet_wallMounted_a01/simready_usd/payloads/Newton/disabled.usda",
+   "safety_firstAidCabinet_wallMounted_a01/simready_usd/payloads/Newton/enabled.usda",
+   "safety_firstAidCabinet_wallMounted_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "safety_firstAidCabinet_wallMounted_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "safety_eyewashStation_stand_selfContained_a01": {
+  "mb": 701.7,
+  "n": 192,
+  "usd": [
+   "safety_eyewashStation_stand_selfContained_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "safety_eyewashStation_stand_selfContained_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "safety_eyewashStation_stand_selfContained_a01/simready_usd/payloads/Newton/disabled.usda",
+   "safety_eyewashStation_stand_selfContained_a01/simready_usd/payloads/Newton/enabled.usda",
+   "safety_eyewashStation_stand_selfContained_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "safety_eyewashStation_stand_selfContained_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "fireProtection_extinguisher_portable_a01": {
+  "mb": 96.5,
+  "n": 66,
+  "usd": [
+   "fireProtection_extinguisher_portable_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "fireProtection_extinguisher_portable_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "fireProtection_extinguisher_portable_a01/simready_usd/payloads/Newton/disabled.usda",
+   "fireProtection_extinguisher_portable_a01/simready_usd/payloads/Newton/enabled.usda",
+   "fireProtection_extinguisher_portable_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "fireProtection_extinguisher_portable_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "lamp_uvc_a01": {
+  "mb": 303.7,
+  "n": 112,
+  "usd": [
+   "lamp_uvc_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "lamp_uvc_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "lamp_uvc_a01/simready_usd/payloads/Newton/disabled.usda",
+   "lamp_uvc_a01/simready_usd/payloads/Newton/enabled.usda",
+   "lamp_uvc_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "lamp_uvc_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "light_surgical_ceiling_arm_a01": {
+  "mb": 750.8,
+  "n": 146,
+  "usd": [
+   "light_surgical_ceiling_arm_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "light_surgical_ceiling_arm_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "light_surgical_ceiling_arm_a01/simready_usd/payloads/Newton/disabled.usda",
+   "light_surgical_ceiling_arm_a01/simready_usd/payloads/Newton/enabled.usda",
+   "light_surgical_ceiling_arm_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "light_surgical_ceiling_arm_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "ultrasound_a01": {
+  "mb": 958.3,
+  "n": 270,
+  "usd": [
+   "ultrasound_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "ultrasound_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "ultrasound_a01/simready_usd/payloads/Newton/disabled.usda",
+   "ultrasound_a01/simready_usd/payloads/Newton/enabled.usda",
+   "ultrasound_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "ultrasound_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "sink_surgical_a01": {
+  "mb": 319.2,
+  "n": 100,
+  "usd": [
+   "sink_surgical_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "sink_surgical_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "sink_surgical_a01/simready_usd/payloads/Newton/disabled.usda",
+   "sink_surgical_a01/simready_usd/payloads/Newton/enabled.usda",
+   "sink_surgical_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "sink_surgical_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "appliance_handDryer_automatic_a01": {
+  "mb": 403.9,
+  "n": 132,
+  "usd": [
+   "appliance_handDryer_automatic_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "appliance_handDryer_automatic_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "appliance_handDryer_automatic_a01/simready_usd/payloads/Newton/disabled.usda",
+   "appliance_handDryer_automatic_a01/simready_usd/payloads/Newton/enabled.usda",
+   "appliance_handDryer_automatic_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "appliance_handDryer_automatic_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "disinfectant_a01": {
+  "mb": 124.8,
+  "n": 42,
+  "usd": [
+   "disinfectant_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "disinfectant_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "disinfectant_a01/simready_usd/payloads/Newton/disabled.usda",
+   "disinfectant_a01/simready_usd/payloads/Newton/enabled.usda",
+   "disinfectant_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "disinfectant_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "screen_hospital_a01": {
+  "mb": 543.8,
+  "n": 130,
+  "usd": [
+   "screen_hospital_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "screen_hospital_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "screen_hospital_a01/simready_usd/payloads/Newton/disabled.usda",
+   "screen_hospital_a01/simready_usd/payloads/Newton/enabled.usda",
+   "screen_hospital_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "screen_hospital_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "sign_hospital_sidewall_a01": {
+  "mb": 154.0,
+  "n": 64,
+  "usd": [
+   "sign_hospital_sidewall_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "sign_hospital_sidewall_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "sign_hospital_sidewall_a01/simready_usd/payloads/Newton/disabled.usda",
+   "sign_hospital_sidewall_a01/simready_usd/payloads/Newton/enabled.usda",
+   "sign_hospital_sidewall_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "sign_hospital_sidewall_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "sofa_visitor_a01": {
+  "mb": 277.8,
+  "n": 100,
+  "usd": [
+   "sofa_visitor_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "sofa_visitor_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "sofa_visitor_a01/simready_usd/payloads/Newton/disabled.usda",
+   "sofa_visitor_a01/simready_usd/payloads/Newton/enabled.usda",
+   "sofa_visitor_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "sofa_visitor_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "warmer_infusion_a01": {
+  "mb": 205.4,
+  "n": 106,
+  "usd": [
+   "warmer_infusion_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "warmer_infusion_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "warmer_infusion_a01/simready_usd/payloads/Newton/disabled.usda",
+   "warmer_infusion_a01/simready_usd/payloads/Newton/enabled.usda",
+   "warmer_infusion_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "warmer_infusion_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "tray_sterilization_instrument_c02": {
+  "mb": 255.4,
+  "n": 100,
+  "usd": [
+   "tray_sterilization_instrument_c02/simready_usd/payloads/MuJoCo/disabled.usda",
+   "tray_sterilization_instrument_c02/simready_usd/payloads/MuJoCo/enabled.usda",
+   "tray_sterilization_instrument_c02/simready_usd/payloads/Newton/disabled.usda",
+   "tray_sterilization_instrument_c02/simready_usd/payloads/Newton/enabled.usda",
+   "tray_sterilization_instrument_c02/simready_usd/payloads/PhysX/disabled.usda",
+   "tray_sterilization_instrument_c02/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "syringe_a01": {
+  "mb": 162.1,
+  "n": 66,
+  "usd": [
+   "syringe_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "syringe_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "syringe_a01/simready_usd/payloads/Newton/disabled.usda",
+   "syringe_a01/simready_usd/payloads/Newton/enabled.usda",
+   "syringe_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "syringe_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "thermometer_fever_a01": {
+  "mb": 193.1,
+  "n": 78,
+  "usd": [
+   "thermometer_fever_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "thermometer_fever_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "thermometer_fever_a01/simready_usd/payloads/Newton/disabled.usda",
+   "thermometer_fever_a01/simready_usd/payloads/Newton/enabled.usda",
+   "thermometer_fever_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "thermometer_fever_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "stethoscope_electronic_a01": {
+  "mb": 360.5,
+  "n": 120,
+  "usd": [
+   "stethoscope_electronic_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "stethoscope_electronic_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "stethoscope_electronic_a01/simready_usd/payloads/Newton/disabled.usda",
+   "stethoscope_electronic_a01/simready_usd/payloads/Newton/enabled.usda",
+   "stethoscope_electronic_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "stethoscope_electronic_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "medicine_a03": {
+  "mb": 69.9,
+  "n": 46,
+  "usd": [
+   "medicine_a03/simready_usd/payloads/MuJoCo/disabled.usda",
+   "medicine_a03/simready_usd/payloads/MuJoCo/enabled.usda",
+   "medicine_a03/simready_usd/payloads/Newton/disabled.usda",
+   "medicine_a03/simready_usd/payloads/Newton/enabled.usda",
+   "medicine_a03/simready_usd/payloads/PhysX/disabled.usda",
+   "medicine_a03/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "box_glove_a01": {
+  "mb": 71.4,
+  "n": 34,
+  "usd": [
+   "box_glove_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "box_glove_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "box_glove_a01/simready_usd/payloads/Newton/disabled.usda",
+   "box_glove_a01/simready_usd/payloads/Newton/enabled.usda",
+   "box_glove_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "box_glove_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "table_surgical_a01": {
+  "mb": 567.8,
+  "n": 126,
+  "usd": [
+   "table_surgical_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "table_surgical_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "table_surgical_a01/simready_usd/payloads/Newton/disabled.usda",
+   "table_surgical_a01/simready_usd/payloads/Newton/enabled.usda",
+   "table_surgical_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "table_surgical_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ },
+ "unit_head_bed_a01": {
+  "mb": 667.2,
+  "n": 154,
+  "usd": [
+   "unit_head_bed_a01/simready_usd/payloads/MuJoCo/disabled.usda",
+   "unit_head_bed_a01/simready_usd/payloads/MuJoCo/enabled.usda",
+   "unit_head_bed_a01/simready_usd/payloads/Newton/disabled.usda",
+   "unit_head_bed_a01/simready_usd/payloads/Newton/enabled.usda",
+   "unit_head_bed_a01/simready_usd/payloads/PhysX/disabled.usda",
+   "unit_head_bed_a01/simready_usd/payloads/PhysX/enabled.usda"
+  ]
+ }
+}

@@ -1,0 +1,53 @@
+{
+  "moduleId": "C_patient_monitoring",
+  "title": "Module C - Patient Monitoring (simulated data)",
+  "reviewStatus": "PENDING_CLINICAL_REVIEW - all values are SYNTHETIC. Ranges are generic adult teaching ranges chosen for this prototype, not clinical alarm limits.",
+  "ranges": [
+    { "param": "hr",   "label": "Heart rate",       "unit": "bpm",  "low": 50,  "high": 110 },
+    { "param": "spo2", "label": "SpO2",             "unit": "%",    "low": 92,  "high": 100 },
+    { "param": "rr",   "label": "Resp. rate",       "unit": "/min", "low": 10,  "high": 22 },
+    { "param": "sys",  "label": "Systolic BP",      "unit": "mmHg", "low": 90,  "high": 150 },
+    { "param": "dia",  "label": "Diastolic BP",     "unit": "mmHg", "low": 50,  "high": 95 },
+    { "param": "temp", "label": "Temperature",      "unit": "C",    "low": 36.0, "high": 38.0 }
+  ],
+  "scenarios": [
+    {
+      "id": "mon_stable",
+      "title": "Patient A - routine observations (synthetic)",
+      "briefing": "Watch the monitor. Report only if a value is outside its range.",
+      "durationSeconds": 45,
+      "targetLatencySeconds": 15,
+      "keyframes": [
+        { "t": 0,  "hr": 72, "spo2": 98, "rr": 16, "sys": 120, "dia": 78, "temp": 36.8 },
+        { "t": 45, "hr": 74, "spo2": 98, "rr": 16, "sys": 121, "dia": 79, "temp": 36.8 }
+      ]
+    },
+    {
+      "id": "mon_spo2_drop",
+      "title": "Patient B - observations (synthetic)",
+      "briefing": "Watch the monitor and report any value that goes out of range.",
+      "durationSeconds": 70,
+      "targetLatencySeconds": 15,
+      "keyframes": [
+        { "t": 0,  "hr": 78, "spo2": 98, "rr": 16, "sys": 126, "dia": 80, "temp": 37.0 },
+        { "t": 20, "hr": 80, "spo2": 98, "rr": 17, "sys": 126, "dia": 80, "temp": 37.0 },
+        { "t": 35, "hr": 96, "spo2": 88, "rr": 20, "sys": 128, "dia": 82, "temp": 37.0 },
+        { "t": 70, "hr": 100, "spo2": 86, "rr": 21, "sys": 128, "dia": 82, "temp": 37.0 }
+      ]
+    },
+    {
+      "id": "mon_hr_temp",
+      "title": "Patient C - observations (synthetic)",
+      "briefing": "Watch the monitor and report any value that goes out of range. More than one value may change.",
+      "durationSeconds": 75,
+      "targetLatencySeconds": 20,
+      "keyframes": [
+        { "t": 0,  "hr": 80,  "spo2": 97, "rr": 16, "sys": 118, "dia": 76, "temp": 36.9 },
+        { "t": 15, "hr": 82,  "spo2": 97, "rr": 16, "sys": 118, "dia": 76, "temp": 36.9 },
+        { "t": 30, "hr": 130, "spo2": 97, "rr": 18, "sys": 120, "dia": 77, "temp": 37.1 },
+        { "t": 55, "hr": 132, "spo2": 96, "rr": 19, "sys": 122, "dia": 78, "temp": 38.6 },
+        { "t": 75, "hr": 132, "spo2": 96, "rr": 19, "sys": 122, "dia": 78, "temp": 38.8 }
+      ]
+    }
+  ]
+}

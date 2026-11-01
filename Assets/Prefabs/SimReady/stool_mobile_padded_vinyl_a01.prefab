@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4372298724932585017
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6949290179664924234}
+  - component: {fileID: 2900580376230397060}
+  - component: {fileID: 1228428226477537027}
+  m_Layer: 0
+  m_Name: stool_mobile_padded_vinyl_a01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6949290179664924234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4372298724932585017}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2144267002325219197}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2900580376230397060
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4372298724932585017}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5215565, y: 0.596704, z: 0.54169774}
+  m_Center: {x: 0, y: 0.298352, z: 0.000000029802322}
+--- !u!114 &1228428226477537027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4372298724932585017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 679d4d16f7023644386d406922735cec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MedSimXR.Runtime::MedSimXR.Interaction.InteractableObject
+  objectId: stool_mobile_padded_vinyl_a01
+  displayName: Mobile Stool
+  category: Furniture
+  description: A padded stool on wheels that lets a clinician sit at a patient's level.
+  trainingUse: Identification and orientation.
+  labelText: 'MOBILE STOOL
+
+    Training model - not a medical device specification.'
+  isPlaceholder: 0
+  sourceNote: NVIDIA SimReady Assets, CC-BY-4.0. Converted USD to GLB, decimated, textures capped.
+  canGrab: 0
+  canInspect: 1
+  isFixed: 1
+--- !u!1001 &6086801655713087289
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6949290179664924234}
+    m_Modifications:
+    - target: {fileID: -3910990755373119420, guid: d06d5e5c70bd80b4fbd38f7469e26714, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.014138997
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: d06d5e5c70bd80b4fbd38f7469e26714, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.036964864
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: d06d5e5c70bd80b4fbd38f7469e26714, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0002387464
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: d06d5e5c70bd80b4fbd38f7469e26714, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: d06d5e5c70bd80b4fbd38f7469e26714, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: d06d5e5c70bd80b4fbd38f7469e26714, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: d06d5e5c70bd80b4fbd38f7469e26714, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: d06d5e5c70bd80b4fbd38f7469e26714, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: d06d5e5c70bd80b4fbd38f7469e26714, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: d06d5e5c70bd80b4fbd38f7469e26714, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771091787928289351, guid: d06d5e5c70bd80b4fbd38f7469e26714, type: 3}
+      propertyPath: m_Name
+      value: Model
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -4161369568681901532, guid: d06d5e5c70bd80b4fbd38f7469e26714, type: 3}
+--- !u!4 &2144267002325219197 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3910990755373119420, guid: d06d5e5c70bd80b4fbd38f7469e26714, type: 3}
+  m_PrefabInstance: {fileID: 6086801655713087289}
+  m_PrefabAsset: {fileID: 0}

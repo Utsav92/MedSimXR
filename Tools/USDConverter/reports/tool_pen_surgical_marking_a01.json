@@ -1,0 +1,65 @@
+{
+ "meshes": 1,
+ "triangles_original": 54870,
+ "triangles_exported": 2999,
+ "decimate_ratio": 0.05467468562055768,
+ "bbox_min": [
+  -0.07022038102149963,
+  -0.009534901939332485,
+  8.112378418445587e-05
+ ],
+ "bbox_max": [
+  0.06547904759645462,
+  0.009534901939332485,
+  0.02673744410276413
+ ],
+ "size_m": [
+  0.13569942116737366,
+  0.01906980387866497,
+  0.026656320318579674
+ ],
+ "materials": [
+  "m_opaque__plastic__glossy_blue_a01",
+  "m_opaque__plastic__toolPenSurgicalMarking_a01",
+  "m_opaque__plastic__toolPenSurgicalMarking_b01"
+ ],
+ "textures_original_px": {
+  "t_surgicalmarkingpen_body_a01_alb.png": [
+   4096,
+   4096
+  ],
+  "t_surgicalmarkingpen_body_a01_orm.png": [
+   4096,
+   4096
+  ],
+  "t_surgicalmarkingpen_body_a01_nor.png": [
+   4096,
+   4096
+  ],
+  "t_surgicalmarkingpen_case_a01_alb.png": [
+   4096,
+   4096
+  ],
+  "t_surgicalmarkingpen_case_a01_orm.png": [
+   4096,
+   4096
+  ],
+  "t_surgicalmarkingpen_case_a01_nor.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_blue_a01_tile_alb.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_blue_a01_tile_orm.png": [
+   4096,
+   4096
+  ],
+  "t_plastic_blue_a01_tile_nor.png": [
+   4096,
+   4096
+  ]
+ },
+ "texture_cap_px": 512
+}

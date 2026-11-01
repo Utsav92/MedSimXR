@@ -1,0 +1,97 @@
+{
+  "moduleId": "E_ct_orientation",
+  "title": "Module E - CT Injection System Orientation (non-operational)",
+  "reviewStatus": "PENDING_CLINICAL_REVIEW - orientation statements only. This module does not teach operation, programming or dosing of any device.",
+  "questions": [
+    {
+      "id": "e01",
+      "objectId": "CT_injection_system_a01",
+      "prompt": "What is a CT injection system used for?",
+      "options": [
+        "Delivering contrast media in a controlled way during CT imaging",
+        "Measuring a patient's blood pressure",
+        "Sterilising reusable instruments",
+        "Transporting patients between rooms"
+      ],
+      "correctIndex": 0,
+      "hint": "The name says what it injects, and it is used alongside a scanner.",
+      "explanation": "It is a powered device that delivers contrast media during CT imaging. In real practice only trained, authorised staff operate it.",
+      "targetSeconds": 25
+    },
+    {
+      "id": "e02",
+      "objectId": "CT_injection_system_a01",
+      "prompt": "Does this simulator teach you to operate the injector or set doses?",
+      "options": [
+        "Yes, it teaches full operation",
+        "No, it is an orientation model only",
+        "Yes, but only the dosing part",
+        "It teaches scanner programming instead"
+      ],
+      "correctIndex": 1,
+      "hint": "Look at the label on the model: it is a visual teaching model.",
+      "explanation": "The model is for orientation only. Operation requires approved manufacturer training and local protocol.",
+      "targetSeconds": 20
+    },
+    {
+      "id": "e03",
+      "objectId": "CT_injection_system_a01",
+      "prompt": "Where should injection settings in a real department come from?",
+      "options": [
+        "A colleague's memory of last time",
+        "Whatever is quickest",
+        "The approved local protocol and the manufacturer's instructions",
+        "The patient's guess"
+      ],
+      "correctIndex": 2,
+      "hint": "Settings are never improvised.",
+      "explanation": "Settings follow approved local protocol and the manufacturer's instructions, as directed by the responsible clinician.",
+      "targetSeconds": 25
+    },
+    {
+      "id": "e04",
+      "objectId": "CT_injection_system_a01",
+      "prompt": "Which general check belongs in safe practice before any contrast-related procedure?",
+      "options": [
+        "Skipping labels when busy",
+        "Confirming the patient's identity and the order against local protocol",
+        "Starting first and checking afterwards",
+        "Using whichever syringe is nearest"
+      ],
+      "correctIndex": 1,
+      "hint": "Right patient, right order.",
+      "explanation": "Confirming patient identity and the order before starting is a basic safety check in every department.",
+      "targetSeconds": 25
+    },
+    {
+      "id": "e05",
+      "objectId": "CT_injection_system_a01",
+      "prompt": "Why is air in an injection line a concern?",
+      "options": [
+        "It makes the line look untidy",
+        "It can enter the bloodstream and cause serious harm, so lines are prepared and checked per protocol",
+        "It only affects the colour of the image",
+        "It is never a concern"
+      ],
+      "correctIndex": 1,
+      "hint": "Think about what happens if air reaches the patient.",
+      "explanation": "Air entering the circulation can cause serious harm, which is why lines are prepared and checked following protocol.",
+      "targetSeconds": 30
+    },
+    {
+      "id": "e06",
+      "objectId": "CT_injection_system_a01",
+      "prompt": "Who may operate a CT injector in a real hospital?",
+      "options": [
+        "Anyone nearby",
+        "Visitors with a short briefing",
+        "Only staff trained and authorised for that device",
+        "Only the patient"
+      ],
+      "correctIndex": 2,
+      "hint": "Think about training and authorisation.",
+      "explanation": "Only staff who are trained and authorised for the specific device operate it.",
+      "targetSeconds": 20
+    }
+  ]
+}

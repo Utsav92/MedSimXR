@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4320913895324507597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5607849451961261659}
+  - component: {fileID: 7403222828990537055}
+  - component: {fileID: 3902252109932962503}
+  m_Layer: 0
+  m_Name: monitor_patient_a01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5607849451961261659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4320913895324507597}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8110992832210788657}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &7403222828990537055
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4320913895324507597}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5753373, y: 1.5951934, z: 0.52995515}
+  m_Center: {x: 0, y: 0.7975967, z: 0}
+--- !u!114 &3902252109932962503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4320913895324507597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 679d4d16f7023644386d406922735cec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MedSimXR.Runtime::MedSimXR.Interaction.InteractableObject
+  objectId: monitor_patient_a01
+  displayName: Patient Monitor
+  category: Patient care
+  description: A bedside screen that displays measurements such as heart rate and oxygen saturation. Training values in this simulator are synthetic.
+  trainingUse: 'Module C: learners watch the values and report any that go out of range.'
+  labelText: 'PATIENT MONITOR
+
+    Training model - not a medical device specification.'
+  isPlaceholder: 0
+  sourceNote: NVIDIA SimReady Assets, CC-BY-4.0. Converted USD to GLB, decimated, textures capped.
+  canGrab: 0
+  canInspect: 1
+  isFixed: 1
+--- !u!1001 &4118919682429282677
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5607849451961261659}
+    m_Modifications:
+    - target: {fileID: -3910990755373119420, guid: 687a6f291fba06a4f9fb5b4a8501aec2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.015209526
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 687a6f291fba06a4f9fb5b4a8501aec2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.10013348
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 687a6f291fba06a4f9fb5b4a8501aec2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.014463127
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 687a6f291fba06a4f9fb5b4a8501aec2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 687a6f291fba06a4f9fb5b4a8501aec2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 687a6f291fba06a4f9fb5b4a8501aec2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 687a6f291fba06a4f9fb5b4a8501aec2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 687a6f291fba06a4f9fb5b4a8501aec2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 687a6f291fba06a4f9fb5b4a8501aec2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 687a6f291fba06a4f9fb5b4a8501aec2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771091787928289351, guid: 687a6f291fba06a4f9fb5b4a8501aec2, type: 3}
+      propertyPath: m_Name
+      value: Model
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -4161369568681901532, guid: 687a6f291fba06a4f9fb5b4a8501aec2, type: 3}
+--- !u!4 &8110992832210788657 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3910990755373119420, guid: 687a6f291fba06a4f9fb5b4a8501aec2, type: 3}
+  m_PrefabInstance: {fileID: 4118919682429282677}
+  m_PrefabAsset: {fileID: 0}

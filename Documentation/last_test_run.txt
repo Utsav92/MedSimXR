@@ -1,0 +1,9 @@
+﻿== build ==
+build exit=0
+wrote D:\MedSimXR\Data\Equipment\asset_manifest.json
+wrote D:\MedSimXR\Documentation\ATTRIBUTION.md
+== EditMode ==
+exit=0  total=69 passed=69 failed=0 skipped=0 result=Passed
+== PlayMode ==
+exit=2  total=41 passed=39 failed=0 skipped=1 result=Skipped:Ignored
+== DONE ==
